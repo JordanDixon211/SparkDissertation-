@@ -1,0 +1,385 @@
+{
+  "spark": [
+    {
+      "name": "Light.Light_is_On",
+      "sloc": [
+        {
+          "file": "light.ads",
+          "line": 14
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Light.getState",
+      "sloc": [
+        {
+          "file": "light.ads",
+          "line": 9
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Light.turn_On",
+      "sloc": [
+        {
+          "file": "light.ads",
+          "line": 18
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Light.turn_off",
+      "sloc": [
+        {
+          "file": "light.ads",
+          "line": 24
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Light",
+      "sloc": [
+        {
+          "file": "light.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "light.ads",
+      "line": 24,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Light.turn_off",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 24
+          }
+        ]
+      },
+      "tracefile": "light__flow__30.trace",
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "light.adb",
+      "line": 10,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Light",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 2
+          }
+        ]
+      },
+      "tracefile": "light__flow__60.trace",
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "light.adb",
+      "line": 11,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Light",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 2
+          }
+        ]
+      },
+      "tracefile": "light__flow__60.trace",
+      "msg_id": 2,
+      "how_proved": "flow"
+    },
+    {
+      "file": "light.ads",
+      "line": 18,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Light.turn_On",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 18
+          }
+        ]
+      },
+      "tracefile": "light__flow__75.trace",
+      "msg_id": 3,
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "light.ads",
+      "line": 11,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Light.getState",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 9
+          }
+        ]
+      },
+      "tracefile": "light.ads_11_14_postcondition.trace",
+      "cntexmp": {
+        "light.adb": {
+          "7": [
+            {
+              "name": "getState'Result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "28": [
+            {
+              "name": "getState'Result",
+              "value": "2",
+              "kind": "variable"
+            }
+          ]
+        },
+        "light.ads": {
+          "11": [
+            {
+              "name": "getState'Result",
+              "value": "2",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 4,
+      "how_proved": "prover"
+    },
+    {
+      "file": "light.adb",
+      "line": 10,
+      "col": 35,
+      "rule": "VC_LENGTH_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Light",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 5,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "light.ads",
+      "line": 27,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Light.turn_off",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 24
+          }
+        ]
+      },
+      "msg_id": 6,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "light.ads",
+      "line": 21,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Light.turn_On",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Light.Light_is_On",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 14
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Light.Light_is_On",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 14
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Light.turn_off",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Light.turn_off",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Light.turn_On",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Light",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Light.turn_On",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Light.getState",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

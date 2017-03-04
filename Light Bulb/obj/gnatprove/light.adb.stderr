@@ -1,0 +1,8 @@
+light.adb:10:07: info: initialization of "ArrayLightState" constituent of "State" proved[#1]
+light.adb:10:35: info: length check proved[#5]
+light.adb:11:07: info: initialization of "pointers" constituent of "State" proved[#2]
+light.ads:11:14: medium: postcondition might fail, cannot prove getState'Result = Lighton or getState'Result = Lightoff (e.g. when getState'Result = 2)[#4]
+light.ads:18:15: info: initialization of "pointers" constituent of "State" proved[#3]
+light.ads:21:14: info: postcondition proved[#7]
+light.ads:24:15: info: initialization of "pointers" constituent of "State" proved[#0]
+light.ads:27:14: info: postcondition proved[#6]

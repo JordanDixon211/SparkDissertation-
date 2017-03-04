@@ -1,0 +1,46 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		0aa81804 NE OO SU
+
+D main.adb		20170224044002 0aa81804 main%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 main.adb
+1U11*Main 1b11 40l5 40t9
+3f4 Cx{float} 7r20
+3f8 Cy{float} 8r20
+5R9 shape 9e14 15r11 33r6
+6i7 id{integer} 36m6
+7f7 x{float} 37m6
+8f7 y{float} 38m6
+11A9 String(character)<integer> 14r14
+13R9 pos 16e14
+14a7 name{11A9}
+15r7 p{5R9}
+18E9 shape_kind 18e44 20r23
+18n24 Circle{18E9} 27r15 34r16
+18n32 Line{18E9} 23r15
+18n38 Torus{18E9} 25r15
+20R9 shape2 20d16 30e14 34r9
+20e16 Kind{18E9} 22r12
+21f7 x{float}
+21f10 y{float}
+24f13 x2{float}
+24f17 y2{float}
+26f13 OuterRadius{float}
+26f26 InnerRadius{float}
+28f13 Radius{float}
+33r4 S{5R9} 36m4 37m4 38m4
+34r4 S2{20R9}
+

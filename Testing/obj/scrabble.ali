@@ -1,0 +1,37 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U scrabble%b		scrabble.adb		16a07292 NE OO PK
+W scrabble%s		scrabble.adb		scrabble.ali
+
+U scrabble%s		scrabble.ads		3998756f EE NE OO PK
+
+D scrabble.ads		20170216212246 3998756f scrabble%s
+D scrabble.adb		20170217233200 16a07292 scrabble%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 scrabble.ads
+2K9*Scrabble 23l8 23e16 2|2w6 2r20 3b14 33l5 33t13
+3E12*Scrabble_Letter{character} 8r54 2|5r40
+5I12*Scrabble_Value{positive} 2|5r60
+8A9*Scrabble_Word(3E12)<integer> 13r32 2|15r31
+10I12*ScrabbleScore{natural} 13r55 2|15r53 17r20
+11I12*rand{integer} 20r52 2|26r52 29r14
+13V13*RawScore{10I12} 13>22 16r17 16r42 2|15b13 24l8 24t16
+13a22 Word{8A9} 15r17 2|15b22 19r27 20r65 21r49
+20V13*doNothing{11I12} 20>23 2|26b13 30l8 30t17
+20i23 Numbers{integer} 21r19 2|26b23
+X 2 scrabble.adb
+5A9 Scrabble_Value_Lookup(1|5I12)<character> 6r27
+6a4 LookUpTable{5A9} 21r37
+17i7 TotalScore{1|10I12} 20r32 21m10 21r24 23r14
+19i11 Letter_Index{integer} 20r50 21r54
+

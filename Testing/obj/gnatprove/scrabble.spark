@@ -1,0 +1,1069 @@
+{
+  "spark": [
+    {
+      "name": "Scrabble.Scrabble_ValuePredicate",
+      "sloc": [
+        {
+          "file": "scrabble.ads",
+          "line": 5
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Scrabble.RawScore",
+      "sloc": [
+        {
+          "file": "scrabble.ads",
+          "line": 13
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Scrabble.doNothing",
+      "sloc": [
+        {
+          "file": "scrabble.ads",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Scrabble",
+      "sloc": [
+        {
+          "file": "scrabble.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "scrabble.adb",
+      "line": 20,
+      "col": 32,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "scrabble__flow__37.trace",
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 21,
+      "col": 24,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "scrabble__flow__37.trace",
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 23,
+      "col": 14,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "scrabble__flow__37.trace",
+      "msg_id": 2,
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "scrabble.adb",
+      "line": 8,
+      "col": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 8,
+      "col": 24,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 7,
+      "col": 44,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 5,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 11,
+      "col": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 6,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 13,
+      "col": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 10,
+      "col": 34,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 8,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 12,
+      "col": 24,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 9,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 7,
+      "col": 6,
+      "rule": "VC_LENGTH_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 8,
+      "col": 34,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 11,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 10,
+      "col": 44,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 12,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 20,
+      "col": 48,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 13,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 9,
+      "col": 34,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 20,
+      "col": 10,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 15,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.99999986588955E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 7,
+      "col": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 16,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 9,
+      "col": 44,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 17,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 9,
+      "col": 24,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 18,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 10,
+      "col": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 19,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 10,
+      "col": 24,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 20,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 8,
+      "col": 44,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 21,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 20,
+      "col": 10,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 22,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 9,
+      "col": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 23,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 21,
+      "col": 35,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 24,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 7.99999982118607E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 7,
+      "col": 34,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 25,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 12,
+      "col": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 26,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 12,
+      "col": 34,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 27,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 11,
+      "col": 34,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 28,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 11,
+      "col": 44,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 29,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 21,
+      "col": 35,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 30,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.99999986588955E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 11,
+      "col": 24,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 31,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 7,
+      "col": 24,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 32,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 7.99999982118607E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 12,
+      "col": 44,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 13,
+      "col": 24,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 2
+          }
+        ]
+      },
+      "msg_id": 34,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.adb",
+      "line": 20,
+      "col": 63,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "scrabble.ads",
+      "line": 16,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Scrabble.RawScore",
+        "sloc": [
+          {
+            "file": "scrabble.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 36,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Scrabble",
+          "sloc": [
+            {
+              "file": "scrabble.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Scrabble.RawScore",
+          "sloc": [
+            {
+              "file": "scrabble.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Scrabble.Scrabble_ValuePredicate",
+          "sloc": [
+            {
+              "file": "scrabble.ads",
+              "line": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Scrabble.Scrabble_ValuePredicate",
+          "sloc": [
+            {
+              "file": "scrabble.ads",
+              "line": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Scrabble.RawScore",
+          "sloc": [
+            {
+              "file": "scrabble.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Scrabble.doNothing",
+          "sloc": [
+            {
+              "file": "scrabble.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Scrabble.doNothing",
+          "sloc": [
+            {
+              "file": "scrabble.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

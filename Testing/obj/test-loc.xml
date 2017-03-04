@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 22" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\scrabble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 22" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 66" line=" 15" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\scrabble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\scrabble.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 22" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 14" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 22" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 14" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 22" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 10" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 22" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\scrabble.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 5" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 26" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 5" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 13" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\scrabble.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 6" line=" 7" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Testing\test.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Testing\src\scrabble.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

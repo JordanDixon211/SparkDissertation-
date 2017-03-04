@@ -1,0 +1,12 @@
+main.adb:5:11: medium: "Default_Width" might not be initialized after elaboration of main program "Main"[#5]
+main.adb:5:11: medium: "Default_Base" might not be initialized after elaboration of main program "Main"[#6]
+main.adb:18:22: info: initialization of "arrayofWord" proved[#0]
+main.adb:18:25: info: initialization of "addArray" proved[#1]
+main.adb:18:25: info: range check proved[#7]
+main.adb:21:16: info: precondition proved[#9]
+main.adb:21:25: info: initialization of "arrayofWord" proved[#2]
+main.adb:22:20: info: length check proved[#8]
+main.adb:24:20: info: initialization of "testingArray" proved[#3]
+main.adb:26:04: warning: no Global contract available for "Put"
+main.adb:26:04: warning: assuming "Put" has no effect on global items
+main.adb:26:08: info: initialization of "testingArray" proved[#4]

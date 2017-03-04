@@ -1,0 +1,39 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U light%b		light.adb		a98aac68 NE OO PK
+W light%s		light.adb		light.ali
+
+U light%s		light.ads		c9c8b694 EE NE OO PK
+
+D light.ads		20170304093528 c9c8b694 light%s
+D light.adb		20170304093504 a98aac68 light%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 light.ads
+2K9*Light 29l5 29e10 2|2w6 2r17 3b14 44l5 44t10
+4@22*State 10r31 15r31 19r33 25r32 2|5r22
+6E9*status_Type 6e50 9r29 18r39 24r40 2|8r41 24r29 32r38 39r39
+6n25*Lighton{6E9} 11r32 21r23 26r22 2|10r41 35r20
+6n34*Lightoff{6E9} 11r62 20r22 27r23 2|10r54 41r20
+6n44*Error{6E9}
+9V13*getState{6E9} 11r14 11r44 2|24b13 29l8 29t16
+14V14*Light_is_On{boolean} 2|13b13 21l8 21t19
+18U15*turn_On 18=23 2|32b14 36l8 36t15
+18e23 status{6E9} 20r13 21r14 2|32b22 35m10
+24U15*turn_off 24=24 2|39b14 43l8 43t16
+24e24 status{6E9} 26r13 27r14 2|39b23 41m10
+X 2 light.adb
+7I15 Pointer{integer} 8r29 11r18
+8A12 States(1|6E9)<integer> 10r25
+10a7 ArrayLightState{8A12} 5r32 28r14
+11i7 pointers{7I15} 5r50 16r10 28r30 34m10 42m10
+

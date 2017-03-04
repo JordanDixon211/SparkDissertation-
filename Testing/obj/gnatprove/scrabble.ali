@@ -1,0 +1,74 @@
+V "GNAT Lib v2016"
+A -gnatc
+P GP ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U scrabble%b		scrabble.adb		16a07292 OO PK
+W scrabble%s		scrabble.adb		scrabble.ali
+W system%s		system.ads		system.ali
+
+U scrabble%s		scrabble.ads		3998756f EE OO PK
+
+D scrabble.ads		20170216212246 3998756f scrabble%s
+D scrabble.adb		20170217233200 16a07292 scrabble%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 scrabble.ads
+2K9*Scrabble 23l8 23e16 2|2w6 2r20 3b14 33l5 33t13
+3E12*Scrabble_Letter{character} 8r54 2|5r40
+5I12*Scrabble_Value{positive} 2|5r60
+8A9*Scrabble_Word(3E12)<integer> 13r32 2|15r31
+10I12*ScrabbleScore{natural} 13r55 2|15r53 17r20
+11I12*rand{integer} 20r52 2|26r52 29r14
+13V13*RawScore{10I12} 13>22 16r17 16r42 2|15b13 24l8 24t16
+13a22 Word{8A9} 15r17 2|15b22 19r27 20r65 21r49
+20V13*doNothing{11I12} 20>23 2|26b13 30l8 30t17
+20i23 Numbers{integer} 21r19 2|26b23
+X 2 scrabble.adb
+5A9 Scrabble_Value_Lookup(1|5I12)<character> 6r27
+6a4 LookUpTable{5A9} 21r37
+17i7 TotalScore{1|10I12} 20r32 21m10 21r24 23r14
+19i11 Letter_Index{integer} 20r50 21r54
+FD 1 scrabble.ads
+FS .1 2K9 scrabble
+FS .2 5V12 scrabble__scrabble_valuePredicate
+FS .3 13V13 scrabble__rawscore
+FS .4 20V13 scrabble__donothing
+FS .5 5V12 scrabble__scrabble_valuePredicate -> 1.2
+FD 2 scrabble.adb
+FS .1 3K14 standard__scrabble -> 1.1
+FS .2 15V13 scrabble__rawscore -> 1.3
+FS .3 26V13 scrabble__donothing -> 1.4
+FD 3 system.ads
+FS .1 37K9 system
+FS .2 77V13 system__Olt
+FS .3 78V13 system__Ole
+FS .4 79V13 system__Ogt
+FS .5 80V13 system__Oge
+FS .6 81V13 system__Oeq
+FX 1 scrabble.ads .3 scrabble__rawscore
+F 13>22 scrabble__rawscore__word 15c17 2|.2:19c27 20c65 21c49
+FX 1 scrabble.ads .4 scrabble__donothing
+F 20>23 scrabble__donothing__numbers 21c19
+FX 2 scrabble.adb .1 standard__scrabble
+F 6*4 scrabble__lookuptable .2:21r37
+FX 2 scrabble.adb .2 scrabble__rawscore
+F 17*7 scrabble__rawscore__totalscore 20r32 21m10 21r24 23r14
+F 19*11 scrabble__rawscore__L_1__letter_index 20c50 21c54
+
+GG EK_REMOTE_STATES
+GG EK_GLOBALS scrabble KIND_PACKAGE_BODY ORIGIN_FLOW c:local_sub [ scrabble__scrabble_valuePredicate scrabble__donothing scrabble__rawscore ]
+GG EK_GLOBALS scrabble__donothing KIND_SUBPROGRAM ORIGIN_FLOW c:local_var [ scrabble__donothing__numbers ]
+GG EK_GLOBALS scrabble__rawscore KIND_SUBPROGRAM ORIGIN_FLOW c:local_var [ scrabble__rawscore__L_1__letter_index scrabble__rawscore__totalscore scrabble__rawscore__word ] c:local_init [ scrabble__rawscore__L_1__letter_index scrabble__rawscore__totalscore ]
+GG EK_GLOBALS scrabble__scrabble_valuePredicate KIND_SUBPROGRAM ORIGIN_FLOW c:local_var [ scrabble__scrabble_valuePredicate__I6s ]
+GG EK_VOLATILES
+GG EK_TASKING_NONBLOCKING [ scrabble__scrabble_valuePredicate scrabble__donothing scrabble__rawscore ]
+GG EK_TASKING_INFO scrabble__scrabble_valuePredicate
+GG EK_TASKING_INFO scrabble__donothing
+GG EK_TASKING_INFO scrabble__rawscore
+GG EK_END_MARKER
