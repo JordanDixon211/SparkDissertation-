@@ -1381,7 +1381,7 @@ end
 module System__system_name
  use import "_gnatprove_standard".Main
 
- function system_name #"system.ads" 47 0 0# "model" "model_trace:2927" 
+ function system_name #"system.ads" 47 0 0# "model" "model_trace:3004" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 46 0 0# 
@@ -1765,7 +1765,7 @@ end
 module System__default_bit_order
  use import "_gnatprove_standard".Main
 
- function default_bit_order #"system.ads" 92 0 0# "model" "model_trace:3276" 
+ function default_bit_order #"system.ads" 92 0 0# "model" "model_trace:3353" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 91 0 0# 
@@ -1777,7 +1777,7 @@ end
 module System__max_priority
  use import "_gnatprove_standard".Main
 
- function max_priority #"system.ads" 97 0 0# "model" "model_trace:3292" 
+ function max_priority #"system.ads" 97 0 0# "model" "model_trace:3369" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -1789,7 +1789,7 @@ end
 module System__max_interrupt_priority
  use import "_gnatprove_standard".Main
 
- function max_interrupt_priority #"system.ads" 98 0 0# "model" "model_trace:3302" 
+ function max_interrupt_priority #"system.ads" 98 0 0# "model" "model_trace:3379" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -1939,7 +1939,7 @@ end
 module System__default_priority
  use import "_gnatprove_standard".Main
 
- function default_priority #"system.ads" 104 0 0# "model" "model_trace:3354" 
+ function default_priority #"system.ads" 104 0 0# "model" "model_trace:3431" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 101 0 0# 
@@ -1951,7 +1951,7 @@ end
 module System__backend_divide_checks
  use import "_gnatprove_standard".Main
 
- function backend_divide_checks #"system.ads" 121 0 0# "model" "model_trace:3384" 
+ function backend_divide_checks #"system.ads" 121 0 0# "model" "model_trace:3461" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 121 0 0# 
@@ -1963,7 +1963,7 @@ end
 module System__backend_overflow_checks
  use import "_gnatprove_standard".Main
 
- function backend_overflow_checks #"system.ads" 122 0 0# "model" "model_trace:3394" 
+ function backend_overflow_checks #"system.ads" 122 0 0# "model" "model_trace:3471" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 122 0 0# 
@@ -1975,7 +1975,7 @@ end
 module System__command_line_args
  use import "_gnatprove_standard".Main
 
- function command_line_args #"system.ads" 123 0 0# "model" "model_trace:3404" 
+ function command_line_args #"system.ads" 123 0 0# "model" "model_trace:3481" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 123 0 0# 
@@ -1987,7 +1987,7 @@ end
 module System__configurable_run_time
  use import "_gnatprove_standard".Main
 
- function configurable_run_time #"system.ads" 124 0 0# "model" "model_trace:3414" 
+ function configurable_run_time #"system.ads" 124 0 0# "model" "model_trace:3491" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 124 0 0# 
@@ -1999,7 +1999,7 @@ end
 module System__denorm
  use import "_gnatprove_standard".Main
 
- function denorm #"system.ads" 125 0 0# "model" "model_trace:3424" 
+ function denorm #"system.ads" 125 0 0# "model" "model_trace:3501" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 125 0 0# 
@@ -2011,7 +2011,7 @@ end
 module System__duration_32_bits
  use import "_gnatprove_standard".Main
 
- function duration_32_bits #"system.ads" 126 0 0# "model" "model_trace:3434" 
+ function duration_32_bits #"system.ads" 126 0 0# "model" "model_trace:3511" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 126 0 0# 
@@ -2023,7 +2023,7 @@ end
 module System__exit_status_supported
  use import "_gnatprove_standard".Main
 
- function exit_status_supported #"system.ads" 127 0 0# "model" "model_trace:3444" 
+ function exit_status_supported #"system.ads" 127 0 0# "model" "model_trace:3521" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 127 0 0# 
@@ -2035,7 +2035,7 @@ end
 module System__fractional_fixed_ops
  use import "_gnatprove_standard".Main
 
- function fractional_fixed_ops #"system.ads" 128 0 0# "model" "model_trace:3454" 
+ function fractional_fixed_ops #"system.ads" 128 0 0# "model" "model_trace:3531" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 128 0 0# 
@@ -2047,7 +2047,7 @@ end
 module System__frontend_layout
  use import "_gnatprove_standard".Main
 
- function frontend_layout #"system.ads" 129 0 0# "model" "model_trace:3464" 
+ function frontend_layout #"system.ads" 129 0 0# "model" "model_trace:3541" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 129 0 0# 
@@ -2059,7 +2059,7 @@ end
 module System__machine_overflows
  use import "_gnatprove_standard".Main
 
- function machine_overflows #"system.ads" 130 0 0# "model" "model_trace:3474" 
+ function machine_overflows #"system.ads" 130 0 0# "model" "model_trace:3551" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 130 0 0# 
@@ -2071,7 +2071,7 @@ end
 module System__machine_rounds
  use import "_gnatprove_standard".Main
 
- function machine_rounds #"system.ads" 131 0 0# "model" "model_trace:3484" 
+ function machine_rounds #"system.ads" 131 0 0# "model" "model_trace:3561" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 131 0 0# 
@@ -2083,7 +2083,7 @@ end
 module System__preallocated_stacks
  use import "_gnatprove_standard".Main
 
- function preallocated_stacks #"system.ads" 132 0 0# "model" "model_trace:3494" 
+ function preallocated_stacks #"system.ads" 132 0 0# "model" "model_trace:3571" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 132 0 0# 
@@ -2095,7 +2095,7 @@ end
 module System__signed_zeros
  use import "_gnatprove_standard".Main
 
- function signed_zeros #"system.ads" 133 0 0# "model" "model_trace:3504" 
+ function signed_zeros #"system.ads" 133 0 0# "model" "model_trace:3581" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 133 0 0# 
@@ -2107,7 +2107,7 @@ end
 module System__stack_check_default
  use import "_gnatprove_standard".Main
 
- function stack_check_default #"system.ads" 134 0 0# "model" "model_trace:3514" 
+ function stack_check_default #"system.ads" 134 0 0# "model" "model_trace:3591" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 134 0 0# 
@@ -2119,7 +2119,7 @@ end
 module System__stack_check_probes
  use import "_gnatprove_standard".Main
 
- function stack_check_probes #"system.ads" 135 0 0# "model" "model_trace:3524" 
+ function stack_check_probes #"system.ads" 135 0 0# "model" "model_trace:3601" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 135 0 0# 
@@ -2131,7 +2131,7 @@ end
 module System__stack_check_limits
  use import "_gnatprove_standard".Main
 
- function stack_check_limits #"system.ads" 136 0 0# "model" "model_trace:3534" 
+ function stack_check_limits #"system.ads" 136 0 0# "model" "model_trace:3611" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 136 0 0# 
@@ -2143,7 +2143,7 @@ end
 module System__support_aggregates
  use import "_gnatprove_standard".Main
 
- function support_aggregates #"system.ads" 137 0 0# "model" "model_trace:3544" 
+ function support_aggregates #"system.ads" 137 0 0# "model" "model_trace:3621" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 137 0 0# 
@@ -2155,7 +2155,7 @@ end
 module System__support_atomic_primitives
  use import "_gnatprove_standard".Main
 
- function support_atomic_primitives #"system.ads" 138 0 0# "model" "model_trace:3554" 
+ function support_atomic_primitives #"system.ads" 138 0 0# "model" "model_trace:3631" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 138 0 0# 
@@ -2167,7 +2167,7 @@ end
 module System__support_composite_assign
  use import "_gnatprove_standard".Main
 
- function support_composite_assign #"system.ads" 139 0 0# "model" "model_trace:3564" 
+ function support_composite_assign #"system.ads" 139 0 0# "model" "model_trace:3641" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 139 0 0# 
@@ -2179,7 +2179,7 @@ end
 module System__support_composite_compare
  use import "_gnatprove_standard".Main
 
- function support_composite_compare #"system.ads" 140 0 0# "model" "model_trace:3574" 
+ function support_composite_compare #"system.ads" 140 0 0# "model" "model_trace:3651" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 140 0 0# 
@@ -2191,7 +2191,7 @@ end
 module System__support_long_shifts
  use import "_gnatprove_standard".Main
 
- function support_long_shifts #"system.ads" 141 0 0# "model" "model_trace:3584" 
+ function support_long_shifts #"system.ads" 141 0 0# "model" "model_trace:3661" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 141 0 0# 
@@ -2203,7 +2203,7 @@ end
 module System__always_compatible_rep
  use import "_gnatprove_standard".Main
 
- function always_compatible_rep #"system.ads" 142 0 0# "model" "model_trace:3594" 
+ function always_compatible_rep #"system.ads" 142 0 0# "model" "model_trace:3671" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 142 0 0# 
@@ -2215,7 +2215,7 @@ end
 module System__suppress_standard_library
  use import "_gnatprove_standard".Main
 
- function suppress_standard_library #"system.ads" 143 0 0# "model" "model_trace:3604" 
+ function suppress_standard_library #"system.ads" 143 0 0# "model" "model_trace:3681" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 143 0 0# 
@@ -2227,7 +2227,7 @@ end
 module System__use_ada_main_program_name
  use import "_gnatprove_standard".Main
 
- function use_ada_main_program_name #"system.ads" 144 0 0# "model" "model_trace:3614" 
+ function use_ada_main_program_name #"system.ads" 144 0 0# "model" "model_trace:3691" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 144 0 0# 
@@ -2239,7 +2239,7 @@ end
 module System__frontend_exceptions
  use import "_gnatprove_standard".Main
 
- function frontend_exceptions #"system.ads" 145 0 0# "model" "model_trace:3624" 
+ function frontend_exceptions #"system.ads" 145 0 0# "model" "model_trace:3701" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 145 0 0# 
@@ -2251,7 +2251,7 @@ end
 module System__zcx_by_default
  use import "_gnatprove_standard".Main
 
- function zcx_by_default #"system.ads" 146 0 0# "model" "model_trace:3634" 
+ function zcx_by_default #"system.ads" 146 0 0# "model" "model_trace:3711" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 146 0 0# 
@@ -2466,7 +2466,7 @@ module System__underlying_priorities
  use import "_gnatprove_standard".Main
  use        Array__Int__Standard__integer
 
- function underlying_priorities #"system.ads" 165 0 0# "model_projected" "model_trace:3660" 
+ function underlying_priorities #"system.ads" 165 0 0# "model_projected" "model_trace:3737" 
    : Array__Int__Standard__integer.map
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 161 0 0# 
@@ -2736,36 +2736,36 @@ module Light__state__axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "status" defined at light.ads:18, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "status" defined at light.ads:20, created in Gnat2Why.Decls.Translate_Variable *)
 module Light__turn_on__status
  use import "_gnatprove_standard".Main
 
- val status #"light.ads" 18 0 0# "model" "model_trace:2582"  : int__ref 
+ val status #"light.ads" 20 0 0# "model" "model_trace:2623"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"light.ads" 6 0 0# 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "status" defined at light.ads:18, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "status" defined at light.ads:20, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Light__turn_on__status__axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining a ref holding the value of variable "status" defined at light.ads:24, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "status" defined at light.ads:26, created in Gnat2Why.Decls.Translate_Variable *)
 module Light__turn_off__status
  use import "_gnatprove_standard".Main
 
- val status #"light.ads" 24 0 0# "model" "model_trace:2618"  : int__ref 
+ val status #"light.ads" 26 0 0# "model" "model_trace:2659"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"light.ads" 6 0 0# 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "status" defined at light.ads:24, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "status" defined at light.ads:26, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Light__turn_off__status__axiom
  use import "_gnatprove_standard".Main
 
@@ -3195,36 +3195,47 @@ module Standard__universal_real__axiom
 
 end
 
-(* Module for possibly declaring a logic function for "getstate" defined at light.ads:9, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "getstate" defined at light.ads:8, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Light__getstate
  use        Light__arraylightstate
  use        Light__pointers
  use import "_gnatprove_standard".Main
  use        Array__Int__Light__status_type
 
- function getstate #"light.ads" 9 0 0# 
+ function getstate #"light.ads" 8 0 0# 
    (light__arraylightstate : Array__Int__Light__status_type.map) (light__pointers : int) : int
 
 end
 
-(* Module for possibly declaring a logic function for "light_is_on" defined at light.ads:14, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "light_is_on" defined at light.ads:13, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Light__light_is_on
  use        Light__pointers
  use import "_gnatprove_standard".Main
 
- function light_is_on #"light.ads" 14 0 0# 
+ function light_is_on #"light.ads" 13 0 0# 
    (light__pointers : int) : bool
 
 end
 
-(* Module for possibly declaring a logic function for "turn_on" defined at light.ads:18, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "initializes" defined at light.ads:16, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Light__initializes
+ use        Light__arraylightstate
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Light__status_type
+
+ function initializes #"light.ads" 16 0 0# 
+   (light__arraylightstate : Array__Int__Light__status_type.map) : int
+
+end
+
+(* Module for possibly declaring a logic function for "turn_on" defined at light.ads:20, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Light__turn_on
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "turn_off" defined at light.ads:24, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "turn_off" defined at light.ads:26, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Light__turn_off
  use import "_gnatprove_standard".Main
 
@@ -3235,7 +3246,7 @@ end
 module System__min_int
  use import "_gnatprove_standard".Main
 
- function min_int #"system.ads" 51 0 0# "model" "model_trace:2937" 
+ function min_int #"system.ads" 51 0 0# "model" "model_trace:3014" 
    : int
 
 end
@@ -3244,7 +3255,7 @@ end
 module System__max_int
  use import "_gnatprove_standard".Main
 
- function max_int #"system.ads" 52 0 0# "model" "model_trace:2948" 
+ function max_int #"system.ads" 52 0 0# "model" "model_trace:3025" 
    : int
 
 end
@@ -3253,7 +3264,7 @@ end
 module System__max_binary_modulus
  use import "_gnatprove_standard".Main
 
- function max_binary_modulus #"system.ads" 54 0 0# "model" "model_trace:2959" 
+ function max_binary_modulus #"system.ads" 54 0 0# "model" "model_trace:3036" 
    : int
 
 end
@@ -3262,7 +3273,7 @@ end
 module System__max_nonbinary_modulus
  use import "_gnatprove_standard".Main
 
- function max_nonbinary_modulus #"system.ads" 55 0 0# "model" "model_trace:2972" 
+ function max_nonbinary_modulus #"system.ads" 55 0 0# "model" "model_trace:3049" 
    : int
 
 end
@@ -3271,7 +3282,7 @@ end
 module System__max_base_digits
  use import "_gnatprove_standard".Main
 
- function max_base_digits #"system.ads" 57 0 0# "model" "model_trace:2987" 
+ function max_base_digits #"system.ads" 57 0 0# "model" "model_trace:3064" 
    : int
 
 end
@@ -3280,7 +3291,7 @@ end
 module System__max_digits
  use import "_gnatprove_standard".Main
 
- function max_digits #"system.ads" 58 0 0# "model" "model_trace:2997" 
+ function max_digits #"system.ads" 58 0 0# "model" "model_trace:3074" 
    : int
 
 end
@@ -3289,7 +3300,7 @@ end
 module System__max_mantissa
  use import "_gnatprove_standard".Main
 
- function max_mantissa #"system.ads" 60 0 0# "model" "model_trace:3007" 
+ function max_mantissa #"system.ads" 60 0 0# "model" "model_trace:3084" 
    : int
 
 end
@@ -3318,7 +3329,7 @@ end
 module System__storage_unit
  use import "_gnatprove_standard".Main
 
- function storage_unit #"system.ads" 71 0 0# "model" "model_trace:3058" 
+ function storage_unit #"system.ads" 71 0 0# "model" "model_trace:3135" 
    : int
 
 end
@@ -3327,7 +3338,7 @@ end
 module System__word_size
  use import "_gnatprove_standard".Main
 
- function word_size #"system.ads" 72 0 0# "model" "model_trace:3067" 
+ function word_size #"system.ads" 72 0 0# "model" "model_trace:3144" 
    : int
 
 end
@@ -3336,7 +3347,7 @@ end
 module System__memory_size
  use import "_gnatprove_standard".Main
 
- function memory_size #"system.ads" 73 0 0# "model" "model_trace:3076" 
+ function memory_size #"system.ads" 73 0 0# "model" "model_trace:3153" 
    : int
 
 end
@@ -4135,7 +4146,7 @@ module System__underlying_priorities__axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "getstate" defined at light.ads:9, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "getstate" defined at light.ads:8, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Light__getstate__axiom
  use        Light__arraylightstate
  use        Light__pointers
@@ -4150,7 +4161,7 @@ module Light__getstate__axiom
  use        Light__pointers
  use        Array__Int__Light__status_type
 
- val getstate #"light.ads" 9 0 0# 
+ val getstate #"light.ads" 8 0 0# 
    (__void_param : unit) : int
   requires { true }
   ensures { ( (result = (Light__getstate.getstate Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content Light__pointers.pointers.int__content)) /\ ( (Light__status_type__axiom.dynamic_invariant result True False True) /\ ( (result = 0) \/ (result = 1) ) ) ) }
@@ -4164,21 +4175,46 @@ module Light__getstate__axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "light_is_on" defined at light.ads:14, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "light_is_on" defined at light.ads:13, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Light__light_is_on__axiom
  use        Light__pointers
  use import "_gnatprove_standard".Main
  use        Light__light_is_on
  use        Light__pointers
 
- val light_is_on #"light.ads" 14 0 0# 
+ val light_is_on #"light.ads" 13 0 0# 
    (__void_param : unit) : bool
   requires { true }
   ensures { (result = (Light__light_is_on.light_is_on Light__pointers.pointers.int__content)) }
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "turn_on" defined at light.ads:18, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "initializes" defined at light.ads:16, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Light__initializes__axiom
+ use        Light__arraylightstate
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Light__status_type__axiom
+ use        Light__initializes
+ use        Light__states__axiom
+ use        Array__Int__Light__status_type
+ use        Light__arraylightstate
+ use        Array__Int__Light__status_type
+
+ val initializes #"light.ads" 16 0 0# 
+   (__void_param : unit) : int
+  requires { true }
+  ensures { ( (result = (Light__initializes.initializes Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content)) /\ ( (Light__status_type__axiom.dynamic_invariant result True False True) /\ (result = 1) ) ) }
+ 
+ axiom initializes__post_axiom :
+  (forall light__arraylightstate : Array__Int__Light__status_type.map [(Light__initializes.initializes light__arraylightstate)].
+   ( (Light__states__axiom.dynamic_invariant light__arraylightstate True True True) -> (let result = (Light__initializes.initializes light__arraylightstate) in (
+    ( (result = 1) /\ (Light__status_type__axiom.dynamic_invariant result True False True) )))
+    ))
+
+end
+
+(* Module for declaring a program function (and possibly an axiom) for "turn_on" defined at light.ads:20, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Light__turn_on__axiom
  use        Light__pointers
  use import "_gnatprove_standard".Main
@@ -4187,7 +4223,7 @@ module Light__turn_on__axiom
  use        Light__pointer__axiom
  use        Light__pointers
 
- val turn_on #"light.ads" 18 0 0# 
+ val turn_on #"light.ads" 20 0 0# 
    (status : int__ref) : unit
   requires { (status.int__content = 1) }
   ensures { ( (status.int__content = 0) /\ ( (Light__status_type__axiom.dynamic_invariant status.int__content True True True) /\ (Light__pointer__axiom.dynamic_invariant Light__pointers.pointers.int__content True True True) ) ) }
@@ -4195,7 +4231,7 @@ module Light__turn_on__axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "turn_off" defined at light.ads:24, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "turn_off" defined at light.ads:26, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Light__turn_off__axiom
  use        Light__pointers
  use import "_gnatprove_standard".Main
@@ -4204,7 +4240,7 @@ module Light__turn_off__axiom
  use        Light__pointer__axiom
  use        Light__pointers
 
- val turn_off #"light.ads" 24 0 0# 
+ val turn_off #"light.ads" 26 0 0# 
    (status : int__ref) : unit
   requires { (status.int__content = 0) }
   ensures { ( (status.int__content = 1) /\ ( (Light__status_type__axiom.dynamic_invariant status.int__content True True True) /\ (Light__pointer__axiom.dynamic_invariant Light__pointers.pointers.int__content True True True) ) ) }
@@ -4319,10 +4355,10 @@ module Light__package_def
   #"light.adb" 8 0 0# assume { (Light__states__axiom.dynamic_invariant Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content True False True) };
   #"light.adb" 11 0 0# Light__pointers.pointers.int__content <- ( 1 );
   #"light.adb" 7 0 0# assume { (Light__pointer__axiom.dynamic_invariant Light__pointers.pointers.int__content True False True) };
-  ( "GP_Sloc:light.adb:44:1" () ) )
+  ( "GP_Sloc:light.adb:50:1" () ) )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "getstate" defined at light.ads:9, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "getstate" defined at light.ads:8, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Light__getstate__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -4340,46 +4376,46 @@ module Light__getstate__subprogram_def
  use        Light__pointers__axiom
  use        Light__status_type__axiom
 
- val light__getstate__result #"light.adb" 7 0 0# "model" "model_trace:2526@result"  : int__ref 
+ val light__getstate__result #"light.adb" 7 0 0# "model" "model_trace:2542@result"  : int__ref 
  
- let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:9" 
+ let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:8" 
    (__void_param : unit)
   requires { true }
-  ensures { ( #"light.ads" 11 0 0# "model_vc_post" "keep_on_simp" "GP_Sloc:light.ads:11:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:1" "comment:     post => getState'Result = Lighton or  getState'Result = Lightoff;
-             ^ light.ads:11:14:VC_POSTCONDITION" "GP_Shape:pragargs__or" ( "GP_Pretty_Ada:2688" "GP_Sloc:light.ads:11:14" ( (light__getstate__result.int__content = 0) \/ (light__getstate__result.int__content = 1) ) ) ) }
+  ensures { ( #"light.ads" 10 0 0# "model_vc_post" "keep_on_simp" "GP_Sloc:light.ads:10:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:1" "comment:     post => getState'Result = Lighton or  getState'Result = Lightoff;
+             ^ light.ads:10:14:VC_POSTCONDITION" "GP_Shape:pragargs__or" ( "GP_Pretty_Ada:2729" "GP_Sloc:light.ads:10:14" ( (light__getstate__result.int__content = 0) \/ (light__getstate__result.int__content = 1) ) ) ) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:9 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:8 *)
   ;
   #"light.adb" 8 0 0# assume { (Light__states__axiom.dynamic_invariant Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content False False True) };
   #"light.adb" 7 0 0# assume { (Light__pointer__axiom.dynamic_invariant Light__pointers.pointers.int__content False False True) };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:9 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:8 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram light.ads:9 *)
+  () (* Check for RTE in the Pre of the subprogram light.ads:8 *)
   ;
   #"light.adb" 7 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram light.ads:9 *)
+  () (* Assume Pre of the subprogram light.ads:8 *)
   ;
   #"light.adb" 7 0 0# assume { true };
-  () (* checking of pragma precondition light.ads:9 *)
+  () (* checking of pragma precondition light.ads:8 *)
   ;
   try
-   ( ( "GP_Sloc:light.adb:28:7" ( #"light.adb" 28 0 0# light__getstate__result.int__content <- ( (Light__status_type.to_rep((Array__Int__Light__status_type.get(Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content) (Light__pointers.pointers.int__content)))) );
-   #"light.adb" 28 0 0# raise Return__exc ) );
-   #"light.adb" 24 0 0# raise Return__exc )
+   ( ( "GP_Sloc:light.adb:34:7" ( #"light.adb" 34 0 0# light__getstate__result.int__content <- ( (Light__status_type.to_rep((Array__Int__Light__status_type.get(Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content) (Light__pointers.pointers.int__content)))) );
+   #"light.adb" 34 0 0# raise Return__exc ) );
+   #"light.adb" 30 0 0# raise Return__exc )
   with
    Return__exc -> ()
   end;
-  () (* checking of pragma postcondition light.ads:9 *)
+  () (* checking of pragma postcondition light.ads:8 *)
   ;
-  #"light.adb" 24 0 0# abstract ensures {true}(let _ = (Boolean.orb((light__getstate__result.int__content = 0)) ((light__getstate__result.int__content = 1))) in (
+  #"light.adb" 30 0 0# abstract ensures {true}(let _ = (Boolean.orb((light__getstate__result.int__content = 0)) ((light__getstate__result.int__content = 1))) in (
    ()))
    end ;
   light__getstate__result.int__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "light_is_on" defined at light.ads:14, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "light_is_on" defined at light.ads:13, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Light__light_is_on__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -4389,27 +4425,27 @@ module Light__light_is_on__subprogram_def
  use        Light__pointer__axiom
  use        Light__pointers__axiom
 
- val light__light_is_on__result #"light.ads" 6 0 0# "model" "model_trace:2557@result"  : bool__ref 
+ val light__light_is_on__result #"light.ads" 6 0 0# "model" "model_trace:2573@result"  : bool__ref 
  
- let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:14" 
+ let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:13" 
    (__void_param : unit)
   requires { true }
   ensures { true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:14 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:13 *)
   ;
   #"light.adb" 7 0 0# assume { (Light__pointer__axiom.dynamic_invariant Light__pointers.pointers.int__content False False True) };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:14 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:13 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram light.ads:14 *)
+  () (* Check for RTE in the Pre of the subprogram light.ads:13 *)
   ;
   #"light.adb" 7 0 0# abstract ensures {true}(let _ = True in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram light.ads:14 *)
+  () (* Assume Pre of the subprogram light.ads:13 *)
   ;
   #"light.adb" 7 0 0# assume { true };
-  () (* checking of pragma precondition light.ads:14 *)
+  () (* checking of pragma precondition light.ads:13 *)
   ;
   try
    ( ( "GP_Sloc:light.adb:16:7" (if ((Light__pointers.pointers.int__content = 0)) then (
@@ -4421,7 +4457,7 @@ module Light__light_is_on__subprogram_def
   with
    Return__exc -> ()
   end;
-  () (* checking of pragma postcondition light.ads:14 *)
+  () (* checking of pragma postcondition light.ads:13 *)
   ;
   #"light.adb" 13 0 0# abstract ensures {true}(let _ = True in (
    ()))
@@ -4429,7 +4465,58 @@ module Light__light_is_on__subprogram_def
   light__light_is_on__result.bool__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "turn_on" defined at light.ads:18, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "initializes" defined at light.ads:16, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Light__initializes__subprogram_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Light__status_type
+ use        Array__Int__Light__status_type
+ use        Light__states__axiom
+ use        Array__Int__Light__status_type
+ use        Light__arraylightstate
+ use        Light__states__axiom
+ use        Light__arraylightstate__axiom
+ use        Light__status_type__axiom
+
+ val light__initializes__result #"light.adb" 13 0 0# "model" "model_trace:2591@result"  : int__ref 
+ 
+ let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:16" 
+   (__void_param : unit)
+  requires { true }
+  ensures { ( #"light.ads" 18 0 0# "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Sloc:light.ads:18:14" "GP_Id:2" "comment:     post => Initializes'Result = Lightoff;
+             ^ light.ads:18:14:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( "GP_Pretty_Ada:2767" "GP_Sloc:light.ads:18:14" (light__initializes__result.int__content = 1) ) ) }
+   =
+  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:16 *)
+  ;
+  #"light.adb" 8 0 0# assume { (Light__states__axiom.dynamic_invariant Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content False False True) };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:16 *)
+  ;
+  () (* Check for RTE in the Pre of the subprogram light.ads:16 *)
+  ;
+  #"light.adb" 8 0 0# abstract ensures {true}(let _ = True in (
+   ()))
+   end ;
+  () (* Assume Pre of the subprogram light.ads:16 *)
+  ;
+  #"light.adb" 8 0 0# assume { true };
+  () (* checking of pragma precondition light.ads:16 *)
+  ;
+  try
+   ( ( "GP_Sloc:light.adb:26:7" ( #"light.adb" 26 0 0# light__initializes__result.int__content <- ( (Light__status_type.to_rep((Array__Int__Light__status_type.get(Light__arraylightstate.arraylightstate.Array__Int__Light__status_type.map__content) (1)))) );
+   #"light.adb" 26 0 0# raise Return__exc ) );
+   #"light.adb" 23 0 0# raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+  () (* checking of pragma postcondition light.ads:16 *)
+  ;
+  #"light.adb" 23 0 0# abstract ensures {true}(let _ = (light__initializes__result.int__content = 1) in (
+   ()))
+   end ;
+  light__initializes__result.int__content )
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "turn_on" defined at light.ads:20, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Light__turn_on__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -4442,43 +4529,43 @@ module Light__turn_on__subprogram_def
  use        Light__status_type__axiom
  use        Light__turn_on__status__axiom
 
- let def #"light.adb" 13 0 0# "W:diverges:N" "GP_Subp:light.ads:18" 
+ let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:20" 
    (__void_param : unit)
   requires { true }
-  ensures { ( #"light.ads" 21 0 0# "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Sloc:light.ads:21:14" "GP_Id:2" "comment:     post => status = Lighton;
-             ^ light.ads:21:14:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( "GP_Pretty_Ada:2735" "GP_Sloc:light.ads:21:14" (Light__turn_on__status.status.int__content = 0) ) ) }
+  ensures { ( #"light.ads" 23 0 0# "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:light.ads:23:14" "GP_Id:3" "comment:     post => status = Lighton;
+             ^ light.ads:23:14:VC_POSTCONDITION" ( "GP_Pretty_Ada:2804" "GP_Sloc:light.ads:23:14" (Light__turn_on__status.status.int__content = 0) ) ) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:18 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:20 *)
   ;
   #"light.adb" 7 0 0# assume { (Light__pointer__axiom.dynamic_invariant Light__pointers.pointers.int__content False False True) };
   #"light.ads" 6 0 0# assume { (Light__status_type__axiom.dynamic_invariant Light__turn_on__status.status.int__content True False True) };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:18 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:20 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram light.ads:18 *)
+  () (* Check for RTE in the Pre of the subprogram light.ads:20 *)
   ;
   #"light.ads" 6 0 0# abstract ensures {true}(let _ = (Light__turn_on__status.status.int__content = 1) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram light.ads:18 *)
+  () (* Assume Pre of the subprogram light.ads:20 *)
   ;
   #"light.ads" 6 0 0# assume { (Light__turn_on__status.status.int__content = 1) };
-  () (* checking of pragma precondition light.ads:18 *)
+  () (* checking of pragma precondition light.ads:20 *)
   ;
   try
-   ( ( "GP_Sloc:light.adb:34:19" #"light.adb" 34 0 0# Light__pointers.pointers.int__content <- ( 0 ) );
-   ( "GP_Sloc:light.adb:35:17" #"light.adb" 35 0 0# Light__turn_on__status.status.int__content <- ( 0 ) );
-   #"light.adb" 32 0 0# raise Return__exc )
+   ( ( "GP_Sloc:light.adb:40:19" #"light.adb" 40 0 0# Light__pointers.pointers.int__content <- ( 0 ) );
+   ( "GP_Sloc:light.adb:41:17" #"light.adb" 41 0 0# Light__turn_on__status.status.int__content <- ( 0 ) );
+   #"light.adb" 38 0 0# raise Return__exc )
   with
    Return__exc -> ()
   end;
-  () (* checking of pragma postcondition light.ads:18 *)
+  () (* checking of pragma postcondition light.ads:20 *)
   ;
-  #"light.adb" 32 0 0# abstract ensures {true}(let _ = (Light__turn_on__status.status.int__content = 0) in (
+  #"light.adb" 38 0 0# abstract ensures {true}(let _ = (Light__turn_on__status.status.int__content = 0) in (
    ()))
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "turn_off" defined at light.ads:24, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "turn_off" defined at light.ads:26, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Light__turn_off__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -4491,38 +4578,38 @@ module Light__turn_off__subprogram_def
  use        Light__status_type__axiom
  use        Light__turn_off__status__axiom
 
- let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:24" 
+ let def #"light.ads" 6 0 0# "W:diverges:N" "GP_Subp:light.ads:26" 
    (__void_param : unit)
   requires { true }
-  ensures { ( #"light.ads" 27 0 0# "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:light.ads:27:14" "GP_Id:3" "comment:     post => status = Lightoff;
-             ^ light.ads:27:14:VC_POSTCONDITION" ( "GP_Pretty_Ada:2779" "GP_Sloc:light.ads:27:14" (Light__turn_off__status.status.int__content = 1) ) ) }
+  ensures { ( #"light.ads" 29 0 0# "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:light.ads:29:14" "GP_Id:4" "comment:     post => status = Lightoff;
+             ^ light.ads:29:14:VC_POSTCONDITION" ( "GP_Pretty_Ada:2848" "GP_Sloc:light.ads:29:14" (Light__turn_off__status.status.int__content = 1) ) ) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:24 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram light.ads:26 *)
   ;
   #"light.adb" 7 0 0# assume { (Light__pointer__axiom.dynamic_invariant Light__pointers.pointers.int__content False False True) };
   #"light.ads" 6 0 0# assume { (Light__status_type__axiom.dynamic_invariant Light__turn_off__status.status.int__content True False True) };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:24 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram light.ads:26 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram light.ads:24 *)
+  () (* Check for RTE in the Pre of the subprogram light.ads:26 *)
   ;
   #"light.ads" 6 0 0# abstract ensures {true}(let _ = (Light__turn_off__status.status.int__content = 0) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram light.ads:24 *)
+  () (* Assume Pre of the subprogram light.ads:26 *)
   ;
   #"light.ads" 6 0 0# assume { (Light__turn_off__status.status.int__content = 0) };
-  () (* checking of pragma precondition light.ads:24 *)
+  () (* checking of pragma precondition light.ads:26 *)
   ;
   try
-   ( ( "GP_Sloc:light.adb:41:17" #"light.adb" 41 0 0# Light__turn_off__status.status.int__content <- ( 1 ) );
-   ( "GP_Sloc:light.adb:42:19" #"light.adb" 42 0 0# Light__pointers.pointers.int__content <- ( 1 ) );
-   #"light.adb" 39 0 0# raise Return__exc )
+   ( ( "GP_Sloc:light.adb:47:17" #"light.adb" 47 0 0# Light__turn_off__status.status.int__content <- ( 1 ) );
+   ( "GP_Sloc:light.adb:48:19" #"light.adb" 48 0 0# Light__pointers.pointers.int__content <- ( 1 ) );
+   #"light.adb" 45 0 0# raise Return__exc )
   with
    Return__exc -> ()
   end;
-  () (* checking of pragma postcondition light.ads:24 *)
+  () (* checking of pragma postcondition light.ads:26 *)
   ;
-  #"light.adb" 39 0 0# abstract ensures {true}(let _ = (Light__turn_off__status.status.int__content = 1) in (
+  #"light.adb" 45 0 0# abstract ensures {true}(let _ = (Light__turn_off__status.status.int__content = 1) in (
    ()))
    end  )
 end

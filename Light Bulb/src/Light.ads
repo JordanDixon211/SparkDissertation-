@@ -14,7 +14,8 @@ package Light
      with Global => (Input => State);
 
    function Initializes return status_Type
-     with Global => (Input => State);
+     with Global => (Input => State),
+     post => Initializes'Result = Lightoff;
 
    procedure  turn_On(status : in out status_Type)
      with Global => (in_Out =>  State),

@@ -5,7 +5,17 @@
       "sloc": [
         {
           "file": "light.ads",
-          "line": 14
+          "line": 13
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Light.Initializes",
+      "sloc": [
+        {
+          "file": "light.ads",
+          "line": 16
         }
       ],
       "spark": "all"
@@ -15,7 +25,7 @@
       "sloc": [
         {
           "file": "light.ads",
-          "line": 9
+          "line": 8
         }
       ],
       "spark": "all"
@@ -25,7 +35,7 @@
       "sloc": [
         {
           "file": "light.ads",
-          "line": 18
+          "line": 20
         }
       ],
       "spark": "all"
@@ -35,7 +45,7 @@
       "sloc": [
         {
           "file": "light.ads",
-          "line": 24
+          "line": 26
         }
       ],
       "spark": "all"
@@ -54,7 +64,7 @@
   "flow": [
     {
       "file": "light.ads",
-      "line": 24,
+      "line": 26,
       "col": 15,
       "rule": "UNINITIALIZED",
       "severity": "info",
@@ -63,12 +73,31 @@
         "sloc": [
           {
             "file": "light.ads",
-            "line": 24
+            "line": 26
           }
         ]
       },
-      "tracefile": "light__flow__30.trace",
+      "tracefile": "light__flow__14.trace",
       "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "light.ads",
+      "line": 20,
+      "col": 15,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Light.turn_On",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 20
+          }
+        ]
+      },
+      "tracefile": "light__flow__29.trace",
+      "msg_id": 1,
       "how_proved": "flow"
     },
     {
@@ -86,8 +115,8 @@
           }
         ]
       },
-      "tracefile": "light__flow__60.trace",
-      "msg_id": 1,
+      "tracefile": "light__flow__61.trace",
+      "msg_id": 2,
       "how_proved": "flow"
     },
     {
@@ -105,26 +134,7 @@
           }
         ]
       },
-      "tracefile": "light__flow__60.trace",
-      "msg_id": 2,
-      "how_proved": "flow"
-    },
-    {
-      "file": "light.ads",
-      "line": 18,
-      "col": 15,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "Light.turn_On",
-        "sloc": [
-          {
-            "file": "light.ads",
-            "line": 18
-          }
-        ]
-      },
-      "tracefile": "light__flow__75.trace",
+      "tracefile": "light__flow__61.trace",
       "msg_id": 3,
       "how_proved": "flow"
     }
@@ -132,7 +142,7 @@
   "proof": [
     {
       "file": "light.ads",
-      "line": 11,
+      "line": 10,
       "col": 14,
       "rule": "VC_POSTCONDITION",
       "severity": "medium",
@@ -141,11 +151,11 @@
         "sloc": [
           {
             "file": "light.ads",
-            "line": 9
+            "line": 8
           }
         ]
       },
-      "tracefile": "light.ads_11_14_postcondition.trace",
+      "tracefile": "light.ads_10_14_postcondition.trace",
       "cntexmp": {
         "light.adb": {
           "7": [
@@ -155,7 +165,7 @@
               "kind": "variable"
             }
           ],
-          "28": [
+          "34": [
             {
               "name": "getState'Result",
               "value": "2",
@@ -164,7 +174,7 @@
           ]
         },
         "light.ads": {
-          "11": [
+          "10": [
             {
               "name": "getState'Result",
               "value": "2",
@@ -175,6 +185,77 @@
       },
       "msg_id": 4,
       "how_proved": "prover"
+    },
+    {
+      "file": "light.ads",
+      "line": 18,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Light.Initializes",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 16
+          }
+        ]
+      },
+      "tracefile": "light.ads_18_14_postcondition.trace",
+      "cntexmp": {
+        "light.adb": {
+          "10": [
+            {
+              "name": "ArrayLightState",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ],
+          "26": [
+            {
+              "name": "Initializes'Result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "light.ads": {
+          "18": [
+            {
+              "name": "Initializes'Result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 5,
+      "how_proved": "prover"
+    },
+    {
+      "file": "light.ads",
+      "line": 29,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Light.turn_off",
+        "sloc": [
+          {
+            "file": "light.ads",
+            "line": 26
+          }
+        ]
+      },
+      "msg_id": 6,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
     },
     {
       "file": "light.adb",
@@ -191,7 +272,7 @@
           }
         ]
       },
-      "msg_id": 5,
+      "msg_id": 7,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -203,32 +284,7 @@
     },
     {
       "file": "light.ads",
-      "line": 27,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Light.turn_off",
-        "sloc": [
-          {
-            "file": "light.ads",
-            "line": 24
-          }
-        ]
-      },
-      "msg_id": 6,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "light.ads",
-      "line": 21,
+      "line": 23,
       "col": 14,
       "rule": "VC_POSTCONDITION",
       "severity": "info",
@@ -237,11 +293,11 @@
         "sloc": [
           {
             "file": "light.ads",
-            "line": 18
+            "line": 20
           }
         ]
       },
-      "msg_id": 7,
+      "msg_id": 8,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -257,45 +313,13 @@
       "assumptions": [
       ],
       "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Light.Light_is_On",
-          "sloc": [
-            {
-              "file": "light.ads",
-              "line": 14
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Light.Light_is_On",
-          "sloc": [
-            {
-              "file": "light.ads",
-              "line": 14
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
         "predicate": "CLAIM_POST",
         "arg": {
           "name": "Light.turn_off",
           "sloc": [
             {
               "file": "light.ads",
-              "line": 24
+              "line": 26
             }
           ]
         }
@@ -311,7 +335,39 @@
           "sloc": [
             {
               "file": "light.ads",
-              "line": 24
+              "line": 26
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Light.Light_is_On",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Light.Light_is_On",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 13
             }
           ]
         }
@@ -327,7 +383,23 @@
           "sloc": [
             {
               "file": "light.ads",
-              "line": 18
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Light.turn_On",
+          "sloc": [
+            {
+              "file": "light.ads",
+              "line": 20
             }
           ]
         }
@@ -353,13 +425,13 @@
       "assumptions": [
       ],
       "claim": {
-        "predicate": "CLAIM_AORTE",
+        "predicate": "CLAIM_EFFECTS",
         "arg": {
-          "name": "Light.turn_On",
+          "name": "Light.Initializes",
           "sloc": [
             {
               "file": "light.ads",
-              "line": 18
+              "line": 16
             }
           ]
         }
@@ -375,7 +447,7 @@
           "sloc": [
             {
               "file": "light.ads",
-              "line": 9
+              "line": 8
             }
           ]
         }

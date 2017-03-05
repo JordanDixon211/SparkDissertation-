@@ -3,6 +3,9 @@
 "http://why3.lri.fr/why3session.dtd">
 <why3session shape_version="4">
 <prover id="0" name="CVC4" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
+<prover id="1" name="CVC4_CE" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
+<prover id="2" name="altergo" version="0.99.1" timelimit="0" steplimit="10000" memlimit="0"/>
+<prover id="3" name="Z3" version="4.4.1" timelimit="0" steplimit="150100000" memlimit="0"/>
 <file name="..\light.mlw" expanded="true">
 <theory name="Standard__short_short_integer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -282,6 +285,8 @@
 </theory>
 <theory name="Light__light_is_on" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
+<theory name="Light__initializes" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
 <theory name="Light__turn_on" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Light__turn_off" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
@@ -440,6 +445,8 @@
 </theory>
 <theory name="Light__light_is_on__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
+<theory name="Light__initializes__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
 <theory name="Light__turn_on__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Light__turn_off__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
@@ -463,15 +470,33 @@
  </transf>
  </goal>
 </theory>
-<theory name="Light__getstate__subprogram_def" sum="809124fd2b5495a6cb8f80b974a5b088" expanded="true">
+<theory name="Light__getstate__subprogram_def" sum="fcd76f88f7c83ce7cd8488a361c846b0" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
+  <goal name="WP_parameter def.1" expl="1. postcondition">
+  <proof prover="0"><result status="unknown" time="0.02" steps="320"/></proof>
+  <proof prover="1"><result status="unknown" time="0.03" steps="340"/></proof>
+  <proof prover="2"><result status="unknown" time="0.02"/></proof>
+  <proof prover="3"><result status="unknown" time="0.02"/></proof>
+  </goal>
  </transf>
  </goal>
 </theory>
 <theory name="Light__light_is_on__subprogram_def" sum="78bfdbde407a86eba07d8b74d3859a6f" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
+ </transf>
+ </goal>
+</theory>
+<theory name="Light__initializes__subprogram_def" sum="8e2e4ae7dc7a6391e4e6844ef0c316ad" expanded="true">
+ <goal name="WP_parameter def" expl="VC for def" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
+  <goal name="WP_parameter def.1" expl="1. postcondition">
+  <proof prover="0"><result status="unknown" time="0.03" steps="250"/></proof>
+  <proof prover="1"><result status="unknown" time="0.05" steps="260"/></proof>
+  <proof prover="2"><result status="unknown" time="0.02"/></proof>
+  <proof prover="3"><result status="unknown" time="0.02"/></proof>
+  </goal>
  </transf>
  </goal>
 </theory>

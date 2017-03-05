@@ -285,6 +285,8 @@
 </theory>
 <theory name="Light__light_is_on" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
+<theory name="Light__initializes" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
 <theory name="Light__turn_on" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Light__turn_off" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
@@ -443,6 +445,8 @@
 </theory>
 <theory name="Light__light_is_on__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
+<theory name="Light__initializes__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
 <theory name="Light__turn_on__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Light__turn_off__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
@@ -471,7 +475,7 @@
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
   <proof prover="0"><result status="unknown" time="0.02" steps="320"/></proof>
-  <proof prover="1"><result status="unknown" time="0.02" steps="340"/></proof>
+  <proof prover="1"><result status="unknown" time="0.03" steps="340"/></proof>
   <proof prover="2"><result status="unknown" time="0.02"/></proof>
   <proof prover="3"><result status="unknown" time="0.02"/></proof>
   </goal>
@@ -481,6 +485,18 @@
 <theory name="Light__light_is_on__subprogram_def" sum="78bfdbde407a86eba07d8b74d3859a6f" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
+ </transf>
+ </goal>
+</theory>
+<theory name="Light__initializes__subprogram_def" sum="8e2e4ae7dc7a6391e4e6844ef0c316ad" expanded="true">
+ <goal name="WP_parameter def" expl="VC for def" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
+  <goal name="WP_parameter def.1" expl="1. postcondition">
+  <proof prover="0"><result status="unknown" time="0.03" steps="250"/></proof>
+  <proof prover="1"><result status="unknown" time="0.02" steps="260"/></proof>
+  <proof prover="2"><result status="unknown" time="0.02"/></proof>
+  <proof prover="3"><result status="unknown" time="0.02"/></proof>
+  </goal>
  </transf>
  </goal>
 </theory>

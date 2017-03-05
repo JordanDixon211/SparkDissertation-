@@ -10,18 +10,19 @@ Initialization                    4          4          .          .           .
 Non-Aliasing                      .          .          .          .           .           .          .
 Run-time Checks                   1          .          .          .    1 (CVC4)           .          .
 Assertions                        .          .          .          .           .           .          .
-Functional Contracts              3          .          .          .    2 (CVC4)           .          1
+Functional Contracts              4          .          .          .    2 (CVC4)           .          2
 LSP Verification                  .          .          .          .           .           .          .
 -------------------------------------------------------------------------------------------------------
-Total                             8    4 (50%)          .          .     3 (38%)           .    1 (13%)
+Total                             9    4 (44%)          .          .     3 (33%)           .    2 (22%)
 
 
 Analyzed 2 units
-in unit light, 5 subprograms and packages out of 5 analyzed
+in unit light, 6 subprograms and packages out of 6 analyzed
   Light at light.ads:2 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
-  Light.Light_is_On at light.ads:14 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
-  Light.getState at light.ads:9 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
-  Light.turn_On at light.ads:18 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
-  Light.turn_off at light.ads:24 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Light.Initializes at light.ads:16 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
+  Light.Light_is_On at light.ads:13 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Light.getState at light.ads:8 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
+  Light.turn_On at light.ads:20 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Light.turn_off at light.ads:26 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:3 skipped

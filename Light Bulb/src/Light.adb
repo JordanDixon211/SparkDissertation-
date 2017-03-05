@@ -20,9 +20,14 @@ package body Light
       end if;
    end Light_is_On;
 
+     function Initializes return status_Type
+   is
+   begin
+      return ArrayLightState(1);
+   end Initializes;
+
 
    function getState return status_Type
-
    is
    begin
       return ArrayLightState(pointers);

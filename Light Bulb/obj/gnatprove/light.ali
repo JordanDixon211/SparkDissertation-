@@ -9,45 +9,48 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U light%b		light.adb		a98aac68 OO PK
+U light%b		light.adb		ab354063 OO PK
 W light%s		light.adb		light.ali
 W system%s		system.ads		system.ali
 
-U light%s		light.ads		c9c8b694 EE OO PK
+U light%s		light.ads		1adf0f05 EE OO PK
 
-D light.ads		20170304093528 c9c8b694 light%s
-D light.adb		20170304093504 a98aac68 light%b
+D light.ads		20170304232818 1adf0f05 light%s
+D light.adb		20170304232854 ab354063 light%b
 D system.ads		20160516092930 2da59038 system%s
 X 1 light.ads
-2K9*Light 29l5 29e10 2|2w6 2r17 3b14 44l5 44t10
-4@22*State 10r31 15r31 19r33 25r32 2|5r22
-6E9*status_Type 6e50 9r29 18r39 24r40 2|8r41 24r29 32r38 39r39
-6n25*Lighton{6E9} 11r32 21r23 26r22 2|10r41 35r20
-6n34*Lightoff{6E9} 11r62 20r22 27r23 2|10r54 41r20
+2K9*Light 31l5 31e10 2|2w6 2r17 3b14 50l5 50t10
+4@22*State 9r31 14r31 17r31 21r33 27r32 2|5r22
+6E9*status_Type 6e50 8r29 16r32 20r39 26r40 2|8r41 23r34 30r29 38r38 45r39
+6n25*Lighton{6E9} 10r32 23r23 28r22 2|10r41 41r20
+6n34*Lightoff{6E9} 10r62 18r35 22r22 29r23 2|10r54 47r20
 6n44*Error{6E9}
-9V13*getState{6E9} 11r14 11r44 2|24b13 29l8 29t16
-14V14*Light_is_On{boolean} 2|13b13 21l8 21t19
-18U15*turn_On 18=23 2|32b14 36l8 36t15
-18e23 status{6E9} 20r13 21r14 2|32b22 35m10
-24U15*turn_off 24=24 2|39b14 43l8 43t16
-24e24 status{6E9} 26r13 27r14 2|39b23 41m10
+8V13*getState{6E9} 10r14 10r44 2|30b13 35l8 35t16
+13V14*Light_is_On{boolean} 2|13b13 21l8 21t19
+16V13*Initializes{6E9} 18r14 2|23b15 27l8 27t19
+20U15*turn_On 20=23 2|38b14 42l8 42t15
+20e23 status{6E9} 22r13 23r14 2|38b22 41m10
+26U15*turn_off 26=24 2|45b14 49l8 49t16
+26e24 status{6E9} 28r13 29r14 2|45b23 47m10
 X 2 light.adb
 7I15 Pointer{integer} 8r29 11r18
 8A12 States(1|6E9)<integer> 10r25
-10a7 ArrayLightState{8A12} 5r32 28r14
-11i7 pointers{7I15} 5r50 16r10 28r30 34m10 42m10
+10a7 ArrayLightState{8A12} 5r32 26r14 34r14
+11i7 pointers{7I15} 5r50 16r10 34r30 40m10 48m10
 FD 1 light.ads
 FS .1 2K9 light
-FS .2 9V13 light__getstate
-FS .3 14V14 light__light_is_on
-FS .4 18U15 light__turn_on
-FS .5 24U15 light__turn_off
+FS .2 8V13 light__getstate
+FS .3 13V14 light__light_is_on
+FS .4 16V13 light__initializes
+FS .5 20U15 light__turn_on
+FS .6 26U15 light__turn_off
 FD 2 light.adb
 FS .1 3K14 standard__light -> 1.1
 FS .2 13V13 light__light_is_on -> 1.3
-FS .3 24V13 light__getstate -> 1.2
-FS .4 32U14 light__turn_on -> 1.4
-FS .5 39U14 light__turn_off -> 1.5
+FS .3 23V15 light__initializes -> 1.4
+FS .4 30V13 light__getstate -> 1.2
+FS .5 38U14 light__turn_on -> 1.5
+FS .6 45U14 light__turn_off -> 1.6
 FD 3 system.ads
 FS .1 37K9 system
 FS .2 77V13 system__Olt
@@ -55,25 +58,27 @@ FS .3 78V13 system__Ole
 FS .4 79V13 system__Ogt
 FS .5 80V13 system__Oge
 FS .6 81V13 system__Oeq
-FX 1 light.ads .4 light__turn_on
-F 18=23 light__turn_on__status 20r13 21r14 2|.4:35m10
-FX 1 light.ads .5 light__turn_off
-F 24=24 light__turn_off__status 26r13 27r14 2|.5:41m10
+FX 1 light.ads .5 light__turn_on
+F 20=23 light__turn_on__status 22r13 23r14 2|.5:41m10
+FX 1 light.ads .6 light__turn_off
+F 26=24 light__turn_off__status 28r13 29r14 2|.6:47m10
 FX 2 light.adb .1 standard__light
-F 10*7 light__arraylightstate 5r32 .3:28r14
-F 11*7 light__pointers 5r50 .2:16r10 .3:28r30 .4:34m10 .5:42m10
+F 10*7 light__arraylightstate 5r32 .3:26r14 .4:34r14
+F 11*7 light__pointers 5r50 .2:16r10 .4:34r30 .5:40m10 .6:48m10
 
 GG EK_STATE_MAP light__state [ light__arraylightstate light__pointers ]
 GG EK_REMOTE_STATES c:RS [ light__state ]
-GG EK_GLOBALS light KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ light__arraylightstate light__pointers light__state ] c:local_sub [ light__light_is_on light__turn_on light__turn_off light__getstate ] c:local_init [ light__arraylightstate light__pointers ]
-GG EK_GLOBALS light__light_is_on KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__pointers ]
+GG EK_GLOBALS light KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ light__arraylightstate light__pointers light__state ] c:local_sub [ light__light_is_on light__turn_on light__turn_off light__getstate light__initializes ] c:local_init [ light__arraylightstate light__pointers ]
 GG EK_GLOBALS light__turn_off KIND_SUBPROGRAM ORIGIN_FLOW c:var_out [ light__pointers ] c:local_var [ light__turn_off__status ]
 GG EK_GLOBALS light__turn_on KIND_SUBPROGRAM ORIGIN_FLOW c:var_out [ light__pointers ] c:local_var [ light__turn_on__status ]
+GG EK_GLOBALS light__light_is_on KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__pointers ]
+GG EK_GLOBALS light__initializes KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__arraylightstate ]
 GG EK_GLOBALS light__getstate KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__arraylightstate light__pointers ]
 GG EK_VOLATILES
-GG EK_TASKING_NONBLOCKING [ light__light_is_on light__turn_on light__turn_off light__getstate ]
+GG EK_TASKING_NONBLOCKING [ light__light_is_on light__turn_on light__turn_off light__getstate light__initializes ]
 GG EK_TASKING_INFO light__light_is_on c:UNSYNCH_ACCESSES [ light__pointers ]
 GG EK_TASKING_INFO light__turn_on c:UNSYNCH_ACCESSES [ light__pointers ]
 GG EK_TASKING_INFO light__turn_off c:UNSYNCH_ACCESSES [ light__pointers ]
 GG EK_TASKING_INFO light__getstate c:UNSYNCH_ACCESSES [ light__arraylightstate light__pointers ]
+GG EK_TASKING_INFO light__initializes c:UNSYNCH_ACCESSES [ light__arraylightstate ]
 GG EK_END_MARKER
