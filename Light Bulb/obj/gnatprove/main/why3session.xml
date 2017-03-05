@@ -2,11 +2,11 @@
 <!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
 "http://why3.lri.fr/why3session.dtd">
 <why3session shape_version="4">
-<prover id="0" name="CVC4" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
-<prover id="1" name="CVC4_CE" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
-<prover id="2" name="altergo" version="0.99.1" timelimit="0" steplimit="10000" memlimit="0"/>
-<prover id="3" name="Z3" version="4.4.1" timelimit="0" steplimit="150100000" memlimit="0"/>
-<file name="..\light.mlw" expanded="true">
+<prover id="0" name="CVC4_CE" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
+<prover id="1" name="altergo" version="0.99.1" timelimit="0" steplimit="10000" memlimit="0"/>
+<prover id="2" name="Z3" version="4.4.1" timelimit="0" steplimit="150100000" memlimit="0"/>
+<prover id="3" name="CVC4" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
+<file name="..\main.mlw" expanded="true">
 <theory name="Standard__short_short_integer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Standard__short_integer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
@@ -60,6 +60,16 @@
 <theory name="Standard__universal_integer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Standard__universal_real" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__status_type" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__pointer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Array__Int__Light__status_type" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__TstatesB" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__states" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Ada__streams__root_stream_type" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -1503,21 +1513,127 @@
 </theory>
 <theory name="Ada__integer_text_io__put__3__base__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__status_type" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__space" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__TpointerB" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__wide_space" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__pointer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__wide_wide_space" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Array__Int__Light__status_type" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__alignment" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__TstatesB" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__truncation" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__states" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__membership" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T1b" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__direction" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T2b" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__trim_end" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit__file" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit__file__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit__from" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit__from__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__file" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__file__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__width" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__width__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__set" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__put__set__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__puts__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__puts__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__puts__set" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__text_io__enumeration_aux__puts__set__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__enum" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__file" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__file__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__file" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__file__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__width" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__width__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__set" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__set__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2__width" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2__width__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2__set" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2__set__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__from" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__from__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3__set" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3__set__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__index" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__TstringuserB" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__stringuser" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__T3b" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__state" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__state__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate__success" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate__success__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate__state2" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate__state2__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_on__status" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_on__status__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_off__status" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_off__status__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Ada__streams__read__stream" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -1723,25 +1839,69 @@
 </theory>
 <theory name="Ada__integer_text_io__put__3__to__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__state" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit__buf" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__state__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit__buf__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate__success" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit__buflen" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate__success__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit__buflen__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate__stateoflight" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit__start" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate__stateoflight__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit__start__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_on__status" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit__stop" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_on__status__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit__stop__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_off__status" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__puts__to" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_off__status__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__puts__to__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__default_width" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__default_width__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__default_setting" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__default_setting__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__2__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__2__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__item" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__item__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__last" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__last__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3__to" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3__to__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__lightstate" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__lightstate__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__usertext" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__usertext__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate__temp" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate__temp__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__start" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__start__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Light__arraylightstate" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -1751,9 +1911,13 @@
 </theory>
 <theory name="Light__pointers__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate__temp" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Main__statusio__get__buf" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate__temp__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Main__statusio__get__buf__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__buflen" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__buflen__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Standard__short_short_integer__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -1802,6 +1966,16 @@
 <theory name="Standard__universal_integer__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Standard__universal_real__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__light_is_on" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__initializes" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_on" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_off" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Ada__streams__read" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -1981,13 +2155,39 @@
 </theory>
 <theory name="Ada__integer_text_io__put__3" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__initializes" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_on" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__put" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_off" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__puts" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__2" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__L_1" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__L_1__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__status_type__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__pointer__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__TstatesB__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__states__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Ada__streams__root_stream_type__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -2171,21 +2371,27 @@
 </theory>
 <theory name="Ada__integer_text_io__num__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__status_type__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__alignment__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__TpointerB__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__truncation__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__pointer__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__membership__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__TstatesB__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__direction__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__states__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__strings__trim_end__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T1b__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Main__statusio__enum__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T2b__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Main__index__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__arraylightstate__aggregate_def" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Main__TstringuserB__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__stringuser__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__T3b__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Temp___599" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="System__system_name__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -2350,6 +2556,22 @@
 <theory name="Ada__text_io__lm__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Ada__text_io__pm__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__strings__space__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__strings__wide_space__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Ada__strings__wide_wide_space__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__getstate__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__light_is_on__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__initializes__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_on__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__turn_off__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Ada__streams__read__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -2659,83 +2881,85 @@
 </theory>
 <theory name="Ada__integer_text_io__put__3__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__getstate__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__get_enum_lit__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__initializes__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__scan_enum_lit__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_on__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__put__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__turn_off__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Ada__text_io__enumeration_aux__puts__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__package_def" sum="b80261ace779e49245023a89ca1e2b19" expanded="true">
+<theory name="Main__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__2__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__2__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__get__3__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__statusio__put__3__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Main__subprogram_def" sum="b97a43f515db1b29c871bbdd1e10c2db" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. assertion">
-  <proof prover="0"><result status="valid" time="0.03" steps="0"/></proof>
-  </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Light__getstate__subprogram_def" sum="359d7389f87879ffddcc942ffdd08bde" expanded="true">
- <goal name="WP_parameter def" expl="VC for def" expanded="true">
- <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0"><result status="unknown" time="0.03" steps="340"/></proof>
-  <proof prover="1" obsolete="true"><result status="unknown" time="0.02" steps="270"/></proof>
-  <proof prover="2"><result status="unknown" time="0.03"/></proof>
-  <proof prover="3"><result status="unknown" time="0.02"/></proof>
-  <transf name="split_conj" expanded="true">
-   <goal name="WP_parameter def.1.1" expl="1. postcondition">
-   <proof prover="0"><result status="unknown" time="0.02" steps="340"/></proof>
-   <proof prover="2"><result status="unknown" time="0.02"/></proof>
-   <proof prover="3"><result status="unknown" time="0.02"/></proof>
-   <transf name="split_disj" expanded="true">
-    <goal name="WP_parameter def.1.1.1" expl="1. postcondition">
-    <proof prover="0"><result status="unknown" time="0.02" steps="340"/></proof>
-    <proof prover="1"><result status="unknown" time="0.02" steps="350"/></proof>
-    <proof prover="2"><result status="unknown" time="0.03"/></proof>
-    <proof prover="3"><result status="unknown" time="0.02"/></proof>
-    </goal>
-    <goal name="WP_parameter def.1.1.2" expl="2. postcondition">
-    <proof prover="0"><result status="valid" time="0.03" steps="0"/></proof>
-    </goal>
-   </transf>
-   </goal>
-   <goal name="WP_parameter def.1.2" expl="2. postcondition">
-   <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
-   </goal>
-  </transf>
-  </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Light__initializes__subprogram_def" sum="a40d4e1f24cd4ec0165030f4d361f24f" expanded="true">
- <goal name="WP_parameter def" expl="VC for def" expanded="true">
- <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0"><result status="unknown" time="0.03" steps="300"/></proof>
-  <proof prover="1"><result status="unknown" time="0.03" steps="310"/></proof>
+  <goal name="WP_parameter def.1" expl="1. precondition">
+  <proof prover="0"><result status="unknown" time="0.03" steps="220"/></proof>
+  <proof prover="1"><result status="unknown" time="0.02"/></proof>
   <proof prover="2"><result status="unknown" time="0.02"/></proof>
-  <proof prover="3"><result status="unknown" time="0.02"/></proof>
+  <proof prover="3"><result status="unknown" time="0.03" steps="230"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="2. precondition">
+  <proof prover="0"><result status="unknown" time="0.03" steps="230"/></proof>
+  <proof prover="1"><result status="unknown" time="0.02"/></proof>
+  <proof prover="2"><result status="unknown" time="0.02"/></proof>
+  <proof prover="3"><result status="unknown" time="0.03" steps="240"/></proof>
   </goal>
  </transf>
  </goal>
 </theory>
-<theory name="Light__turn_on__subprogram_def" sum="3bb7a1f290fcef01a33d56ebbb103d96" expanded="true">
+<theory name="Main__statusio__package_def" sum="89e8be401cb3dcf1e8032162e97c8886" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
-  </goal>
  </transf>
  </goal>
 </theory>
-<theory name="Light__turn_off__subprogram_def" sum="2ad2eefeca7043bd82a9229b27f3d08e" expanded="true">
+<theory name="Main__statusio__get__subprogram_def" sum="49a8edba631a7b37459a7965994d0e3c" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
-  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Main__statusio__get__2__subprogram_def" sum="9bab123305d08176610b95d61b0f5512" expanded="true">
+ <goal name="WP_parameter def" expl="VC for def" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
+ </transf>
+ </goal>
+</theory>
+<theory name="Main__statusio__put__subprogram_def" sum="fd94d943153bf9b98a59e0a25cc07944" expanded="true">
+ <goal name="WP_parameter def" expl="VC for def" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
+ </transf>
+ </goal>
+</theory>
+<theory name="Main__statusio__put__2__subprogram_def" sum="96f792a6be7bacc5cd3a39d51ba3ab01" expanded="true">
+ <goal name="WP_parameter def" expl="VC for def" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
+ </transf>
+ </goal>
+</theory>
+<theory name="Main__statusio__get__3__subprogram_def" sum="7d8b0b848ae477f08811304570728a01" expanded="true">
+ <goal name="WP_parameter def" expl="VC for def" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
+ </transf>
+ </goal>
+</theory>
+<theory name="Main__statusio__put__3__subprogram_def" sum="3e3d105a1e9e8580a82b2a0c9be7ef1d" expanded="true">
+ <goal name="WP_parameter def" expl="VC for def" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
  </transf>
  </goal>
 </theory>

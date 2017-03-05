@@ -4,81 +4,318 @@ P GP ZX
 
 RN
 RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U light%b		light.adb		ab354063 OO PK
+U light%b		light.adb		62078ea1 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
 W light%s		light.adb		light.ali
 W system%s		system.ads		system.ali
 
-U light%s		light.ads		1adf0f05 EE OO PK
+U light%s		light.ads		6e05724f EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 
-D light.ads		20170304232818 1adf0f05 light%s
-D light.adb		20170304232854 ab354063 light%b
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D light.ads		20170305064624 984efbeb light%s
+D light.adb		20170305061420 5a6a7b75 light%b
 D system.ads		20160516092930 2da59038 system%s
-X 1 light.ads
-2K9*Light 31l5 31e10 2|2w6 2r17 3b14 50l5 50t10
-4@22*State 9r31 14r31 17r31 21r33 27r32 2|5r22
-6E9*status_Type 6e50 8r29 16r32 20r39 26r40 2|8r41 23r34 30r29 38r38 45r39
-6n25*Lighton{6E9} 10r32 23r23 28r22 2|10r41 41r20
-6n34*Lightoff{6E9} 10r62 18r35 22r22 29r23 2|10r54 47r20
-6n44*Error{6E9}
-8V13*getState{6E9} 10r14 10r44 2|30b13 35l8 35t16
-13V14*Light_is_On{boolean} 2|13b13 21l8 21t19
-16V13*Initializes{6E9} 18r14 2|23b15 27l8 27t19
-20U15*turn_On 20=23 2|38b14 42l8 42t15
-20e23 status{6E9} 22r13 23r14 2|38b22 41m10
-26U15*turn_off 26=24 2|45b14 49l8 49t16
-26e24 status{6E9} 28r13 29r14 2|45b23 47m10
-X 2 light.adb
-7I15 Pointer{integer} 8r29 11r18
-8A12 States(1|6E9)<integer> 10r25
-10a7 ArrayLightState{8A12} 5r32 26r14 34r14
-11i7 pointers{7I15} 5r50 16r10 34r30 40m10 48m10
-FD 1 light.ads
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 9|1r6 10|2r6
+X 2 a-inteio.ads
+18K13*Integer_Text_IO[6|46] 9|1w10
+X 5 a-textio.ads
+49K13*Text_IO 471e16 10|2w10
+X 9 light.ads
+2K9*Light 38l5 38e10 10|1w6 1r17 3b14 47l5 47t10
+5@22*State 13r31 21r31 26r33 33r32 10|6r22
+7E9*status_Type 7e60 9r38 12r66 20r32 25r39 32r40 10|14r34 21r66 23r11 35r38
+. 42r39
+7n25*Lighton{7E9} 14r47 14r133 15r38 22r68 28r23 34r22 10|9r41 38r20
+7n34*Lightoff{7E9} 14r75 14r104 15r65 22r35 27r22 35r23 10|9r54 44r20
+7n44*Error{7E9} 10|27r26
+7n51*Complete{7E9}
+8I9*Pointer<short_short_integer> 9r26 10|10r18
+9A9*States(7E9)<8I9> 10|9r25
+12U14*getState 12<23 12<47 10|21b14 32l8 32t16
+12b23 success{boolean} 14r18 10|21b23 26m10 30m7
+12e47 stateOfLight{7E9} 14r32 14r59 14r89 14r117 15r22 15r49 10|21b47 27m10
+. 29m7
+20V13*Initializes{7E9} 22r14 22r47 10|14b15 18l8 18t19
+25U15*turn_On 25=23 10|35b14 39l8 39t15
+25e23 status{7E9} 27r13 28r14 10|35b22 38m10
+32U15*turn_off 32=24 10|42b14 46l8 46t16
+32e24 status{7E9} 34r13 35r14 10|42b23 44m10
+X 10 light.adb
+9a7 ArrayLightState{9|9A9} 6r32 17r14 23r26
+10i7 pointers{9|8I9} 6r50 23r42 25r10 25r26 37m10 45m10
+23e4 temp{9|7E9} 29r23
+FD 1 ada.ads
+FS .1 16K9 ada
+FD 2 a-inteio.ads
+FS .1 18K13 ada__integer_text_io
+FS .2 51U14 ada__integer_text_io__get
+FS .3 56U14 ada__integer_text_io__get__2
+FS .4 60U14 ada__integer_text_io__put
+FS .5 66U14 ada__integer_text_io__put__2
+FS .6 71U14 ada__integer_text_io__get__3
+FS .7 76U14 ada__integer_text_io__put__3
+FD 3 a-ioexce.ads
+FS .1 18K13 ada__io_exceptions
+FD 4 a-stream.ads
+FS .1 36K13 ada__streams
+FS .2 76U14 ada__streams__read_sea
+FS .3 80U14 ada__streams__write_sea
+FS .4 84U4 ada__streams__stream_element_arraySR
+FS .5 85U4 ada__streams__stream_element_arraySW
+FS .6 84U4 ada__streams__stream_element_arraySR -> 4.4
+FS .7 85U4 ada__streams__stream_element_arraySW -> 4.5
+FD 5 a-textio.ads
+FS .1 49K13 ada__text_io
+FS .2 86U14 ada__text_io__create
+FS .3 92U14 ada__text_io__open
+FS .4 98U14 ada__text_io__close
+FS .5 99U14 ada__text_io__delete
+FS .6 100U14 ada__text_io__reset
+FS .7 101U14 ada__text_io__reset__2
+FS .8 103V13 ada__text_io__mode
+FS .9 104V13 ada__text_io__name
+FS .10 105V13 ada__text_io__form
+FS .11 107V13 ada__text_io__is_open
+FS .12 113U14 ada__text_io__set_input
+FS .13 114U14 ada__text_io__set_output
+FS .14 115U14 ada__text_io__set_error
+FS .15 117V13 ada__text_io__standard_input
+FS .16 118V13 ada__text_io__standard_output
+FS .17 119V13 ada__text_io__standard_error
+FS .18 121V13 ada__text_io__current_input
+FS .19 122V13 ada__text_io__current_output
+FS .20 123V13 ada__text_io__current_error
+FS .21 127V13 ada__text_io__standard_input__2
+FS .22 128V13 ada__text_io__standard_output__2
+FS .23 129V13 ada__text_io__standard_error__2
+FS .24 131V13 ada__text_io__current_input__2
+FS .25 132V13 ada__text_io__current_output__2
+FS .26 133V13 ada__text_io__current_error__2
+FS .27 142U14 ada__text_io__flush
+FS .28 143U14 ada__text_io__flush__2
+FS .29 149U14 ada__text_io__set_line_length
+FS .30 150U14 ada__text_io__set_line_length__2
+FS .31 152U14 ada__text_io__set_page_length
+FS .32 153U14 ada__text_io__set_page_length__2
+FS .33 155V13 ada__text_io__line_length
+FS .34 156V13 ada__text_io__line_length__2
+FS .35 158V13 ada__text_io__page_length
+FS .36 159V13 ada__text_io__page_length__2
+FS .37 165U14 ada__text_io__new_line
+FS .38 166U14 ada__text_io__new_line__2
+FS .39 168U14 ada__text_io__skip_line
+FS .40 169U14 ada__text_io__skip_line__2
+FS .41 171V13 ada__text_io__end_of_line
+FS .42 172V13 ada__text_io__end_of_line__2
+FS .43 174U14 ada__text_io__new_page
+FS .44 175U14 ada__text_io__new_page__2
+FS .45 177U14 ada__text_io__skip_page
+FS .46 178U14 ada__text_io__skip_page__2
+FS .47 180V13 ada__text_io__end_of_page
+FS .48 181V13 ada__text_io__end_of_page__2
+FS .49 183V13 ada__text_io__end_of_file
+FS .50 184V13 ada__text_io__end_of_file__2
+FS .51 186U14 ada__text_io__set_col
+FS .52 187U14 ada__text_io__set_col__2
+FS .53 189U14 ada__text_io__set_line
+FS .54 190U14 ada__text_io__set_line__2
+FS .55 192V13 ada__text_io__col
+FS .56 193V13 ada__text_io__col__2
+FS .57 195V13 ada__text_io__line
+FS .58 196V13 ada__text_io__line__2
+FS .59 198V13 ada__text_io__page
+FS .60 199V13 ada__text_io__page__2
+FS .61 205U14 ada__text_io__get
+FS .62 206U14 ada__text_io__get__2
+FS .63 207U14 ada__text_io__put
+FS .64 208U14 ada__text_io__put__2
+FS .65 210U14 ada__text_io__look_ahead
+FS .66 215U14 ada__text_io__look_ahead__2
+FS .67 219U14 ada__text_io__get_immediate
+FS .68 223U14 ada__text_io__get_immediate__2
+FS .69 226U14 ada__text_io__get_immediate__3
+FS .70 231U14 ada__text_io__get_immediate__4
+FS .71 239U14 ada__text_io__get__3
+FS .72 240U14 ada__text_io__get__4
+FS .73 241U14 ada__text_io__put__3
+FS .74 242U14 ada__text_io__put__4
+FS .75 244U14 ada__text_io__get_line
+FS .76 249U14 ada__text_io__get_line__2
+FS .77 253V13 ada__text_io__get_line__3
+FS .78 256V13 ada__text_io__get_line__4
+FS .79 259U14 ada__text_io__put_line
+FS .80 263U14 ada__text_io__put_line__2
+FS .81 426V13 ada__text_io__afcb_allocate__2
+FS .82 428U14 ada__text_io__afcb_close__2
+FS .83 429U14 ada__text_io__afcb_free__2
+FS .84 431U14 ada__text_io__read__2
+FS .85 437U14 ada__text_io__write__2
+FS .86 460V13 ada__text_io__eof_char
+FS .87 466U14 ada__text_io__initialize_standard_files
+FD 6 a-tiinio.ads
+FD 7 interfac.ads
+FS .1 38K9 interfaces
+FS .2 81V13 interfaces__shift_left
+FS .3 85V13 interfaces__shift_right
+FS .4 89V13 interfaces__shift_right_arithmetic
+FS .5 93V13 interfaces__rotate_left
+FS .6 97V13 interfaces__rotate_right
+FS .7 101V13 interfaces__shift_left__2
+FS .8 105V13 interfaces__shift_right__2
+FS .9 109V13 interfaces__shift_right_arithmetic__2
+FS .10 113V13 interfaces__rotate_left__2
+FS .11 117V13 interfaces__rotate_right__2
+FS .12 121V13 interfaces__shift_left__3
+FS .13 125V13 interfaces__shift_right__3
+FS .14 129V13 interfaces__shift_right_arithmetic__3
+FS .15 133V13 interfaces__rotate_left__3
+FS .16 137V13 interfaces__rotate_right__3
+FS .17 141V13 interfaces__shift_left__4
+FS .18 145V13 interfaces__shift_right__4
+FS .19 149V13 interfaces__shift_right_arithmetic__4
+FS .20 153V13 interfaces__rotate_left__4
+FS .21 157V13 interfaces__rotate_right__4
+FD 8 i-cstrea.ads
+FS .1 37K20 interfaces__c_streams
+FS .2 72V13 interfaces__c_streams__stdin
+FS .3 73V13 interfaces__c_streams__stdout
+FS .4 74V13 interfaces__c_streams__stderr
+FS .5 95V13 interfaces__c_streams__feof
+FS .6 97V13 interfaces__c_streams__ferror
+FS .7 106V13 interfaces__c_streams__fileno
+FS .8 128V13 interfaces__c_streams__fread
+FS .9 134V13 interfaces__c_streams__fread__2
+FS .10 171V13 interfaces__c_streams__fwrite
+FS .11 184V13 interfaces__c_streams__setvbuf
+FS .12 212V13 interfaces__c_streams__file_exists
+FS .13 215V13 interfaces__c_streams__is_regular_file
+FS .14 223U14 interfaces__c_streams__set_binary_mode
+FS .15 224U14 interfaces__c_streams__set_text_mode
+FS .16 254U14 interfaces__c_streams__set_mode
+FS .17 262U14 interfaces__c_streams__full_name
+FD 9 light.ads
 FS .1 2K9 light
-FS .2 8V13 light__getstate
-FS .3 13V14 light__light_is_on
-FS .4 16V13 light__initializes
-FS .5 20U15 light__turn_on
-FS .6 26U15 light__turn_off
-FD 2 light.adb
-FS .1 3K14 standard__light -> 1.1
-FS .2 13V13 light__light_is_on -> 1.3
-FS .3 23V15 light__initializes -> 1.4
-FS .4 30V13 light__getstate -> 1.2
-FS .5 38U14 light__turn_on -> 1.5
-FS .6 45U14 light__turn_off -> 1.6
-FD 3 system.ads
+FS .2 12U14 light__getstate
+FS .3 20V13 light__initializes
+FS .4 25U15 light__turn_on
+FS .5 32U15 light__turn_off
+FD 10 light.adb
+FS .1 3K14 standard__light -> 9.1
+FS .2 14V15 light__initializes -> 9.3
+FS .3 21U14 light__getstate -> 9.2
+FS .4 35U14 light__turn_on -> 9.4
+FS .5 42U14 light__turn_off -> 9.5
+FD 11 system.ads
 FS .1 37K9 system
 FS .2 77V13 system__Olt
 FS .3 78V13 system__Ole
 FS .4 79V13 system__Ogt
 FS .5 80V13 system__Oge
 FS .6 81V13 system__Oeq
-FX 1 light.ads .5 light__turn_on
-F 20=23 light__turn_on__status 22r13 23r14 2|.5:41m10
-FX 1 light.ads .6 light__turn_off
-F 26=24 light__turn_off__status 28r13 29r14 2|.6:47m10
-FX 2 light.adb .1 standard__light
-F 10*7 light__arraylightstate 5r32 .3:26r14 .4:34r14
-F 11*7 light__pointers 5r50 .2:16r10 .4:34r30 .5:40m10 .6:48m10
+FD 12 s-crtl.ads
+FS .1 38K16 system__crtl
+FS .2 85V13 system__crtl__strlen
+FS .3 88U14 system__crtl__strncpy
+FS .4 95V13 system__crtl__atoi
+FS .5 98U14 system__crtl__clearerr
+FS .6 101V13 system__crtl__dup
+FS .7 104V13 system__crtl__dup2
+FS .8 107V13 system__crtl__fclose
+FS .9 110V13 system__crtl__fdopen
+FS .10 113V13 system__crtl__fflush
+FS .11 116V13 system__crtl__fgetc
+FS .12 119V13 system__crtl__fgets
+FS .13 122V13 system__crtl__fopen
+FS .14 128V13 system__crtl__fputc
+FS .15 131V13 system__crtl__fputwc
+FS .16 134V13 system__crtl__fputs
+FS .17 137U14 system__crtl__free
+FS .18 140V13 system__crtl__freopen
+FS .19 147V13 system__crtl__fseek
+FS .20 153V13 system__crtl__fseek64
+FS .21 159V13 system__crtl__ftell
+FS .22 162V13 system__crtl__ftell64
+FS .23 165V13 system__crtl__getenv
+FS .24 168V13 system__crtl__isatty
+FS .25 171V13 system__crtl__lseek
+FS .26 174V13 system__crtl__malloc
+FS .27 177U14 system__crtl__memcpy
+FS .28 180U14 system__crtl__memmove
+FS .29 183U14 system__crtl__mktemp
+FS .30 186V13 system__crtl__pclose
+FS .31 189V13 system__crtl__popen
+FS .32 192V13 system__crtl__realloc
+FS .33 196U14 system__crtl__rewind
+FS .34 199V13 system__crtl__rmdir
+FS .35 202V13 system__crtl__chdir
+FS .36 205V13 system__crtl__mkdir
+FS .37 210V13 system__crtl__setvbuf
+FS .38 217U14 system__crtl__tmpnam
+FS .39 220V13 system__crtl__tmpfile
+FS .40 223V13 system__crtl__ungetc
+FS .41 226V13 system__crtl__unlink
+FS .42 229V13 system__crtl__open
+FS .43 232V13 system__crtl__close
+FS .44 235V13 system__crtl__read
+FS .45 238V13 system__crtl__write
+FD 13 s-ficobl.ads
+FS .1 42K16 system__file_control_block
+FD 14 s-parame.ads
+FS .1 51K16 system__parameters
+FS .2 81V13 system__parameters__default_stack_size
+FS .3 84V13 system__parameters__minimum_stack_size
+FS .4 87V13 system__parameters__adjust_storage_size
+FD 15 s-wchcon.ads
+FS .1 41K16 system__wch_con
+FS .2 203V13 system__wch_con__get_wc_encoding_method
+FS .3 207V13 system__wch_con__get_wc_encoding_method__2
+FS .4 212V13 system__wch_con__is_start_of_encoding
+FX 9 light.ads .2 light__getstate
+F 12<23 light__getstate__success 14r18 10|.3:26m10 30m7
+F 12<47 light__getstate__stateoflight 14r32 14r59 14r89 14r117 15r22 15r49
+. 10|.3:27m10 29m7
+FX 9 light.ads .4 light__turn_on
+F 25=23 light__turn_on__status 27r13 28r14 10|.4:38m10
+FX 9 light.ads .5 light__turn_off
+F 32=24 light__turn_off__status 34r13 35r14 10|.5:44m10
+FX 10 light.adb .1 standard__light
+F 9*7 light__arraylightstate 6r32 .2:17r14 .3:23r26
+F 10*7 light__pointers 6r50 .3:23r42 25r10 25r26 .4:37m10 .5:45m10
+FX 10 light.adb .3 light__getstate
+F 23*4 light__getstate__temp 29r23
 
 GG EK_STATE_MAP light__state [ light__arraylightstate light__pointers ]
 GG EK_REMOTE_STATES c:RS [ light__state ]
-GG EK_GLOBALS light KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ light__arraylightstate light__pointers light__state ] c:local_sub [ light__light_is_on light__turn_on light__turn_off light__getstate light__initializes ] c:local_init [ light__arraylightstate light__pointers ]
-GG EK_GLOBALS light__turn_off KIND_SUBPROGRAM ORIGIN_FLOW c:var_out [ light__pointers ] c:local_var [ light__turn_off__status ]
+GG EK_GLOBALS light KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ light__arraylightstate light__pointers light__state ] c:local_sub [ light__initializes light__getstate light__turn_on light__turn_off ] c:local_init [ light__arraylightstate light__pointers ]
 GG EK_GLOBALS light__turn_on KIND_SUBPROGRAM ORIGIN_FLOW c:var_out [ light__pointers ] c:local_var [ light__turn_on__status ]
-GG EK_GLOBALS light__light_is_on KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__pointers ]
+GG EK_GLOBALS light__getstate KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__arraylightstate light__pointers ] c:local_var [ light__getstate__success light__getstate__stateoflight light__getstate__temp ] c:local_init [ light__getstate__success light__getstate__stateoflight light__getstate__temp ]
 GG EK_GLOBALS light__initializes KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__arraylightstate ]
-GG EK_GLOBALS light__getstate KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__arraylightstate light__pointers ]
+GG EK_GLOBALS light__turn_off KIND_SUBPROGRAM ORIGIN_FLOW c:var_out [ light__pointers ] c:local_var [ light__turn_off__status ]
 GG EK_VOLATILES
-GG EK_TASKING_NONBLOCKING [ light__light_is_on light__turn_on light__turn_off light__getstate light__initializes ]
-GG EK_TASKING_INFO light__light_is_on c:UNSYNCH_ACCESSES [ light__pointers ]
+GG EK_TASKING_NONBLOCKING [ light__initializes light__getstate light__turn_on light__turn_off ]
+GG EK_TASKING_INFO light__initializes c:UNSYNCH_ACCESSES [ light__arraylightstate ]
+GG EK_TASKING_INFO light__getstate c:UNSYNCH_ACCESSES [ light__arraylightstate light__pointers ]
 GG EK_TASKING_INFO light__turn_on c:UNSYNCH_ACCESSES [ light__pointers ]
 GG EK_TASKING_INFO light__turn_off c:UNSYNCH_ACCESSES [ light__pointers ]
-GG EK_TASKING_INFO light__getstate c:UNSYNCH_ACCESSES [ light__arraylightstate light__pointers ]
-GG EK_TASKING_INFO light__initializes c:UNSYNCH_ACCESSES [ light__arraylightstate ]
 GG EK_END_MARKER

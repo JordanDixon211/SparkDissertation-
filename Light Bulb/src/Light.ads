@@ -1,21 +1,26 @@
-pragma SPARK_Mode(On);
+with Ada.Integer_Text_IO;
 package Light
-  with
+with
+   SPARK_Mode => on,
    Abstract_State => State
    is
-   type status_Type is (Lighton, Lightoff, Error);
+   type status_Type is (Lighton, Lightoff, Error, Complete);
+   type Pointer is  range 0 .. 1;
+   type States is array (Pointer) of status_Type;
 
-   function getState return status_Type
+
+   procedure getState(success : out Boolean ; stateOfLight : out status_Type)
      with Global => (Input => State),
-     post => getState'Result = Lighton or  getState'Result = Lightoff;
+     post => (if success then (stateOfLight = Lighton and stateOfLight /= Lightoff) or (stateOfLight = Lightoff and stateOfLight /= Lighton)
+                else stateOfLight /= Lighton or stateOfLight /= Lightoff);
 
 
-   function  Light_is_On return Boolean
-     with Global => (Input => State);
+
 
    function Initializes return status_Type
      with Global => (Input => State),
-     post => Initializes'Result = Lightoff;
+     post => Initializes'Result = Lightoff or Initializes'Result = Lighton;
+
 
    procedure  turn_On(status : in out status_Type)
      with Global => (in_Out =>  State),
@@ -23,9 +28,11 @@ package Light
      post => status = Lighton;
 
 
+
    procedure  turn_off(status :in  out status_Type)
      with Global => (in_Out => State),
      pre => status = Lighton,
      post => status = Lightoff;
+
 
 end Light;

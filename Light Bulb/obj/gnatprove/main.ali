@@ -4,13 +4,22 @@ A -gnatc
 P GP ZX
 
 RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U main%b		main.adb		7f67512a OO SU
+U main%b		main.adb		27e54b6a OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W ada.text_io.enumeration_io%s  a-tienio.adb	a-tienio.ali
 W light%s		light.adb		light.ali
 W system%s		system.ads		system.ali
 
@@ -18,25 +27,87 @@ D ada.ads		20160516092928 3ffc8e18 ada%s
 D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
 D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
 D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tienau.ads		20160516092928 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20160516092928 fc618ae6 ada.text_io.enumeration_io%s
+D a-tienio.adb		20160516092930 c9e6b5af ada.text_io.enumeration_io%b
 D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D light.ads		20170304232818 1adf0f05 light%s
-D main.adb		20170226224706 93f3d78b main%b
+D light.ads		20170305064624 984efbeb light%s
+D main.adb		20170305060656 e121ab66 main%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
 D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
 D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 10|2r6 2r31
+16K9*Ada 19e8 14|2r6 2r31 3r6 4r6 7r28 16r4
 X 2 a-inteio.ads
-18K13*Integer_Text_IO[6|46] 10|2w10 2r35
-X 9 light.ads
-2K9*Light 31e10 10|1w6 1r17
-X 10 main.adb
-3U11*Main 3b11 7l5 7t9
+18K13*Integer_Text_IO[10|46] 14|2w10 2r35
+X 5 a-string.ads
+16K13*Strings 35e16 14|3w10
+X 6 a-textio.ads
+49K13*Text_IO 471e16 14|4w10 7r32 16r8
+52P9*File_Type
+73I12*Field{integer}
+242U14*Put 14|16s16
+455p4 Current_In{52P9} 14|63r12
+456p4 Current_Out{52P9} 14|116r12
+X 7 a-tienau.ads
+35K29*Enumeration_Aux 69e32 14|36r36
+37U14*Get_Enum_Lit 14|47s11
+46U14*Scan_Enum_Lit 14|74s11
+54U14*Put 14|107s11
+62U14*Puts 14|134s11
+X 8 a-tienio.ads
+26k21*Enumeration_IO 55e31 14|7r40
+X 13 light.ads
+2K9*Light 38e10 14|1w6 1r17 7r55 12r17 13r16 22r10 25r10
+7E9*status_Type 7e60 14|7r61 12r23 13r22
+7n25*Lighton{7E9} 14|21r21
+7n34*Lightoff{7E9} 14|24r24
+7n51*Complete{7E9} 14|29r28
+20V13*Initializes{7E9} 14|12s38
+25U15*turn_On 14|22s16
+32U15*turn_off 14|25s16
+X 14 main.adb
+6U11*Main 6b11 34l5 34t9
+7K12 StatusIO[8|26] 17r4 20r6 23r10 26r10
+8I12 index{integer} 9r30
+9A9 stringuser(character)<integer>
+12e4 lightState{13|7E9} 17r17 22m24 22r24 23r23 25m25 25r25 26r23
+13e4 UserText{13|7E9} 20m19 21r10 24r13 29r17
+24E9 Enum{13|7E9} 31r48[7] 32r30[7] 36r15[7] 41r15[7] 47r18[7] 52r14[7] 42r48[7]
+. 43r29[7] 53r18[7] 60r30[7] 68r18[7] 80r18[7] 93r15[7] 107r22[7] 111r15[7]
+. 121r14[7] 134r21[7]
+28i4 Default_Width{6|73I12} 37r24[7] 42r24[7] 94r24[7] 112r24[7]
+29e4 Default_Setting{6|80E9} 38r27[7] 43r27[7] 53r26[7] 95r27[7] 113r27[7]
+. 122r26[7]
+31U14 Get 63s7[7]
+31p19 File{6|52P9} 47r25[7]
+31e37 Item{13|7E9} 53m10[7]
+32U14 Get 20s15[7]
+32e19 Item{13|7E9} 63m24[7]
+34U14 Put 116s7[7]
+35p7 File{6|52P9} 107r16[7]
+36e7 Item{13|7E9} 103r14[7] 107r34[7]
+37i7 Width{6|73I12} 107r41[7]
+38e7 Set{6|80E9} 107r48[7]
+40U14 Put 17s13[7] 23s19[7] 26s19[7]
+41e7 Item{13|7E9} 116r25[7]
+42i7 Width{6|73I12} 116r31[7]
+43e7 Set{6|80E9} 116r38[7]
+46a7 From{string} 74r26[7] 77r36[7] 80r30[7]
+47e7 Item{13|7E9} 80m10[7]
+48i7 Last{positive} 74m39[7] 77r51[7]
+51a7 To{string} 134m17[7]
+52e7 Item{13|7E9} 130r14[7] 134r33[7]
+53e7 Set{6|80E9} 134r40[7]
+43a7 Buf{string} 47m31[7] 50r35[7] 53r30[7]
+44i7 Buflen{natural} 47m36[7] 50r45[7]
+71i7 Start{natural} 74m32[7] 77r42[7]
 FD 1 ada.ads
 FS .1 16K9 ada
 FD 2 a-inteio.ads
@@ -57,7 +128,9 @@ FS .4 84U4 ada__streams__stream_element_arraySR
 FS .5 85U4 ada__streams__stream_element_arraySW
 FS .6 84U4 ada__streams__stream_element_arraySR -> 4.4
 FS .7 85U4 ada__streams__stream_element_arraySW -> 4.5
-FD 5 a-textio.ads
+FD 5 a-string.ads
+FS .1 16K13 ada__strings
+FD 6 a-textio.ads
 FS .1 49K13 ada__text_io
 FS .2 86U14 ada__text_io__create
 FS .3 92U14 ada__text_io__open
@@ -145,8 +218,16 @@ FS .84 431U14 ada__text_io__read__2
 FS .85 437U14 ada__text_io__write__2
 FS .86 460V13 ada__text_io__eof_char
 FS .87 466U14 ada__text_io__initialize_standard_files
-FD 6 a-tiinio.ads
-FD 7 interfac.ads
+FD 7 a-tienau.ads
+FS .1 35K29 ada__text_io__enumeration_aux
+FS .2 37U14 ada__text_io__enumeration_aux__get_enum_lit
+FS .3 46U14 ada__text_io__enumeration_aux__scan_enum_lit
+FS .4 54U14 ada__text_io__enumeration_aux__put
+FS .5 62U14 ada__text_io__enumeration_aux__puts
+FD 8 a-tienio.ads
+FD 9 a-tienio.adb
+FD 10 a-tiinio.ads
+FD 11 interfac.ads
 FS .1 38K9 interfaces
 FS .2 81V13 interfaces__shift_left
 FS .3 85V13 interfaces__shift_right
@@ -168,7 +249,7 @@ FS .18 145V13 interfaces__shift_right__4
 FS .19 149V13 interfaces__shift_right_arithmetic__4
 FS .20 153V13 interfaces__rotate_left__4
 FS .21 157V13 interfaces__rotate_right__4
-FD 8 i-cstrea.ads
+FD 12 i-cstrea.ads
 FS .1 37K20 interfaces__c_streams
 FS .2 72V13 interfaces__c_streams__stdin
 FS .3 73V13 interfaces__c_streams__stdout
@@ -186,23 +267,36 @@ FS .14 223U14 interfaces__c_streams__set_binary_mode
 FS .15 224U14 interfaces__c_streams__set_text_mode
 FS .16 254U14 interfaces__c_streams__set_mode
 FS .17 262U14 interfaces__c_streams__full_name
-FD 9 light.ads
+FD 13 light.ads
 FS .1 2K9 light
-FS .2 8V13 light__getstate
-FS .3 13V14 light__light_is_on
-FS .4 16V13 light__initializes
-FS .5 20U15 light__turn_on
-FS .6 26U15 light__turn_off
-FD 10 main.adb
-FS .1 3U11 main
-FD 11 system.ads
+FS .2 12U14 light__getstate
+FS .3 20V13 light__initializes
+FS .4 25U15 light__turn_on
+FS .5 32U15 light__turn_off
+FD 14 main.adb
+FS .1 6U11 main
+FS .2 7K12 main__statusio
+FS .3 31U14 main__statusio__get
+FS .4 32U14 main__statusio__get__2
+FS .5 34U14 main__statusio__put
+FS .6 40U14 main__statusio__put__2
+FS .7 45U14 main__statusio__get__3
+FS .8 50U14 main__statusio__put__3
+FS .9 7K12 main__statusio -> 14.2
+FS .10 42U14 main__statusio__get -> 14.3
+FS .11 60U14 main__statusio__get__2 -> 14.4
+FS .12 66U14 main__statusio__get__3 -> 14.7
+FS .13 91U14 main__statusio__put -> 14.5
+FS .14 110U14 main__statusio__put__2 -> 14.6
+FS .15 119U14 main__statusio__put__3 -> 14.8
+FD 15 system.ads
 FS .1 37K9 system
 FS .2 77V13 system__Olt
 FS .3 78V13 system__Ole
 FS .4 79V13 system__Ogt
 FS .5 80V13 system__Oge
 FS .6 81V13 system__Oeq
-FD 12 s-crtl.ads
+FD 16 s-crtl.ads
 FS .1 38K16 system__crtl
 FS .2 85V13 system__crtl__strlen
 FS .3 88U14 system__crtl__strncpy
@@ -248,21 +342,71 @@ FS .42 229V13 system__crtl__open
 FS .43 232V13 system__crtl__close
 FS .44 235V13 system__crtl__read
 FS .45 238V13 system__crtl__write
-FD 13 s-ficobl.ads
+FD 17 s-ficobl.ads
 FS .1 42K16 system__file_control_block
-FD 14 s-parame.ads
+FD 18 s-parame.ads
 FS .1 51K16 system__parameters
 FS .2 81V13 system__parameters__default_stack_size
 FS .3 84V13 system__parameters__minimum_stack_size
 FS .4 87V13 system__parameters__adjust_storage_size
-FD 15 s-wchcon.ads
+FD 19 s-wchcon.ads
 FS .1 41K16 system__wch_con
 FS .2 203V13 system__wch_con__get_wc_encoding_method
 FS .3 207V13 system__wch_con__get_wc_encoding_method__2
 FS .4 212V13 system__wch_con__is_start_of_encoding
+FX 6 a-textio.ads .1 ada__text_io
+F 242*14 ada__text_io__put__4 14|.1:16s16
+F 455*4 ada__text_io__current_in 14|.11:63r12
+F 456*4 ada__text_io__current_out 14|.14:116r12
+FX 7 a-tienau.ads .1 ada__text_io__enumeration_aux
+F 37*14 ada__text_io__enumeration_aux__get_enum_lit 14|.10:47s11
+F 46*14 ada__text_io__enumeration_aux__scan_enum_lit 14|.12:74s11
+F 54*14 ada__text_io__enumeration_aux__put 14|.13:107s11
+F 62*14 ada__text_io__enumeration_aux__puts 14|.15:134s11
+FX 13 light.ads .1 light
+F 20*13 light__initializes 14|.1:12s38
+F 25*15 light__turn_on 14|.1:22s16
+F 32*15 light__turn_off 14|.1:25s16
+FX 14 main.adb .1 main
+F 12*4 main__lightstate 17r17 22m24 22r24 23r23 25m25 25r25 26r23
+F 13*4 main__usertext 20m19 21r10 24r13 29r17
+F 28*4 main__statusio__default_width .5:37r24 .6:42r24 .13:94r24 .14:112r24
+F 29*4 main__statusio__default_setting .5:38r27 .6:43r27 .8:53r26 .13:95r27
+. .14:113r27 .15:122r26
+F 31*14 main__statusio__get .11:63s7
+F 32*14 main__statusio__get__2 20s15
+F 34*14 main__statusio__put .14:116s7
+F 40*14 main__statusio__put__2 17s13 23s19 26s19
+FX 14 main.adb .3 main__statusio__get
+F 31>19 main__statusio__get__file .10:47c25
+F 31<37 main__statusio__get__item .10:53m10
+FX 14 main.adb .4 main__statusio__get__2
+F 32<19 main__statusio__get__2__item .11:63m24
+FX 14 main.adb .5 main__statusio__put
+F 35>7 main__statusio__put__file .13:107c16
+F 36>7 main__statusio__put__item .13:103c14 107c34
+F 37>7 main__statusio__put__width .13:107c41
+F 38>7 main__statusio__put__set .13:107c48
+FX 14 main.adb .6 main__statusio__put__2
+F 41>7 main__statusio__put__2__item .14:116c25
+F 42>7 main__statusio__put__2__width .14:116c31
+F 43>7 main__statusio__put__2__set .14:116c38
+FX 14 main.adb .7 main__statusio__get__3
+F 46>7 main__statusio__get__3__from .12:74c26 77c36 80c30
+F 47<7 main__statusio__get__3__item .12:80m10
+F 48<7 main__statusio__get__3__last .12:74m39 77r51
+FX 14 main.adb .8 main__statusio__put__3
+F 51<7 main__statusio__put__3__to .15:134m17
+F 52>7 main__statusio__put__3__item .15:130c14 134c33
+F 53>7 main__statusio__put__3__set .15:134c40
+FX 14 main.adb .10 main__statusio__get
+F 43*7 main__statusio__get__buf 47m31 50r35 53r30
+F 44*7 main__statusio__get__buflen 47m36 50r45
+FX 14 main.adb .12 main__statusio__get__3
+F 71*7 main__statusio__get__3__start 74m32 77r42
 
 GG EK_REMOTE_STATES
-GG EK_GLOBALS main KIND_SUBPROGRAM ORIGIN_FRONTEND
+GG EK_GLOBALS main KIND_SUBPROGRAM ORIGIN_FRONTEND c:calls_conditional [ light__initializes ada__text_io__put__4 main__statusio__put__2 main__statusio__get__2 light__turn_off light__turn_on ]
 GG EK_VOLATILES
 GG EK_TASKING_NONBLOCKING [ ]
 GG EK_END_MARKER

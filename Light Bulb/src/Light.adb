@@ -1,24 +1,15 @@
-pragma SPARK_Mode(On);
 with Light; use Light;
+with Ada.Text_IO;
 package body Light
-   with
+with
+   SPARK_Mode => on,
    Refined_State => (State => (ArrayLightState , pointers))
    is
-      subtype Pointer is Integer range 0 .. 1;
-      type States is array (Pointer) of status_Type;
 
       ArrayLightState : States := (0 => Lighton,1 => Lightoff);
       pointers : Pointer := 1;
 
-   function Light_is_On return Boolean
-   is
-   begin
-      if(pointers = 0) then
-         return True;
-      else
-         return False;
-      end if;
-   end Light_is_On;
+
 
      function Initializes return status_Type
    is
@@ -27,10 +18,17 @@ package body Light
    end Initializes;
 
 
-   function getState return status_Type
+   procedure getState(success : out Boolean ; stateOfLight : out status_Type )
    is
+   temp : status_Type := ArrayLightState(pointers);
    begin
-      return ArrayLightState(pointers);
+      if pointers > 1 or pointers < 0 then
+         success := false;
+         stateOfLight := error;
+      else
+      stateOfLight := temp;
+      success := True;
+   end if;
    end getState;
 
 
