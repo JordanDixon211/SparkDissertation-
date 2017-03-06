@@ -13,7 +13,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U main%b		main.adb		27e54b6a OO SU
+U main%b		main.adb		fb4cbb39 OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.strings%s		a-string.ads		a-string.ali
@@ -35,8 +35,8 @@ D a-tienio.adb		20160516092930 c9e6b5af ada.text_io.enumeration_io%b
 D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D light.ads		20170305064624 984efbeb light%s
-D main.adb		20170305060656 e121ab66 main%b
+D light.ads		20170305075434 44e70bb8 light%s
+D main.adb		20170305071024 e121ab66 main%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
@@ -64,14 +64,14 @@ X 7 a-tienau.ads
 X 8 a-tienio.ads
 26k21*Enumeration_IO 55e31 14|7r40
 X 13 light.ads
-2K9*Light 38e10 14|1w6 1r17 7r55 12r17 13r16 22r10 25r10
+2K9*Light 39e10 14|1w6 1r17 7r55 12r17 13r16 22r10 25r10
 7E9*status_Type 7e60 14|7r61 12r23 13r22
 7n25*Lighton{7E9} 14|21r21
 7n34*Lightoff{7E9} 14|24r24
-7n51*Complete{7E9} 14|29r28
-20V13*Initializes{7E9} 14|12s38
-25U15*turn_On 14|22s16
-32U15*turn_off 14|25s16
+7n51*complete{7E9} 14|29r28
+21V13*Initializes{7E9} 14|12s38
+26U15*turn_On 14|22s16
+33U15*turn_off 14|25s16
 X 14 main.adb
 6U11*Main 6b11 34l5 34t9
 7K12 StatusIO[8|26] 17r4 20r6 23r10 26r10
@@ -270,9 +270,9 @@ FS .17 262U14 interfaces__c_streams__full_name
 FD 13 light.ads
 FS .1 2K9 light
 FS .2 12U14 light__getstate
-FS .3 20V13 light__initializes
-FS .4 25U15 light__turn_on
-FS .5 32U15 light__turn_off
+FS .3 21V13 light__initializes
+FS .4 26U15 light__turn_on
+FS .5 33U15 light__turn_off
 FD 14 main.adb
 FS .1 6U11 main
 FS .2 7K12 main__statusio
@@ -364,9 +364,9 @@ F 46*14 ada__text_io__enumeration_aux__scan_enum_lit 14|.12:74s11
 F 54*14 ada__text_io__enumeration_aux__put 14|.13:107s11
 F 62*14 ada__text_io__enumeration_aux__puts 14|.15:134s11
 FX 13 light.ads .1 light
-F 20*13 light__initializes 14|.1:12s38
-F 25*15 light__turn_on 14|.1:22s16
-F 32*15 light__turn_off 14|.1:25s16
+F 21*13 light__initializes 14|.1:12s38
+F 26*15 light__turn_on 14|.1:22s16
+F 33*15 light__turn_off 14|.1:25s16
 FX 14 main.adb .1 main
 F 12*4 main__lightstate 17r17 22m24 22r24 23r23 25m25 25r25 26r23
 F 13*4 main__usertext 20m19 21r10 24r13 29r17

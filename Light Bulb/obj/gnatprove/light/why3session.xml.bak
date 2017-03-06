@@ -1515,9 +1515,11 @@
 </theory>
 <theory name="Light__states" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T1b" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Light__lightstate__T1b" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T2b" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Light__lightstate__T2b" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__lightstate" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Ada__streams__read__stream" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -1743,13 +1745,9 @@
 </theory>
 <theory name="Light__turn_off__status__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__arraylightstate" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Light__lightrec" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__arraylightstate__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
-</theory>
-<theory name="Light__pointers" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
-</theory>
-<theory name="Light__pointers__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Light__lightrec__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Light__getstate__temp" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -2181,11 +2179,13 @@
 </theory>
 <theory name="Light__states__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T1b__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Light__lightstate__T1b__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__T2b__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Light__lightstate__T2b__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__arraylightstate__aggregate_def" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Temp___552" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Light__lightstate__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="System__system_name__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -2667,7 +2667,7 @@
 </theory>
 <theory name="Light__turn_off__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Light__package_def" sum="b80261ace779e49245023a89ca1e2b19" expanded="true">
+<theory name="Light__package_def" sum="c97a10d60555c6270d836267c96c5641" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. assertion">
@@ -2676,52 +2676,52 @@
  </transf>
  </goal>
 </theory>
-<theory name="Light__getstate__subprogram_def" sum="359d7389f87879ffddcc942ffdd08bde" expanded="true">
+<theory name="Light__getstate__subprogram_def" sum="801b0446a14c2ad8c50850017c30f867" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0"><result status="unknown" time="0.03" steps="340"/></proof>
+  <proof prover="0"><result status="valid" time="0.03" steps="90"/></proof>
   <proof prover="1" obsolete="true"><result status="unknown" time="0.02" steps="270"/></proof>
-  <proof prover="2"><result status="unknown" time="0.03"/></proof>
-  <proof prover="3"><result status="unknown" time="0.02"/></proof>
+  <proof prover="2" obsolete="true"><result status="unknown" time="0.03"/></proof>
+  <proof prover="3" obsolete="true"><result status="unknown" time="0.02"/></proof>
   <transf name="split_conj" expanded="true">
    <goal name="WP_parameter def.1.1" expl="1. postcondition">
-   <proof prover="0"><result status="unknown" time="0.02" steps="340"/></proof>
-   <proof prover="2"><result status="unknown" time="0.02"/></proof>
-   <proof prover="3"><result status="unknown" time="0.02"/></proof>
+   <proof prover="0" obsolete="true"><result status="unknown" time="0.02" steps="360"/></proof>
+   <proof prover="2" obsolete="true"><result status="unknown" time="0.02"/></proof>
+   <proof prover="3" obsolete="true"><result status="unknown" time="0.02"/></proof>
    <transf name="split_disj" expanded="true">
     <goal name="WP_parameter def.1.1.1" expl="1. postcondition">
-    <proof prover="0"><result status="unknown" time="0.02" steps="340"/></proof>
-    <proof prover="1"><result status="unknown" time="0.02" steps="350"/></proof>
-    <proof prover="2"><result status="unknown" time="0.03"/></proof>
-    <proof prover="3"><result status="unknown" time="0.02"/></proof>
+    <proof prover="0" obsolete="true"><result status="unknown" time="0.02" steps="360"/></proof>
+    <proof prover="1" obsolete="true"><result status="unknown" time="0.03" steps="340"/></proof>
+    <proof prover="2" obsolete="true"><result status="unknown" time="0.02"/></proof>
+    <proof prover="3" obsolete="true"><result status="unknown" time="0.02"/></proof>
     </goal>
     <goal name="WP_parameter def.1.1.2" expl="2. postcondition">
-    <proof prover="0"><result status="valid" time="0.03" steps="0"/></proof>
+    <proof prover="0" obsolete="true"><result status="valid" time="0.03" steps="0"/></proof>
     </goal>
    </transf>
    </goal>
    <goal name="WP_parameter def.1.2" expl="2. postcondition">
-   <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
+   <proof prover="0"><result status="valid" time="0.03" steps="0"/></proof>
    </goal>
   </transf>
   </goal>
  </transf>
  </goal>
 </theory>
-<theory name="Light__initializes__subprogram_def" sum="a40d4e1f24cd4ec0165030f4d361f24f" expanded="true">
+<theory name="Light__initializes__subprogram_def" sum="9a26f245372b6ab1e48af2fb9baffb4d" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0"><result status="unknown" time="0.03" steps="300"/></proof>
-  <proof prover="1"><result status="unknown" time="0.02" steps="310"/></proof>
-  <proof prover="2"><result status="unknown" time="0.02"/></proof>
-  <proof prover="3"><result status="unknown" time="0.02"/></proof>
+  <proof prover="0"><result status="valid" time="0.03" steps="210"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" time="0.02" steps="390"/></proof>
+  <proof prover="2" obsolete="true"><result status="unknown" time="0.02"/></proof>
+  <proof prover="3" obsolete="true"><result status="unknown" time="0.02"/></proof>
   </goal>
  </transf>
  </goal>
 </theory>
-<theory name="Light__turn_on__subprogram_def" sum="3bb7a1f290fcef01a33d56ebbb103d96" expanded="true">
+<theory name="Light__turn_on__subprogram_def" sum="3b01de82c3ee45ef095687291cd9e115" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
@@ -2730,11 +2730,11 @@
  </transf>
  </goal>
 </theory>
-<theory name="Light__turn_off__subprogram_def" sum="2ad2eefeca7043bd82a9229b27f3d08e" expanded="true">
+<theory name="Light__turn_off__subprogram_def" sum="e0d9681ef55d2ed3c00a1b1c033ffec1" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
+  <proof prover="0"><result status="valid" time="0.03" steps="0"/></proof>
   </goal>
  </transf>
  </goal>

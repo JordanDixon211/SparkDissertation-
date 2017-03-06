@@ -250,13 +250,9 @@
       <vfs_project />
       <vfs_file />
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\Jordan\Documents\Spark\Packages\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 9" line=" 5" >
-      <vfs_project>C:\Users\Jordan\Documents\Spark\Light Bulb\light.gpr</vfs_project>
-      <vfs_file>C:\Users\Jordan\Documents\Spark\Light Bulb\src\main.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >

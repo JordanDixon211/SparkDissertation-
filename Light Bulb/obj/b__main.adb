@@ -184,6 +184,7 @@ package body ada_main is
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E086 := E086 + 1;
+      Light'Elab_Body;
       E127 := E127 + 1;
    end adainit;
 

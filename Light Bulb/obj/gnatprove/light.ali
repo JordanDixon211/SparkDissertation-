@@ -10,13 +10,13 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U light%b		light.adb		62078ea1 OO PK
+U light%b		light.adb		1c120d74 OO PK
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W light%s		light.adb		light.ali
 W system%s		system.ads		system.ali
 
-U light%s		light.ads		6e05724f EE OO PK
+U light%s		light.ads		b2ac821c EE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 
@@ -28,8 +28,8 @@ D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
 D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D light.ads		20170305064624 984efbeb light%s
-D light.adb		20170305061420 5a6a7b75 light%b
+D light.ads		20170305075434 44e70bb8 light%s
+D light.adb		20170305075550 247ff8a0 light%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
@@ -42,29 +42,31 @@ X 2 a-inteio.ads
 X 5 a-textio.ads
 49K13*Text_IO 471e16 10|2w10
 X 9 light.ads
-2K9*Light 38l5 38e10 10|1w6 1r17 3b14 47l5 47t10
-5@22*State 13r31 21r31 26r33 33r32 10|6r22
-7E9*status_Type 7e60 9r38 12r66 20r32 25r39 32r40 10|14r34 21r66 23r11 35r38
-. 42r39
-7n25*Lighton{7E9} 14r47 14r133 15r38 22r68 28r23 34r22 10|9r41 38r20
-7n34*Lightoff{7E9} 14r75 14r104 15r65 22r35 27r22 35r23 10|9r54 44r20
-7n44*Error{7E9} 10|27r26
-7n51*Complete{7E9}
-8I9*Pointer<short_short_integer> 9r26 10|10r18
-9A9*States(7E9)<8I9> 10|9r25
-12U14*getState 12<23 12<47 10|21b14 32l8 32t16
-12b23 success{boolean} 14r18 10|21b23 26m10 30m7
-12e47 stateOfLight{7E9} 14r32 14r59 14r89 14r117 15r22 15r49 10|21b47 27m10
-. 29m7
-20V13*Initializes{7E9} 22r14 22r47 10|14b15 18l8 18t19
-25U15*turn_On 25=23 10|35b14 39l8 39t15
-25e23 status{7E9} 27r13 28r14 10|35b22 38m10
-32U15*turn_off 32=24 10|42b14 46l8 46t16
-32e24 status{7E9} 34r13 35r14 10|42b23 44m10
+2K9*Light 39l5 39e10 10|1w6 1r17 3b14 53l5 53t10
+5@22*State 13r31 14r30 14r56 22r31 27r32 34r32 10|6r22
+7E9*status_Type 7e60 9r38 12r66 21r32 26r39 33r40 10|16r34 23r66 25r11 41r38
+. 48r39
+7n25*Lighton{7E9} 15r47 16r38 23r68 29r23 10|10r41 44r20
+7n34*Lightoff{7E9} 15r75 16r65 23r35 28r22 35r67 36r23 10|10r54 50r20
+7n44*Error{7E9} 15r104 23r100 35r24 10|10r69 30r26
+7n51*complete{7E9} 15r130 23r130 35r44 10|10r82
+8I9*Pointer<short_short_integer> 9r26 10|11r18
+9A9*States(7E9)<8I9> 10|10r25
+12U14*getState 12<23 12<47 10|23b14 38l8 38t16
+12b23 success{boolean} 14r18 15r18 10|23b23 29m10 35m7
+12e47 stateOfLight{7E9} 14r39 15r32 15r60 15r89 15r115 16r22 16r49 10|23b47
+. 30m10 34m7
+21V13*Initializes{7E9} 23r14 23r47 23r79 23r109 10|16b15 20l8 20t19
+26U15*turn_On 26=23 10|41b14 45l8 45t15
+26e23 status{7E9} 28r13 29r14 10|41b22 44m10
+33U15*turn_off 33=24 10|48b14 52l8 52t16
+33e24 status{7E9} 35r13 35r34 35r57 36r14 10|48b23 50m10
 X 10 light.adb
-9a7 ArrayLightState{9|9A9} 6r32 17r14 23r26
-10i7 pointers{9|8I9} 6r50 23r42 25r10 25r26 37m10 45m10
-23e4 temp{9|7E9} 29r23
+9R12 lightState 12e17 14r15
+10a7*ArrayLightState{9|9A9} 19r23 25r35
+11i7*pointers{9|8I9} 19r48 25r60 27r19 27r44 43m19 51m19
+14r4 lightRec{9R12} 6r32 19r14 19r39 25r26 25r51 27r10 27r35 43m10 51m10
+25e4 temp{9|7E9} 34r23
 FD 1 ada.ads
 FS .1 16K9 ada
 FD 2 a-inteio.ads
@@ -217,15 +219,15 @@ FS .17 262U14 interfaces__c_streams__full_name
 FD 9 light.ads
 FS .1 2K9 light
 FS .2 12U14 light__getstate
-FS .3 20V13 light__initializes
-FS .4 25U15 light__turn_on
-FS .5 32U15 light__turn_off
+FS .3 21V13 light__initializes
+FS .4 26U15 light__turn_on
+FS .5 33U15 light__turn_off
 FD 10 light.adb
 FS .1 3K14 standard__light -> 9.1
-FS .2 14V15 light__initializes -> 9.3
-FS .3 21U14 light__getstate -> 9.2
-FS .4 35U14 light__turn_on -> 9.4
-FS .5 42U14 light__turn_off -> 9.5
+FS .2 16V15 light__initializes -> 9.3
+FS .3 23U14 light__getstate -> 9.2
+FS .4 41U14 light__turn_on -> 9.4
+FS .5 48U14 light__turn_off -> 9.5
 FD 11 system.ads
 FS .1 37K9 system
 FS .2 77V13 system__Olt
@@ -292,30 +294,30 @@ FS .2 203V13 system__wch_con__get_wc_encoding_method
 FS .3 207V13 system__wch_con__get_wc_encoding_method__2
 FS .4 212V13 system__wch_con__is_start_of_encoding
 FX 9 light.ads .2 light__getstate
-F 12<23 light__getstate__success 14r18 10|.3:26m10 30m7
-F 12<47 light__getstate__stateoflight 14r32 14r59 14r89 14r117 15r22 15r49
-. 10|.3:27m10 29m7
+F 12<23 light__getstate__success 14r18 15r18 10|.3:29m10 35m7
+F 12<47 light__getstate__stateoflight 14r39 15r32 15r60 15r89 15r115 16r22
+. 16r49 10|.3:30m10 34m7
 FX 9 light.ads .4 light__turn_on
-F 25=23 light__turn_on__status 27r13 28r14 10|.4:38m10
+F 26=23 light__turn_on__status 28r13 29r14 10|.4:44m10
 FX 9 light.ads .5 light__turn_off
-F 32=24 light__turn_off__status 34r13 35r14 10|.5:44m10
+F 33=24 light__turn_off__status 35r13 35r34 35r57 36r14 10|.5:50m10
 FX 10 light.adb .1 standard__light
-F 9*7 light__arraylightstate 6r32 .2:17r14 .3:23r26
-F 10*7 light__pointers 6r50 .3:23r42 25r10 25r26 .4:37m10 .5:45m10
+F 14*4 light__lightrec 6r32 .2:19r14 19r39 .3:25r26 25r51 27r10 27r35 .4:43m10
+. .5:51m10
 FX 10 light.adb .3 light__getstate
-F 23*4 light__getstate__temp 29r23
+F 25*4 light__getstate__temp 34r23
 
-GG EK_STATE_MAP light__state [ light__arraylightstate light__pointers ]
+GG EK_STATE_MAP light__state [ light__lightrec ]
 GG EK_REMOTE_STATES c:RS [ light__state ]
-GG EK_GLOBALS light KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ light__arraylightstate light__pointers light__state ] c:local_sub [ light__initializes light__getstate light__turn_on light__turn_off ] c:local_init [ light__arraylightstate light__pointers ]
-GG EK_GLOBALS light__turn_on KIND_SUBPROGRAM ORIGIN_FLOW c:var_out [ light__pointers ] c:local_var [ light__turn_on__status ]
-GG EK_GLOBALS light__getstate KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__arraylightstate light__pointers ] c:local_var [ light__getstate__success light__getstate__stateoflight light__getstate__temp ] c:local_init [ light__getstate__success light__getstate__stateoflight light__getstate__temp ]
-GG EK_GLOBALS light__initializes KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__arraylightstate ]
-GG EK_GLOBALS light__turn_off KIND_SUBPROGRAM ORIGIN_FLOW c:var_out [ light__pointers ] c:local_var [ light__turn_off__status ]
+GG EK_GLOBALS light KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ light__lightrec light__state ] c:local_sub [ light__initializes light__getstate light__turn_on light__turn_off ] c:local_init [ light__lightrec ]
+GG EK_GLOBALS light__turn_off KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__lightrec ] c:var_out [ light__lightrec ] c:local_var [ light__turn_off__status ]
+GG EK_GLOBALS light__getstate KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__lightrec ] c:local_var [ light__getstate__success light__getstate__stateoflight light__getstate__temp ] c:local_init [ light__getstate__success light__getstate__stateoflight light__getstate__temp ]
+GG EK_GLOBALS light__turn_on KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__lightrec ] c:var_out [ light__lightrec ] c:local_var [ light__turn_on__status ]
+GG EK_GLOBALS light__initializes KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ light__lightrec ]
 GG EK_VOLATILES
 GG EK_TASKING_NONBLOCKING [ light__initializes light__getstate light__turn_on light__turn_off ]
-GG EK_TASKING_INFO light__initializes c:UNSYNCH_ACCESSES [ light__arraylightstate ]
-GG EK_TASKING_INFO light__getstate c:UNSYNCH_ACCESSES [ light__arraylightstate light__pointers ]
-GG EK_TASKING_INFO light__turn_on c:UNSYNCH_ACCESSES [ light__pointers ]
-GG EK_TASKING_INFO light__turn_off c:UNSYNCH_ACCESSES [ light__pointers ]
+GG EK_TASKING_INFO light__initializes c:UNSYNCH_ACCESSES [ light__lightrec ]
+GG EK_TASKING_INFO light__getstate c:UNSYNCH_ACCESSES [ light__lightrec ]
+GG EK_TASKING_INFO light__turn_on c:UNSYNCH_ACCESSES [ light__lightrec ]
+GG EK_TASKING_INFO light__turn_off c:UNSYNCH_ACCESSES [ light__lightrec ]
 GG EK_END_MARKER

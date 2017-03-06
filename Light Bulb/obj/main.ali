@@ -15,7 +15,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U main%b		main.adb		27e54b6a NE OO SU
+U main%b		main.adb		fb4cbb39 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -44,8 +44,8 @@ D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D light.ads		20170305064624 984efbeb light%s
-D main.adb		20170305060656 e121ab66 main%b
+D light.ads		20170305075434 44e70bb8 light%s
+D main.adb		20170305071024 e121ab66 main%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-exctab.ads		20160516092930 54135002 system.exception_table%s
@@ -74,14 +74,14 @@ X 10 a-tienio.ads
 32U14 Get 17|20s15[7]
 40U14 Put 17|17s13[7] 23s19[7] 26s19[7]
 X 16 light.ads
-2K9*Light 38e10 17|1w6 1r17 7r55 12r17 13r16 22r10 25r10
+2K9*Light 39e10 17|1w6 1r17 7r55 12r17 13r16 22r10 25r10
 7E9*status_Type 7e60 17|7r61 12r23 13r22
 7n25*Lighton{7E9} 17|21r21
 7n34*Lightoff{7E9} 17|24r24
-7n51*Complete{7E9} 17|29r28
-20V13*Initializes{7E9} 17|12s38
-25U15*turn_On 17|22s16
-32U15*turn_off 17|25s16
+7n51*complete{7E9} 17|29r28
+21V13*Initializes{7E9} 17|12s38
+26U15*turn_On 17|22s16
+33U15*turn_off 17|25s16
 X 17 main.adb
 6U11*Main 6b11 34l5 34t9
 7K12 StatusIO[10|26] 17r4 20r6 23r10 26r10

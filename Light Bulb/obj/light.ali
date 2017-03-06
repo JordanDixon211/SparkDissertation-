@@ -7,16 +7,18 @@ P ZX
 RN
 RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U light%b		light.adb		62078ea1 NE OO PK
+U light%b		light.adb		1c120d74 OO PK
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W light%s		light.adb		light.ali
 
-U light%s		light.ads		6e05724f EE NE OO PK
+U light%s		light.ads		b2ac821c EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.tags%s		a-tags.adb		a-tags.ali
@@ -32,8 +34,8 @@ D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D light.ads		20170305064624 984efbeb light%s
-D light.adb		20170305061420 5a6a7b75 light%b
+D light.ads		20170305075434 44e70bb8 light%s
+D light.adb		20170305075550 247ff8a0 light%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-exctab.ads		20160516092930 54135002 system.exception_table%s
@@ -53,27 +55,29 @@ X 3 a-inteio.ads
 X 7 a-textio.ads
 49K13*Text_IO 471e16 13|2w10
 X 12 light.ads
-2K9*Light 38l5 38e10 13|1w6 1r17 3b14 47l5 47t10
-5@22*State 13r31 21r31 26r33 33r32 13|6r22
-7E9*status_Type 7e60 9r38 12r66 20r32 25r39 32r40 13|14r34 21r66 23r11 35r38
-. 42r39
-7n25*Lighton{7E9} 14r47 14r133 15r38 22r68 28r23 34r22 13|9r41 38r20
-7n34*Lightoff{7E9} 14r75 14r104 15r65 22r35 27r22 35r23 13|9r54 44r20
-7n44*Error{7E9} 13|27r26
-7n51*Complete{7E9}
-8I9*Pointer<short_short_integer> 9r26 13|10r18
-9A9*States(7E9)<8I9> 13|9r25
-12U14*getState 12<23 12<47 13|21b14 32l8 32t16
-12b23 success{boolean} 14r18 13|21b23 26m10 30m7
-12e47 stateOfLight{7E9} 14r32 14r59 14r89 14r117 15r22 15r49 13|21b47 27m10
-. 29m7
-20V13*Initializes{7E9} 22r14 22r47 13|14b15 18l8 18t19
-25U15*turn_On 25=23 13|35b14 39l8 39t15
-25e23 status{7E9} 27r13 28r14 13|35b22 38m10
-32U15*turn_off 32=24 13|42b14 46l8 46t16
-32e24 status{7E9} 34r13 35r14 13|42b23 44m10
+2K9*Light 39l5 39e10 13|1w6 1r17 3b14 53l5 53t10
+5@22*State 13r31 14r30 14r56 22r31 27r32 34r32 13|6r22
+7E9*status_Type 7e60 9r38 12r66 21r32 26r39 33r40 13|16r34 23r66 25r11 41r38
+. 48r39
+7n25*Lighton{7E9} 15r47 16r38 23r68 29r23 13|10r41 44r20
+7n34*Lightoff{7E9} 15r75 16r65 23r35 28r22 35r67 36r23 13|10r54 50r20
+7n44*Error{7E9} 15r104 23r100 35r24 13|10r69 30r26
+7n51*complete{7E9} 15r130 23r130 35r44 13|10r82
+8I9*Pointer<short_short_integer> 9r26 13|11r18
+9A9*States(7E9)<8I9> 13|10r25
+12U14*getState 12<23 12<47 13|23b14 38l8 38t16
+12b23 success{boolean} 14r18 15r18 13|23b23 29m10 35m7
+12e47 stateOfLight{7E9} 14r39 15r32 15r60 15r89 15r115 16r22 16r49 13|23b47
+. 30m10 34m7
+21V13*Initializes{7E9} 23r14 23r47 23r79 23r109 13|16b15 20l8 20t19
+26U15*turn_On 26=23 13|41b14 45l8 45t15
+26e23 status{7E9} 28r13 29r14 13|41b22 44m10
+33U15*turn_off 33=24 13|48b14 52l8 52t16
+33e24 status{7E9} 35r13 35r34 35r57 36r14 13|48b23 50m10
 X 13 light.adb
-9a7 ArrayLightState{12|9A9} 6r32 17r14 23r26
-10i7 pointers{12|8I9} 6r50 23r42 25r10 25r26 37m10 45m10
-23e4 temp{12|7E9} 29r23
+9R12 lightState 12e17 14r15
+10a7*ArrayLightState{12|9A9} 19r23 25r35
+11i7*pointers{12|8I9} 19r48 25r60 27r19 27r44 43m19 51m19
+14r4 lightRec{9R12} 6r32 19r14 19r39 25r26 25r51 27r10 27r35 43m10 51m10
+25e4 temp{12|7E9} 34r23
 

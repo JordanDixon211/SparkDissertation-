@@ -3,38 +3,44 @@ with Ada.Text_IO;
 package body Light
 with
    SPARK_Mode => on,
-   Refined_State => (State => (ArrayLightState , pointers))
-   is
+   Refined_State => (State => (lightRec))
+is
 
-      ArrayLightState : States := (0 => Lighton,1 => Lightoff);
+      type lightState is record
+      ArrayLightState : States := (0 => Lighton,1 => Lightoff, 2 => Error , 3 => complete);
       pointers : Pointer := 1;
+      end record;
 
+   lightRec : lightState;
 
-
-     function Initializes return status_Type
+     procedure Initializes(Tempvar : out status_Type)
    is
    begin
-      return ArrayLightState(1);
+       Tempvar := lightRec.ArrayLightState(lightRec.pointers);
    end Initializes;
 
 
    procedure getState(success : out Boolean ; stateOfLight : out status_Type )
    is
-   temp : status_Type := ArrayLightState(pointers);
+   temp : status_Type := lightRec.ArrayLightState(lightRec.pointers);
    begin
-      if pointers > 1 or pointers < 0 then
+      if lightRec.pointers > 1 or lightRec.pointers < 0 then
+
          success := false;
          stateOfLight := error;
+
       else
+
       stateOfLight := temp;
       success := True;
+
    end if;
    end getState;
 
 
    procedure turn_On(status : in out status_Type) is
    begin
-         pointers := 0;
+         lightRec.pointers := 0;
          status := Lighton;
    end turn_On;
 
@@ -42,6 +48,6 @@ with
    procedure turn_off(status : in out status_Type) is
    begin
          status := Lightoff;
-         pointers := 1;
+         lightRec.pointers := 1;
    end turn_off;
 end Light;

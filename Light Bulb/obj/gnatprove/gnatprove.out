@@ -6,22 +6,22 @@ SPARK Analysis results        Total       Flow   Interval   CodePeer     Provers
 -------------------------------------------------------------------------------------------------------
 Data Dependencies                 .          .          .          .           .           .          .
 Flow Dependencies                 .          .          .          .           .           .          .
-Initialization                    9          9          .          .           .           .          .
+Initialization                    7          7          .          .           .           .          .
 Non-Aliasing                      .          .          .          .           .           .          .
 Run-time Checks                   1          .          .          .    1 (CVC4)           .          .
 Assertions                        .          .          .          .           .           .          .
-Functional Contracts              4          .          .          .    2 (CVC4)           .          2
+Functional Contracts              4          .          .          .    4 (CVC4)           .          .
 LSP Verification                  .          .          .          .           .           .          .
 -------------------------------------------------------------------------------------------------------
-Total                            14    9 (64%)          .          .     3 (21%)           .    2 (14%)
+Total                            12    7 (58%)          .          .     5 (42%)           .          .
 
 
 Analyzed 2 units
 in unit light, 5 subprograms and packages out of 5 analyzed
   Light at light.ads:2 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
-  Light.Initializes at light.ads:20 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
-  Light.getState at light.ads:12 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
-  Light.turn_On at light.ads:25 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
-  Light.turn_off at light.ads:32 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Light.Initializes at light.ads:21 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Light.getState at light.ads:12 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Light.turn_On at light.ads:26 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Light.turn_off at light.ads:33 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:6 skipped

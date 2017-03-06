@@ -1686,7 +1686,7 @@ module Ada__streams__write__item
  use import "_gnatprove_standard".Main
  use        Ada__streams__stream_element_array
 
- function item #"a-stream.ads" 65 0 0# "model_projected" "model_trace:5273" 
+ function item #"a-stream.ads" 65 0 0# "model_projected" "model_trace:5303" 
    : Ada__streams__stream_element_array.stream_element_array
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 54 0 0# 
@@ -1714,7 +1714,7 @@ module Ada__streams__write_sea__v
  use import "_gnatprove_standard".Main
  use        Ada__streams__stream_element_array
 
- function v #"a-stream.ads" 82 0 0# "model_projected" "model_trace:5343" 
+ function v #"a-stream.ads" 82 0 0# "model_projected" "model_trace:5373" 
    : Ada__streams__stream_element_array.stream_element_array
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 54 0 0# 
@@ -1799,7 +1799,7 @@ end
 module System__system_name
  use import "_gnatprove_standard".Main
 
- function system_name #"system.ads" 47 0 0# "model" "model_trace:5404" 
+ function system_name #"system.ads" 47 0 0# "model" "model_trace:5434" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 46 0 0# 
@@ -2183,7 +2183,7 @@ end
 module System__default_bit_order
  use import "_gnatprove_standard".Main
 
- function default_bit_order #"system.ads" 92 0 0# "model" "model_trace:5753" 
+ function default_bit_order #"system.ads" 92 0 0# "model" "model_trace:5783" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 91 0 0# 
@@ -2195,7 +2195,7 @@ end
 module System__max_priority
  use import "_gnatprove_standard".Main
 
- function max_priority #"system.ads" 97 0 0# "model" "model_trace:5769" 
+ function max_priority #"system.ads" 97 0 0# "model" "model_trace:5799" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -2207,7 +2207,7 @@ end
 module System__max_interrupt_priority
  use import "_gnatprove_standard".Main
 
- function max_interrupt_priority #"system.ads" 98 0 0# "model" "model_trace:5779" 
+ function max_interrupt_priority #"system.ads" 98 0 0# "model" "model_trace:5809" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -2357,7 +2357,7 @@ end
 module System__default_priority
  use import "_gnatprove_standard".Main
 
- function default_priority #"system.ads" 104 0 0# "model" "model_trace:5831" 
+ function default_priority #"system.ads" 104 0 0# "model" "model_trace:5861" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 101 0 0# 
@@ -2369,7 +2369,7 @@ end
 module System__backend_divide_checks
  use import "_gnatprove_standard".Main
 
- function backend_divide_checks #"system.ads" 121 0 0# "model" "model_trace:5861" 
+ function backend_divide_checks #"system.ads" 121 0 0# "model" "model_trace:5891" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 121 0 0# 
@@ -2381,7 +2381,7 @@ end
 module System__backend_overflow_checks
  use import "_gnatprove_standard".Main
 
- function backend_overflow_checks #"system.ads" 122 0 0# "model" "model_trace:5871" 
+ function backend_overflow_checks #"system.ads" 122 0 0# "model" "model_trace:5901" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 122 0 0# 
@@ -2393,7 +2393,7 @@ end
 module System__command_line_args
  use import "_gnatprove_standard".Main
 
- function command_line_args #"system.ads" 123 0 0# "model" "model_trace:5881" 
+ function command_line_args #"system.ads" 123 0 0# "model" "model_trace:5911" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 123 0 0# 
@@ -2405,7 +2405,7 @@ end
 module System__configurable_run_time
  use import "_gnatprove_standard".Main
 
- function configurable_run_time #"system.ads" 124 0 0# "model" "model_trace:5891" 
+ function configurable_run_time #"system.ads" 124 0 0# "model" "model_trace:5921" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 124 0 0# 
@@ -2417,7 +2417,7 @@ end
 module System__denorm
  use import "_gnatprove_standard".Main
 
- function denorm #"system.ads" 125 0 0# "model" "model_trace:5901" 
+ function denorm #"system.ads" 125 0 0# "model" "model_trace:5931" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 125 0 0# 
@@ -2429,7 +2429,7 @@ end
 module System__duration_32_bits
  use import "_gnatprove_standard".Main
 
- function duration_32_bits #"system.ads" 126 0 0# "model" "model_trace:5911" 
+ function duration_32_bits #"system.ads" 126 0 0# "model" "model_trace:5941" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 126 0 0# 
@@ -2441,7 +2441,7 @@ end
 module System__exit_status_supported
  use import "_gnatprove_standard".Main
 
- function exit_status_supported #"system.ads" 127 0 0# "model" "model_trace:5921" 
+ function exit_status_supported #"system.ads" 127 0 0# "model" "model_trace:5951" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 127 0 0# 
@@ -2453,7 +2453,7 @@ end
 module System__fractional_fixed_ops
  use import "_gnatprove_standard".Main
 
- function fractional_fixed_ops #"system.ads" 128 0 0# "model" "model_trace:5931" 
+ function fractional_fixed_ops #"system.ads" 128 0 0# "model" "model_trace:5961" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 128 0 0# 
@@ -2465,7 +2465,7 @@ end
 module System__frontend_layout
  use import "_gnatprove_standard".Main
 
- function frontend_layout #"system.ads" 129 0 0# "model" "model_trace:5941" 
+ function frontend_layout #"system.ads" 129 0 0# "model" "model_trace:5971" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 129 0 0# 
@@ -2477,7 +2477,7 @@ end
 module System__machine_overflows
  use import "_gnatprove_standard".Main
 
- function machine_overflows #"system.ads" 130 0 0# "model" "model_trace:5951" 
+ function machine_overflows #"system.ads" 130 0 0# "model" "model_trace:5981" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 130 0 0# 
@@ -2489,7 +2489,7 @@ end
 module System__machine_rounds
  use import "_gnatprove_standard".Main
 
- function machine_rounds #"system.ads" 131 0 0# "model" "model_trace:5961" 
+ function machine_rounds #"system.ads" 131 0 0# "model" "model_trace:5991" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 131 0 0# 
@@ -2501,7 +2501,7 @@ end
 module System__preallocated_stacks
  use import "_gnatprove_standard".Main
 
- function preallocated_stacks #"system.ads" 132 0 0# "model" "model_trace:5971" 
+ function preallocated_stacks #"system.ads" 132 0 0# "model" "model_trace:6001" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 132 0 0# 
@@ -2513,7 +2513,7 @@ end
 module System__signed_zeros
  use import "_gnatprove_standard".Main
 
- function signed_zeros #"system.ads" 133 0 0# "model" "model_trace:5981" 
+ function signed_zeros #"system.ads" 133 0 0# "model" "model_trace:6011" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 133 0 0# 
@@ -2525,7 +2525,7 @@ end
 module System__stack_check_default
  use import "_gnatprove_standard".Main
 
- function stack_check_default #"system.ads" 134 0 0# "model" "model_trace:5991" 
+ function stack_check_default #"system.ads" 134 0 0# "model" "model_trace:6021" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 134 0 0# 
@@ -2537,7 +2537,7 @@ end
 module System__stack_check_probes
  use import "_gnatprove_standard".Main
 
- function stack_check_probes #"system.ads" 135 0 0# "model" "model_trace:6001" 
+ function stack_check_probes #"system.ads" 135 0 0# "model" "model_trace:6031" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 135 0 0# 
@@ -2549,7 +2549,7 @@ end
 module System__stack_check_limits
  use import "_gnatprove_standard".Main
 
- function stack_check_limits #"system.ads" 136 0 0# "model" "model_trace:6011" 
+ function stack_check_limits #"system.ads" 136 0 0# "model" "model_trace:6041" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 136 0 0# 
@@ -2561,7 +2561,7 @@ end
 module System__support_aggregates
  use import "_gnatprove_standard".Main
 
- function support_aggregates #"system.ads" 137 0 0# "model" "model_trace:6021" 
+ function support_aggregates #"system.ads" 137 0 0# "model" "model_trace:6051" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 137 0 0# 
@@ -2573,7 +2573,7 @@ end
 module System__support_atomic_primitives
  use import "_gnatprove_standard".Main
 
- function support_atomic_primitives #"system.ads" 138 0 0# "model" "model_trace:6031" 
+ function support_atomic_primitives #"system.ads" 138 0 0# "model" "model_trace:6061" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 138 0 0# 
@@ -2585,7 +2585,7 @@ end
 module System__support_composite_assign
  use import "_gnatprove_standard".Main
 
- function support_composite_assign #"system.ads" 139 0 0# "model" "model_trace:6041" 
+ function support_composite_assign #"system.ads" 139 0 0# "model" "model_trace:6071" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 139 0 0# 
@@ -2597,7 +2597,7 @@ end
 module System__support_composite_compare
  use import "_gnatprove_standard".Main
 
- function support_composite_compare #"system.ads" 140 0 0# "model" "model_trace:6051" 
+ function support_composite_compare #"system.ads" 140 0 0# "model" "model_trace:6081" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 140 0 0# 
@@ -2609,7 +2609,7 @@ end
 module System__support_long_shifts
  use import "_gnatprove_standard".Main
 
- function support_long_shifts #"system.ads" 141 0 0# "model" "model_trace:6061" 
+ function support_long_shifts #"system.ads" 141 0 0# "model" "model_trace:6091" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 141 0 0# 
@@ -2621,7 +2621,7 @@ end
 module System__always_compatible_rep
  use import "_gnatprove_standard".Main
 
- function always_compatible_rep #"system.ads" 142 0 0# "model" "model_trace:6071" 
+ function always_compatible_rep #"system.ads" 142 0 0# "model" "model_trace:6101" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 142 0 0# 
@@ -2633,7 +2633,7 @@ end
 module System__suppress_standard_library
  use import "_gnatprove_standard".Main
 
- function suppress_standard_library #"system.ads" 143 0 0# "model" "model_trace:6081" 
+ function suppress_standard_library #"system.ads" 143 0 0# "model" "model_trace:6111" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 143 0 0# 
@@ -2645,7 +2645,7 @@ end
 module System__use_ada_main_program_name
  use import "_gnatprove_standard".Main
 
- function use_ada_main_program_name #"system.ads" 144 0 0# "model" "model_trace:6091" 
+ function use_ada_main_program_name #"system.ads" 144 0 0# "model" "model_trace:6121" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 144 0 0# 
@@ -2657,7 +2657,7 @@ end
 module System__frontend_exceptions
  use import "_gnatprove_standard".Main
 
- function frontend_exceptions #"system.ads" 145 0 0# "model" "model_trace:6101" 
+ function frontend_exceptions #"system.ads" 145 0 0# "model" "model_trace:6131" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 145 0 0# 
@@ -2669,7 +2669,7 @@ end
 module System__zcx_by_default
  use import "_gnatprove_standard".Main
 
- function zcx_by_default #"system.ads" 146 0 0# "model" "model_trace:6111" 
+ function zcx_by_default #"system.ads" 146 0 0# "model" "model_trace:6141" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 146 0 0# 
@@ -2884,7 +2884,7 @@ module System__underlying_priorities
  use import "_gnatprove_standard".Main
  use        Array__Int__Standard__integer
 
- function underlying_priorities #"system.ads" 165 0 0# "model_projected" "model_trace:6137" 
+ function underlying_priorities #"system.ads" 165 0 0# "model_projected" "model_trace:6167" 
    : Array__Int__Standard__integer.map
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 161 0 0# 
@@ -3080,7 +3080,7 @@ end
 module System__parameters__unspecified_size
  use import "_gnatprove_standard".Main
 
- function unspecified_size #"s-parame.ads" 64 0 0# "model" "model_trace:10848" 
+ function unspecified_size #"s-parame.ads" 64 0 0# "model" "model_trace:10878" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 61 0 0# 
@@ -3138,7 +3138,7 @@ end
 module System__parameters__dynamic
  use import "_gnatprove_standard".Main
 
- function dynamic #"s-parame.ads" 68 0 0# "model" "model_trace:10875" 
+ function dynamic #"s-parame.ads" 68 0 0# "model" "model_trace:10905" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 61 0 0# 
@@ -3150,7 +3150,7 @@ end
 module System__parameters__sec_stack_percentage
  use import "_gnatprove_standard".Main
 
- function sec_stack_percentage #"s-parame.ads" 75 0 0# "model" "model_trace:10886" 
+ function sec_stack_percentage #"s-parame.ads" 75 0 0# "model" "model_trace:10916" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 67 0 0# 
@@ -3162,7 +3162,7 @@ end
 module System__parameters__sec_stack_dynamic
  use import "_gnatprove_standard".Main
 
- function sec_stack_dynamic #"s-parame.ads" 78 0 0# "model" "model_trace:10896" 
+ function sec_stack_dynamic #"s-parame.ads" 78 0 0# "model" "model_trace:10926" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 78 0 0# 
@@ -3192,7 +3192,7 @@ end
 module System__parameters__adjust_storage_size__size
  use import "_gnatprove_standard".Main
 
- function size #"s-parame.ads" 87 0 0# "model" "model_trace:10935" 
+ function size #"s-parame.ads" 87 0 0# "model" "model_trace:10965" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 61 0 0# 
@@ -3220,7 +3220,7 @@ end
 module System__parameters__default_env_stack_size
  use import "_gnatprove_standard".Main
 
- function default_env_stack_size #"s-parame.ads" 96 0 0# "model" "model_trace:10949" 
+ function default_env_stack_size #"s-parame.ads" 96 0 0# "model" "model_trace:10979" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 61 0 0# 
@@ -3232,7 +3232,7 @@ end
 module System__parameters__stack_grows_down
  use import "_gnatprove_standard".Main
 
- function stack_grows_down #"s-parame.ads" 101 0 0# "model" "model_trace:10959" 
+ function stack_grows_down #"s-parame.ads" 101 0 0# "model" "model_trace:10989" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 101 0 0# 
@@ -3337,7 +3337,7 @@ module System__parameters__c_malloc_linkname
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function c_malloc_linkname #"s-parame.ads" 119 0 0# "model_projected" "model_trace:11002" 
+ function c_malloc_linkname #"s-parame.ads" 119 0 0# "model_projected" "model_trace:11032" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -3349,7 +3349,7 @@ end
 module System__parameters__garbage_collected
  use import "_gnatprove_standard".Main
 
- function garbage_collected #"s-parame.ads" 142 0 0# "model" "model_trace:11012" 
+ function garbage_collected #"s-parame.ads" 142 0 0# "model" "model_trace:11042" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 142 0 0# 
@@ -3361,7 +3361,7 @@ end
 module System__parameters__single_lock
  use import "_gnatprove_standard".Main
 
- function single_lock #"s-parame.ads" 157 0 0# "model" "model_trace:11022" 
+ function single_lock #"s-parame.ads" 157 0 0# "model" "model_trace:11052" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 157 0 0# 
@@ -3373,7 +3373,7 @@ end
 module System__parameters__no_abort
  use import "_gnatprove_standard".Main
 
- function no_abort #"s-parame.ads" 170 0 0# "model" "model_trace:11032" 
+ function no_abort #"s-parame.ads" 170 0 0# "model" "model_trace:11062" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 170 0 0# 
@@ -3385,7 +3385,7 @@ end
 module System__parameters__runtime_traces
  use import "_gnatprove_standard".Main
 
- function runtime_traces #"s-parame.ads" 190 0 0# "model" "model_trace:11051" 
+ function runtime_traces #"s-parame.ads" 190 0 0# "model" "model_trace:11081" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS #"s-parame.ads" 190 0 0# 
@@ -4140,7 +4140,7 @@ module System__crtl__strncpy__n
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function n #"s-crtl.ads" 88 0 0# "model" "model_trace:9331" 
+ function n #"s-crtl.ads" 88 0 0# "model" "model_trace:9361" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -4209,7 +4209,7 @@ end
 module System__crtl__dup__handle
  use import "_gnatprove_standard".Main
 
- function handle #"s-crtl.ads" 101 0 0# "model" "model_trace:9412" 
+ function handle #"s-crtl.ads" 101 0 0# "model" "model_trace:9442" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4237,7 +4237,7 @@ end
 module System__crtl__dup2__from
  use import "_gnatprove_standard".Main
 
- function from #"s-crtl.ads" 104 0 0# "model" "model_trace:9439" 
+ function from #"s-crtl.ads" 104 0 0# "model" "model_trace:9469" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4256,7 +4256,7 @@ end
 module System__crtl__dup2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"s-crtl.ads" 104 0 0# "model" "model_trace:9446" 
+ function to__ #"s-crtl.ads" 104 0 0# "model" "model_trace:9476" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4314,7 +4314,7 @@ end
 module System__crtl__fdopen__handle
  use import "_gnatprove_standard".Main
 
- function handle #"s-crtl.ads" 110 0 0# "model" "model_trace:9501" 
+ function handle #"s-crtl.ads" 110 0 0# "model" "model_trace:9531" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4443,7 +4443,7 @@ end
 module System__crtl__fgets__n
  use import "_gnatprove_standard".Main
 
- function n #"s-crtl.ads" 119 0 0# "model" "model_trace:9600" 
+ function n #"s-crtl.ads" 119 0 0# "model" "model_trace:9630" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4532,7 +4532,7 @@ end
 module System__crtl__fopen__encoding
  use import "_gnatprove_standard".Main
 
- function encoding #"s-crtl.ads" 125 0 0# "model" "model_trace:9654" 
+ function encoding #"s-crtl.ads" 125 0 0# "model" "model_trace:9684" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 72 0 0# 
@@ -4561,7 +4561,7 @@ end
 module System__crtl__fputc__c
  use import "_gnatprove_standard".Main
 
- function c #"s-crtl.ads" 128 0 0# "model" "model_trace:9682" 
+ function c #"s-crtl.ads" 128 0 0# "model" "model_trace:9712" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4610,7 +4610,7 @@ end
 module System__crtl__fputwc__c
  use import "_gnatprove_standard".Main
 
- function c #"s-crtl.ads" 131 0 0# "model" "model_trace:9718" 
+ function c #"s-crtl.ads" 131 0 0# "model" "model_trace:9748" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4789,7 +4789,7 @@ end
 module System__crtl__freopen__encoding
  use import "_gnatprove_standard".Main
 
- function encoding #"s-crtl.ads" 144 0 0# "model" "model_trace:9845" 
+ function encoding #"s-crtl.ads" 144 0 0# "model" "model_trace:9875" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 72 0 0# 
@@ -4838,7 +4838,7 @@ end
 module System__crtl__fseek__offset
  use import "_gnatprove_standard".Main
 
- function offset #"s-crtl.ads" 149 0 0# "model" "model_trace:9882" 
+ function offset #"s-crtl.ads" 149 0 0# "model" "model_trace:9912" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 55 0 0# 
@@ -4857,7 +4857,7 @@ end
 module System__crtl__fseek__origin
  use import "_gnatprove_standard".Main
 
- function origin #"s-crtl.ads" 150 0 0# "model" "model_trace:9891" 
+ function origin #"s-crtl.ads" 150 0 0# "model" "model_trace:9921" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -4906,7 +4906,7 @@ end
 module System__crtl__fseek64__offset
  use import "_gnatprove_standard".Main
 
- function offset #"s-crtl.ads" 155 0 0# "model" "model_trace:9927" 
+ function offset #"s-crtl.ads" 155 0 0# "model" "model_trace:9957" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 65 0 0# 
@@ -4925,7 +4925,7 @@ end
 module System__crtl__fseek64__origin
  use import "_gnatprove_standard".Main
 
- function origin #"s-crtl.ads" 156 0 0# "model" "model_trace:9936" 
+ function origin #"s-crtl.ads" 156 0 0# "model" "model_trace:9966" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5015,7 +5015,7 @@ module System__crtl__getenv__s
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function s #"s-crtl.ads" 165 0 0# "model_projected" "model_trace:10017" 
+ function s #"s-crtl.ads" 165 0 0# "model_projected" "model_trace:10047" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -5045,7 +5045,7 @@ end
 module System__crtl__isatty__handle
  use import "_gnatprove_standard".Main
 
- function handle #"s-crtl.ads" 168 0 0# "model" "model_trace:10046" 
+ function handle #"s-crtl.ads" 168 0 0# "model" "model_trace:10076" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5073,7 +5073,7 @@ end
 module System__crtl__lseek__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 171 0 0# "model" "model_trace:10073" 
+ function fd #"s-crtl.ads" 171 0 0# "model" "model_trace:10103" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5092,7 +5092,7 @@ end
 module System__crtl__lseek__offset
  use import "_gnatprove_standard".Main
 
- function offset #"s-crtl.ads" 171 0 0# "model" "model_trace:10082" 
+ function offset #"s-crtl.ads" 171 0 0# "model" "model_trace:10112" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 58 0 0# 
@@ -5111,7 +5111,7 @@ end
 module System__crtl__lseek__direction
  use import "_gnatprove_standard".Main
 
- function direction #"s-crtl.ads" 171 0 0# "model" "model_trace:10091" 
+ function direction #"s-crtl.ads" 171 0 0# "model" "model_trace:10121" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5140,7 +5140,7 @@ module System__crtl__malloc__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function size #"s-crtl.ads" 174 0 0# "model" "model_trace:10118" 
+ function size #"s-crtl.ads" 174 0 0# "model" "model_trace:10148" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -5210,7 +5210,7 @@ module System__crtl__memcpy__n
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function n #"s-crtl.ads" 177 0 0# "model" "model_trace:10169" 
+ function n #"s-crtl.ads" 177 0 0# "model" "model_trace:10199" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -5270,7 +5270,7 @@ module System__crtl__memmove__n
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function n #"s-crtl.ads" 180 0 0# "model" "model_trace:10217" 
+ function n #"s-crtl.ads" 180 0 0# "model" "model_trace:10247" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -5410,7 +5410,7 @@ module System__crtl__realloc__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function size #"s-crtl.ads" 193 0 0# "model" "model_trace:10350" 
+ function size #"s-crtl.ads" 193 0 0# "model" "model_trace:10380" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -5460,7 +5460,7 @@ module System__crtl__rmdir__dir_name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function dir_name #"s-crtl.ads" 199 0 0# "model_projected" "model_trace:10405" 
+ function dir_name #"s-crtl.ads" 199 0 0# "model_projected" "model_trace:10435" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -5490,7 +5490,7 @@ module System__crtl__chdir__dir_name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function dir_name #"s-crtl.ads" 202 0 0# "model_projected" "model_trace:10432" 
+ function dir_name #"s-crtl.ads" 202 0 0# "model_projected" "model_trace:10462" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -5520,7 +5520,7 @@ module System__crtl__mkdir__dir_name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function dir_name #"s-crtl.ads" 206 0 0# "model_projected" "model_trace:10459" 
+ function dir_name #"s-crtl.ads" 206 0 0# "model_projected" "model_trace:10489" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -5539,7 +5539,7 @@ end
 module System__crtl__mkdir__encoding
  use import "_gnatprove_standard".Main
 
- function encoding #"s-crtl.ads" 207 0 0# "model" "model_trace:10468" 
+ function encoding #"s-crtl.ads" 207 0 0# "model" "model_trace:10498" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 72 0 0# 
@@ -5608,7 +5608,7 @@ end
 module System__crtl__setvbuf__mode
  use import "_gnatprove_standard".Main
 
- function mode #"s-crtl.ads" 213 0 0# "model" "model_trace:10514" 
+ function mode #"s-crtl.ads" 213 0 0# "model" "model_trace:10544" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5628,7 +5628,7 @@ module System__crtl__setvbuf__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function size #"s-crtl.ads" 214 0 0# "model" "model_trace:10523" 
+ function size #"s-crtl.ads" 214 0 0# "model" "model_trace:10553" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -5687,7 +5687,7 @@ end
 module System__crtl__ungetc__c
  use import "_gnatprove_standard".Main
 
- function c #"s-crtl.ads" 223 0 0# "model" "model_trace:10594" 
+ function c #"s-crtl.ads" 223 0 0# "model" "model_trace:10624" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5786,7 +5786,7 @@ end
 module System__crtl__open__oflag
  use import "_gnatprove_standard".Main
 
- function oflag #"s-crtl.ads" 229 0 0# "model" "model_trace:10666" 
+ function oflag #"s-crtl.ads" 229 0 0# "model" "model_trace:10696" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5815,7 +5815,7 @@ end
 module System__crtl__close__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 232 0 0# "model" "model_trace:10693" 
+ function fd #"s-crtl.ads" 232 0 0# "model" "model_trace:10723" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5843,7 +5843,7 @@ end
 module System__crtl__read__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 235 0 0# "model" "model_trace:10720" 
+ function fd #"s-crtl.ads" 235 0 0# "model" "model_trace:10750" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5883,7 +5883,7 @@ module System__crtl__read__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function count #"s-crtl.ads" 235 0 0# "model" "model_trace:10738" 
+ function count #"s-crtl.ads" 235 0 0# "model" "model_trace:10768" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -5912,7 +5912,7 @@ end
 module System__crtl__write__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 238 0 0# "model" "model_trace:10765" 
+ function fd #"s-crtl.ads" 238 0 0# "model" "model_trace:10795" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 53 0 0# 
@@ -5952,7 +5952,7 @@ module System__crtl__write__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function count #"s-crtl.ads" 238 0 0# "model" "model_trace:10783" 
+ function count #"s-crtl.ads" 238 0 0# "model" "model_trace:10813" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"s-crtl.ads" 60 0 0# 
@@ -6667,7 +6667,7 @@ module Interfaces__shift_left__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 82 0 0# "model" "model_trace:6846" 
+ function value #"interfac.ads" 82 0 0# "model" "model_trace:6876" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 63 0 0# 
@@ -6686,7 +6686,7 @@ end
 module Interfaces__shift_left__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 83 0 0# "model" "model_trace:6855" 
+ function amount #"interfac.ads" 83 0 0# "model" "model_trace:6885" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6706,7 +6706,7 @@ module Interfaces__shift_right__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 86 0 0# "model" "model_trace:6874" 
+ function value #"interfac.ads" 86 0 0# "model" "model_trace:6904" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 63 0 0# 
@@ -6725,7 +6725,7 @@ end
 module Interfaces__shift_right__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 87 0 0# "model" "model_trace:6883" 
+ function amount #"interfac.ads" 87 0 0# "model" "model_trace:6913" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6745,7 +6745,7 @@ module Interfaces__shift_right_arithmetic__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 90 0 0# "model" "model_trace:6902" 
+ function value #"interfac.ads" 90 0 0# "model" "model_trace:6932" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 63 0 0# 
@@ -6764,7 +6764,7 @@ end
 module Interfaces__shift_right_arithmetic__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 91 0 0# "model" "model_trace:6911" 
+ function amount #"interfac.ads" 91 0 0# "model" "model_trace:6941" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6784,7 +6784,7 @@ module Interfaces__rotate_left__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 94 0 0# "model" "model_trace:6930" 
+ function value #"interfac.ads" 94 0 0# "model" "model_trace:6960" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 63 0 0# 
@@ -6803,7 +6803,7 @@ end
 module Interfaces__rotate_left__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 95 0 0# "model" "model_trace:6939" 
+ function amount #"interfac.ads" 95 0 0# "model" "model_trace:6969" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6823,7 +6823,7 @@ module Interfaces__rotate_right__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 98 0 0# "model" "model_trace:6958" 
+ function value #"interfac.ads" 98 0 0# "model" "model_trace:6988" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 63 0 0# 
@@ -6842,7 +6842,7 @@ end
 module Interfaces__rotate_right__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 99 0 0# "model" "model_trace:6967" 
+ function amount #"interfac.ads" 99 0 0# "model" "model_trace:6997" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6862,7 +6862,7 @@ module Interfaces__shift_left__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 102 0 0# "model" "model_trace:6986" 
+ function value #"interfac.ads" 102 0 0# "model" "model_trace:7016" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 66 0 0# 
@@ -6881,7 +6881,7 @@ end
 module Interfaces__shift_left__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 103 0 0# "model" "model_trace:6995" 
+ function amount #"interfac.ads" 103 0 0# "model" "model_trace:7025" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6901,7 +6901,7 @@ module Interfaces__shift_right__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 106 0 0# "model" "model_trace:7014" 
+ function value #"interfac.ads" 106 0 0# "model" "model_trace:7044" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 66 0 0# 
@@ -6920,7 +6920,7 @@ end
 module Interfaces__shift_right__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 107 0 0# "model" "model_trace:7023" 
+ function amount #"interfac.ads" 107 0 0# "model" "model_trace:7053" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6940,7 +6940,7 @@ module Interfaces__shift_right_arithmetic__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 110 0 0# "model" "model_trace:7042" 
+ function value #"interfac.ads" 110 0 0# "model" "model_trace:7072" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 66 0 0# 
@@ -6959,7 +6959,7 @@ end
 module Interfaces__shift_right_arithmetic__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 111 0 0# "model" "model_trace:7051" 
+ function amount #"interfac.ads" 111 0 0# "model" "model_trace:7081" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -6979,7 +6979,7 @@ module Interfaces__rotate_left__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 114 0 0# "model" "model_trace:7070" 
+ function value #"interfac.ads" 114 0 0# "model" "model_trace:7100" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 66 0 0# 
@@ -6998,7 +6998,7 @@ end
 module Interfaces__rotate_left__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 115 0 0# "model" "model_trace:7079" 
+ function amount #"interfac.ads" 115 0 0# "model" "model_trace:7109" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7018,7 +7018,7 @@ module Interfaces__rotate_right__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 118 0 0# "model" "model_trace:7098" 
+ function value #"interfac.ads" 118 0 0# "model" "model_trace:7128" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 66 0 0# 
@@ -7037,7 +7037,7 @@ end
 module Interfaces__rotate_right__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 119 0 0# "model" "model_trace:7107" 
+ function amount #"interfac.ads" 119 0 0# "model" "model_trace:7137" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7057,7 +7057,7 @@ module Interfaces__shift_left__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 122 0 0# "model" "model_trace:7126" 
+ function value #"interfac.ads" 122 0 0# "model" "model_trace:7156" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 74 0 0# 
@@ -7076,7 +7076,7 @@ end
 module Interfaces__shift_left__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 123 0 0# "model" "model_trace:7135" 
+ function amount #"interfac.ads" 123 0 0# "model" "model_trace:7165" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7096,7 +7096,7 @@ module Interfaces__shift_right__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 126 0 0# "model" "model_trace:7154" 
+ function value #"interfac.ads" 126 0 0# "model" "model_trace:7184" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 74 0 0# 
@@ -7115,7 +7115,7 @@ end
 module Interfaces__shift_right__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 127 0 0# "model" "model_trace:7163" 
+ function amount #"interfac.ads" 127 0 0# "model" "model_trace:7193" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7135,7 +7135,7 @@ module Interfaces__shift_right_arithmetic__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 130 0 0# "model" "model_trace:7182" 
+ function value #"interfac.ads" 130 0 0# "model" "model_trace:7212" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 74 0 0# 
@@ -7154,7 +7154,7 @@ end
 module Interfaces__shift_right_arithmetic__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 131 0 0# "model" "model_trace:7191" 
+ function amount #"interfac.ads" 131 0 0# "model" "model_trace:7221" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7174,7 +7174,7 @@ module Interfaces__rotate_left__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 134 0 0# "model" "model_trace:7210" 
+ function value #"interfac.ads" 134 0 0# "model" "model_trace:7240" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 74 0 0# 
@@ -7193,7 +7193,7 @@ end
 module Interfaces__rotate_left__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 135 0 0# "model" "model_trace:7219" 
+ function amount #"interfac.ads" 135 0 0# "model" "model_trace:7249" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7213,7 +7213,7 @@ module Interfaces__rotate_right__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 138 0 0# "model" "model_trace:7238" 
+ function value #"interfac.ads" 138 0 0# "model" "model_trace:7268" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 74 0 0# 
@@ -7232,7 +7232,7 @@ end
 module Interfaces__rotate_right__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 139 0 0# "model" "model_trace:7247" 
+ function amount #"interfac.ads" 139 0 0# "model" "model_trace:7277" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7252,7 +7252,7 @@ module Interfaces__shift_left__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 142 0 0# "model" "model_trace:7266" 
+ function value #"interfac.ads" 142 0 0# "model" "model_trace:7296" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 77 0 0# 
@@ -7271,7 +7271,7 @@ end
 module Interfaces__shift_left__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 143 0 0# "model" "model_trace:7275" 
+ function amount #"interfac.ads" 143 0 0# "model" "model_trace:7305" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7291,7 +7291,7 @@ module Interfaces__shift_right__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 146 0 0# "model" "model_trace:7294" 
+ function value #"interfac.ads" 146 0 0# "model" "model_trace:7324" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 77 0 0# 
@@ -7310,7 +7310,7 @@ end
 module Interfaces__shift_right__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 147 0 0# "model" "model_trace:7303" 
+ function amount #"interfac.ads" 147 0 0# "model" "model_trace:7333" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7330,7 +7330,7 @@ module Interfaces__shift_right_arithmetic__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 150 0 0# "model" "model_trace:7322" 
+ function value #"interfac.ads" 150 0 0# "model" "model_trace:7352" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 77 0 0# 
@@ -7349,7 +7349,7 @@ end
 module Interfaces__shift_right_arithmetic__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 151 0 0# "model" "model_trace:7331" 
+ function amount #"interfac.ads" 151 0 0# "model" "model_trace:7361" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7369,7 +7369,7 @@ module Interfaces__rotate_left__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 154 0 0# "model" "model_trace:7350" 
+ function value #"interfac.ads" 154 0 0# "model" "model_trace:7380" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 77 0 0# 
@@ -7388,7 +7388,7 @@ end
 module Interfaces__rotate_left__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 155 0 0# "model" "model_trace:7359" 
+ function amount #"interfac.ads" 155 0 0# "model" "model_trace:7389" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -7408,7 +7408,7 @@ module Interfaces__rotate_right__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 158 0 0# "model" "model_trace:7378" 
+ function value #"interfac.ads" 158 0 0# "model" "model_trace:7408" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS #"interfac.ads" 77 0 0# 
@@ -7427,7 +7427,7 @@ end
 module Interfaces__rotate_right__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 159 0 0# "model" "model_trace:7387" 
+ function amount #"interfac.ads" 159 0 0# "model" "model_trace:7417" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -8185,7 +8185,7 @@ end
 module Interfaces__c_streams__eof
  use import "_gnatprove_standard".Main
 
- function eof #"i-cstrea.ads" 56 0 0# "model" "model_trace:7605" 
+ function eof #"i-cstrea.ads" 56 0 0# "model" "model_trace:7635" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8197,7 +8197,7 @@ end
 module Interfaces__c_streams__iofbf
  use import "_gnatprove_standard".Main
 
- function iofbf #"i-cstrea.ads" 59 0 0# "model" "model_trace:7614" 
+ function iofbf #"i-cstrea.ads" 59 0 0# "model" "model_trace:7644" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8209,7 +8209,7 @@ end
 module Interfaces__c_streams__iolbf
  use import "_gnatprove_standard".Main
 
- function iolbf #"i-cstrea.ads" 60 0 0# "model" "model_trace:7623" 
+ function iolbf #"i-cstrea.ads" 60 0 0# "model" "model_trace:7653" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8221,7 +8221,7 @@ end
 module Interfaces__c_streams__ionbf
  use import "_gnatprove_standard".Main
 
- function ionbf #"i-cstrea.ads" 61 0 0# "model" "model_trace:7632" 
+ function ionbf #"i-cstrea.ads" 61 0 0# "model" "model_trace:7662" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8233,7 +8233,7 @@ end
 module Interfaces__c_streams__l_tmpnam
  use import "_gnatprove_standard".Main
 
- function l_tmpnam #"i-cstrea.ads" 64 0 0# "model" "model_trace:7641" 
+ function l_tmpnam #"i-cstrea.ads" 64 0 0# "model" "model_trace:7671" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8245,7 +8245,7 @@ end
 module Interfaces__c_streams__seek_cur
  use import "_gnatprove_standard".Main
 
- function seek_cur #"i-cstrea.ads" 67 0 0# "model" "model_trace:7650" 
+ function seek_cur #"i-cstrea.ads" 67 0 0# "model" "model_trace:7680" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8257,7 +8257,7 @@ end
 module Interfaces__c_streams__seek_end
  use import "_gnatprove_standard".Main
 
- function seek_end #"i-cstrea.ads" 68 0 0# "model" "model_trace:7659" 
+ function seek_end #"i-cstrea.ads" 68 0 0# "model" "model_trace:7689" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8269,7 +8269,7 @@ end
 module Interfaces__c_streams__seek_set
  use import "_gnatprove_standard".Main
 
- function seek_set #"i-cstrea.ads" 69 0 0# "model" "model_trace:7668" 
+ function seek_set #"i-cstrea.ads" 69 0 0# "model" "model_trace:7698" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8422,7 +8422,7 @@ module Interfaces__c_streams__fread__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function size #"i-cstrea.ads" 130 0 0# "model" "model_trace:8100" 
+ function size #"i-cstrea.ads" 130 0 0# "model" "model_trace:8130" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8442,7 +8442,7 @@ module Interfaces__c_streams__fread__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function count #"i-cstrea.ads" 131 0 0# "model" "model_trace:8109" 
+ function count #"i-cstrea.ads" 131 0 0# "model" "model_trace:8139" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8512,7 +8512,7 @@ module Interfaces__c_streams__fread__2__index
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function index #"i-cstrea.ads" 136 0 0# "model" "model_trace:8146" 
+ function index #"i-cstrea.ads" 136 0 0# "model" "model_trace:8176" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8532,7 +8532,7 @@ module Interfaces__c_streams__fread__2__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function size #"i-cstrea.ads" 137 0 0# "model" "model_trace:8155" 
+ function size #"i-cstrea.ads" 137 0 0# "model" "model_trace:8185" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8552,7 +8552,7 @@ module Interfaces__c_streams__fread__2__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function count #"i-cstrea.ads" 138 0 0# "model" "model_trace:8164" 
+ function count #"i-cstrea.ads" 138 0 0# "model" "model_trace:8194" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8622,7 +8622,7 @@ module Interfaces__c_streams__fwrite__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function size #"i-cstrea.ads" 173 0 0# "model" "model_trace:8393" 
+ function size #"i-cstrea.ads" 173 0 0# "model" "model_trace:8423" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8642,7 +8642,7 @@ module Interfaces__c_streams__fwrite__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function count #"i-cstrea.ads" 174 0 0# "model" "model_trace:8402" 
+ function count #"i-cstrea.ads" 174 0 0# "model" "model_trace:8432" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8731,7 +8731,7 @@ end
 module Interfaces__c_streams__setvbuf__mode
  use import "_gnatprove_standard".Main
 
- function mode #"i-cstrea.ads" 187 0 0# "model" "model_trace:8518" 
+ function mode #"i-cstrea.ads" 187 0 0# "model" "model_trace:8548" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8751,7 +8751,7 @@ module Interfaces__c_streams__setvbuf__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function size #"i-cstrea.ads" 188 0 0# "model" "model_trace:8527" 
+ function size #"i-cstrea.ads" 188 0 0# "model" "model_trace:8557" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 44 0 0# 
@@ -8810,7 +8810,7 @@ end
 module Interfaces__c_streams__is_regular_file__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 215 0 0# "model" "model_trace:8660" 
+ function handle #"i-cstrea.ads" 215 0 0# "model" "model_trace:8690" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8838,7 +8838,7 @@ end
 module Interfaces__c_streams__set_binary_mode__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 223 0 0# "model" "model_trace:8679" 
+ function handle #"i-cstrea.ads" 223 0 0# "model" "model_trace:8709" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -8857,7 +8857,7 @@ end
 module Interfaces__c_streams__set_text_mode__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 224 0 0# "model" "model_trace:8697" 
+ function handle #"i-cstrea.ads" 224 0 0# "model" "model_trace:8727" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -9014,7 +9014,7 @@ end
 module Interfaces__c_streams__set_mode__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 254 0 0# "model" "model_trace:8811" 
+ function handle #"i-cstrea.ads" 254 0 0# "model" "model_trace:8841" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 42 0 0# 
@@ -9033,7 +9033,7 @@ end
 module Interfaces__c_streams__set_mode__mode
  use import "_gnatprove_standard".Main
 
- function mode #"i-cstrea.ads" 254 0 0# "model" "model_trace:8820" 
+ function mode #"i-cstrea.ads" 254 0 0# "model" "model_trace:8850" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"i-cstrea.ads" 230 0 0# 
@@ -9092,7 +9092,7 @@ end
 module Interfaces__c_streams__max_path_len
  use import "_gnatprove_standard".Main
 
- function max_path_len #"i-cstrea.ads" 270 0 0# "model" "model_trace:8861" 
+ function max_path_len #"i-cstrea.ads" 270 0 0# "model" "model_trace:8891" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -9334,7 +9334,7 @@ end
 module System__wch_con__wcem_hex
  use import "_gnatprove_standard".Main
 
- function wcem_hex #"s-wchcon.ads" 100 0 0# "model" "model_trace:11115" 
+ function wcem_hex #"s-wchcon.ads" 100 0 0# "model" "model_trace:11145" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
@@ -9346,7 +9346,7 @@ end
 module System__wch_con__wcem_upper
  use import "_gnatprove_standard".Main
 
- function wcem_upper #"s-wchcon.ads" 108 0 0# "model" "model_trace:11125" 
+ function wcem_upper #"s-wchcon.ads" 108 0 0# "model" "model_trace:11155" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
@@ -9358,7 +9358,7 @@ end
 module System__wch_con__wcem_shift_jis
  use import "_gnatprove_standard".Main
 
- function wcem_shift_jis #"s-wchcon.ads" 117 0 0# "model" "model_trace:11135" 
+ function wcem_shift_jis #"s-wchcon.ads" 117 0 0# "model" "model_trace:11165" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
@@ -9370,7 +9370,7 @@ end
 module System__wch_con__wcem_euc
  use import "_gnatprove_standard".Main
 
- function wcem_euc #"s-wchcon.ads" 126 0 0# "model" "model_trace:11145" 
+ function wcem_euc #"s-wchcon.ads" 126 0 0# "model" "model_trace:11175" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
@@ -9382,7 +9382,7 @@ end
 module System__wch_con__wcem_utf8
  use import "_gnatprove_standard".Main
 
- function wcem_utf8 #"s-wchcon.ads" 134 0 0# "model" "model_trace:11155" 
+ function wcem_utf8 #"s-wchcon.ads" 134 0 0# "model" "model_trace:11185" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
@@ -9394,7 +9394,7 @@ end
 module System__wch_con__wcem_brackets
  use import "_gnatprove_standard".Main
 
- function wcem_brackets #"s-wchcon.ads" 156 0 0# "model" "model_trace:11165" 
+ function wcem_brackets #"s-wchcon.ads" 156 0 0# "model" "model_trace:11195" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
@@ -9566,7 +9566,7 @@ module System__wch_con__wc_encoding_letters
  use import "_gnatprove_standard".Main
  use        Array__Int__Standard__character
 
- function wc_encoding_letters #"s-wchcon.ads" 169 0 0# "model_projected" "model_trace:11175" 
+ function wc_encoding_letters #"s-wchcon.ads" 169 0 0# "model_projected" "model_trace:11205" 
    : Array__Int__Standard__character.map
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 169 0 0# 
@@ -9873,7 +9873,7 @@ module System__wch_con__wc_longest_sequences
  use import "_gnatprove_standard".Main
  use        Array__Int__Standard__natural
 
- function wc_longest_sequences #"s-wchcon.ads" 193 0 0# "model_projected" "model_trace:11243" 
+ function wc_longest_sequences #"s-wchcon.ads" 193 0 0# "model_projected" "model_trace:11273" 
    : Array__Int__Standard__natural.map
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 193 0 0# 
@@ -9885,7 +9885,7 @@ end
 module System__wch_con__get_wc_encoding_method__c
  use import "_gnatprove_standard".Main
 
- function c #"s-wchcon.ads" 203 0 0# "model" "model_trace:11281" 
+ function c #"s-wchcon.ads" 203 0 0# "model" "model_trace:11311" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -9914,7 +9914,7 @@ module System__wch_con__get_wc_encoding_method__2__s
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function s #"s-wchcon.ads" 207 0 0# "model_projected" "model_trace:11300" 
+ function s #"s-wchcon.ads" 207 0 0# "model_projected" "model_trace:11330" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -9943,7 +9943,7 @@ end
 module System__wch_con__is_start_of_encoding__c
  use import "_gnatprove_standard".Main
 
- function c #"s-wchcon.ads" 213 0 0# "model" "model_trace:11319" 
+ function c #"s-wchcon.ads" 213 0 0# "model" "model_trace:11349" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -9962,7 +9962,7 @@ end
 module System__wch_con__is_start_of_encoding__em
  use import "_gnatprove_standard".Main
 
- function em #"s-wchcon.ads" 214 0 0# "model" "model_trace:11328" 
+ function em #"s-wchcon.ads" 214 0 0# "model" "model_trace:11358" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
@@ -10259,7 +10259,7 @@ end
 module Ada__text_io__unbounded
  use import "_gnatprove_standard".Main
 
- function unbounded #"a-textio.ads" 70 0 0# "model" "model_trace:2860" 
+ function unbounded #"a-textio.ads" 70 0 0# "model" "model_trace:2890" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 64 0 0# 
@@ -10409,7 +10409,7 @@ end
 module Ada__text_io__create__mode
  use import "_gnatprove_standard".Main
 
- function mode #"a-textio.ads" 88 0 0# "model" "model_trace:2938" 
+ function mode #"a-textio.ads" 88 0 0# "model" "model_trace:2968" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 53 0 0# 
@@ -10429,7 +10429,7 @@ module Ada__text_io__create__name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function name #"a-textio.ads" 89 0 0# "model_projected" "model_trace:2948" 
+ function name #"a-textio.ads" 89 0 0# "model_projected" "model_trace:2978" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -10449,7 +10449,7 @@ module Ada__text_io__create__form
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function form #"a-textio.ads" 90 0 0# "model_projected" "model_trace:2958" 
+ function form #"a-textio.ads" 90 0 0# "model_projected" "model_trace:2988" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -10468,7 +10468,7 @@ end
 module Ada__text_io__open__mode
  use import "_gnatprove_standard".Main
 
- function mode #"a-textio.ads" 94 0 0# "model" "model_trace:2986" 
+ function mode #"a-textio.ads" 94 0 0# "model" "model_trace:3016" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 53 0 0# 
@@ -10488,7 +10488,7 @@ module Ada__text_io__open__name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function name #"a-textio.ads" 95 0 0# "model_projected" "model_trace:2995" 
+ function name #"a-textio.ads" 95 0 0# "model_projected" "model_trace:3025" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -10508,7 +10508,7 @@ module Ada__text_io__open__form
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function form #"a-textio.ads" 96 0 0# "model_projected" "model_trace:3004" 
+ function form #"a-textio.ads" 96 0 0# "model_projected" "model_trace:3034" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -10527,7 +10527,7 @@ end
 module Ada__text_io__reset__mode
  use import "_gnatprove_standard".Main
 
- function mode #"a-textio.ads" 100 0 0# "model" "model_trace:3068" 
+ function mode #"a-textio.ads" 100 0 0# "model" "model_trace:3098" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 53 0 0# 
@@ -10828,7 +10828,7 @@ end
 module Ada__text_io__set_line_length__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 149 0 0# "model" "model_trace:3400" 
+ function to__ #"a-textio.ads" 149 0 0# "model" "model_trace:3430" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 64 0 0# 
@@ -10847,7 +10847,7 @@ end
 module Ada__text_io__set_line_length__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 150 0 0# "model" "model_trace:3418" 
+ function to__ #"a-textio.ads" 150 0 0# "model" "model_trace:3448" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 64 0 0# 
@@ -10886,7 +10886,7 @@ end
 module Ada__text_io__set_page_length__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 152 0 0# "model" "model_trace:3445" 
+ function to__ #"a-textio.ads" 152 0 0# "model" "model_trace:3475" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 64 0 0# 
@@ -10905,7 +10905,7 @@ end
 module Ada__text_io__set_page_length__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 153 0 0# "model" "model_trace:3463" 
+ function to__ #"a-textio.ads" 153 0 0# "model" "model_trace:3493" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 64 0 0# 
@@ -11022,7 +11022,7 @@ end
 module Ada__text_io__new_line__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 165 0 0# "model" "model_trace:3548" 
+ function spacing #"a-textio.ads" 165 0 0# "model" "model_trace:3578" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11041,7 +11041,7 @@ end
 module Ada__text_io__new_line__2__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 166 0 0# "model" "model_trace:3567" 
+ function spacing #"a-textio.ads" 166 0 0# "model" "model_trace:3597" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11080,7 +11080,7 @@ end
 module Ada__text_io__skip_line__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 168 0 0# "model" "model_trace:3595" 
+ function spacing #"a-textio.ads" 168 0 0# "model" "model_trace:3625" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11099,7 +11099,7 @@ end
 module Ada__text_io__skip_line__2__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 169 0 0# "model" "model_trace:3614" 
+ function spacing #"a-textio.ads" 169 0 0# "model" "model_trace:3644" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11295,7 +11295,7 @@ end
 module Ada__text_io__set_col__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 186 0 0# "model" "model_trace:3783" 
+ function to__ #"a-textio.ads" 186 0 0# "model" "model_trace:3813" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11314,7 +11314,7 @@ end
 module Ada__text_io__set_col__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 187 0 0# "model" "model_trace:3801" 
+ function to__ #"a-textio.ads" 187 0 0# "model" "model_trace:3831" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11353,7 +11353,7 @@ end
 module Ada__text_io__set_line__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 189 0 0# "model" "model_trace:3828" 
+ function to__ #"a-textio.ads" 189 0 0# "model" "model_trace:3858" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11372,7 +11372,7 @@ end
 module Ada__text_io__set_line__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 190 0 0# "model" "model_trace:3846" 
+ function to__ #"a-textio.ads" 190 0 0# "model" "model_trace:3876" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 68 0 0# 
@@ -11548,7 +11548,7 @@ end
 module Ada__text_io__put__item
  use import "_gnatprove_standard".Main
 
- function item #"a-textio.ads" 207 0 0# "model" "model_trace:4005" 
+ function item #"a-textio.ads" 207 0 0# "model" "model_trace:4035" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -11567,7 +11567,7 @@ end
 module Ada__text_io__put__2__item
  use import "_gnatprove_standard".Main
 
- function item #"a-textio.ads" 208 0 0# "model" "model_trace:4023" 
+ function item #"a-textio.ads" 208 0 0# "model" "model_trace:4053" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -11687,7 +11687,7 @@ module Ada__text_io__put__3__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 241 0 0# "model_projected" "model_trace:4266" 
+ function item #"a-textio.ads" 241 0 0# "model_projected" "model_trace:4296" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -11707,7 +11707,7 @@ module Ada__text_io__put__4__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 242 0 0# "model_projected" "model_trace:4284" 
+ function item #"a-textio.ads" 242 0 0# "model_projected" "model_trace:4314" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -11808,7 +11808,7 @@ module Ada__text_io__put_line__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 261 0 0# "model_projected" "model_trace:4411" 
+ function item #"a-textio.ads" 261 0 0# "model_projected" "model_trace:4441" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -11828,7 +11828,7 @@ module Ada__text_io__put_line__2__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 264 0 0# "model_projected" "model_trace:4429" 
+ function item #"a-textio.ads" 264 0 0# "model_projected" "model_trace:4459" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -11848,7 +11848,7 @@ module Ada__text_io__write__2__item
  use import "_gnatprove_standard".Main
  use        Ada__streams__stream_element_array
 
- function item #"a-textio.ads" 439 0 0# "model_projected" "model_trace:4920" 
+ function item #"a-textio.ads" 439 0 0# "model_projected" "model_trace:4950" 
    : Ada__streams__stream_element_array.stream_element_array
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 54 0 0# 
@@ -11942,7 +11942,7 @@ end
 module Ada__integer_text_io__get__width
  use import "_gnatprove_standard".Main
 
- function width #"a-tiinio.ads" 54 0 0# "model" "model_trace:14488" 
+ function width #"a-tiinio.ads" 54 0 0# "model" "model_trace:14518" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 73 0 0# 
@@ -11961,7 +11961,7 @@ end
 module Ada__integer_text_io__get__2__width
  use import "_gnatprove_standard".Main
 
- function width #"a-tiinio.ads" 58 0 0# "model" "model_trace:14516" 
+ function width #"a-tiinio.ads" 58 0 0# "model" "model_trace:14546" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 73 0 0# 
@@ -12000,7 +12000,7 @@ end
 module Ada__integer_text_io__put__item
  use import "_gnatprove_standard".Main
 
- function item #"a-tiinio.ads" 62 0 0# "model" "model_trace:14544" 
+ function item #"a-tiinio.ads" 62 0 0# "model" "model_trace:14574" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-tiinio.ads" 44 0 0# 
@@ -12019,7 +12019,7 @@ end
 module Ada__integer_text_io__put__width
  use import "_gnatprove_standard".Main
 
- function width #"a-tiinio.ads" 63 0 0# "model" "model_trace:14553" 
+ function width #"a-tiinio.ads" 63 0 0# "model" "model_trace:14583" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 73 0 0# 
@@ -12038,7 +12038,7 @@ end
 module Ada__integer_text_io__put__base
  use import "_gnatprove_standard".Main
 
- function base #"a-tiinio.ads" 64 0 0# "model" "model_trace:14563" 
+ function base #"a-tiinio.ads" 64 0 0# "model" "model_trace:14593" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 78 0 0# 
@@ -12057,7 +12057,7 @@ end
 module Ada__integer_text_io__put__2__item
  use import "_gnatprove_standard".Main
 
- function item #"a-tiinio.ads" 67 0 0# "model" "model_trace:14582" 
+ function item #"a-tiinio.ads" 67 0 0# "model" "model_trace:14612" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-tiinio.ads" 44 0 0# 
@@ -12076,7 +12076,7 @@ end
 module Ada__integer_text_io__put__2__width
  use import "_gnatprove_standard".Main
 
- function width #"a-tiinio.ads" 68 0 0# "model" "model_trace:14591" 
+ function width #"a-tiinio.ads" 68 0 0# "model" "model_trace:14621" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 73 0 0# 
@@ -12095,7 +12095,7 @@ end
 module Ada__integer_text_io__put__2__base
  use import "_gnatprove_standard".Main
 
- function base #"a-tiinio.ads" 69 0 0# "model" "model_trace:14601" 
+ function base #"a-tiinio.ads" 69 0 0# "model" "model_trace:14631" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 78 0 0# 
@@ -12115,7 +12115,7 @@ module Ada__integer_text_io__get__3__from
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function from #"a-tiinio.ads" 72 0 0# "model_projected" "model_trace:14620" 
+ function from #"a-tiinio.ads" 72 0 0# "model_projected" "model_trace:14650" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -12134,7 +12134,7 @@ end
 module Ada__integer_text_io__put__3__item
  use import "_gnatprove_standard".Main
 
- function item #"a-tiinio.ads" 78 0 0# "model" "model_trace:14665" 
+ function item #"a-tiinio.ads" 78 0 0# "model" "model_trace:14695" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-tiinio.ads" 44 0 0# 
@@ -12153,7 +12153,7 @@ end
 module Ada__integer_text_io__put__3__base
  use import "_gnatprove_standard".Main
 
- function base #"a-tiinio.ads" 79 0 0# "model" "model_trace:14674" 
+ function base #"a-tiinio.ads" 79 0 0# "model" "model_trace:14704" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 78 0 0# 
@@ -12273,7 +12273,7 @@ module Light__pointer
  
  function last #"light.ads" 8 0 0# 
    : int =
-  1
+  3
  
  predicate in_range #"light.ads" 8 0 0# 
    (x : int)  =
@@ -12424,7 +12424,7 @@ module Light__states
  
  function last #"light.ads" 7 0 0# 
    : int =
-  1
+  3
  
  clone export "ada__model".Constr_Array with
  type map = Array__Int__Light__status_type.map, 
@@ -12439,7 +12439,7 @@ end
 module Ada__strings__space
  use import "_gnatprove_standard".Main
 
- function space #"a-string.ads" 19 0 0# "model" "model_trace:11365" 
+ function space #"a-string.ads" 19 0 0# "model" "model_trace:11395" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -12451,7 +12451,7 @@ end
 module Ada__strings__wide_space
  use import "_gnatprove_standard".Main
 
- function wide_space #"a-string.ads" 20 0 0# "model" "model_trace:11375" 
+ function wide_space #"a-string.ads" 20 0 0# "model" "model_trace:11405" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -12463,7 +12463,7 @@ end
 module Ada__strings__wide_wide_space
  use import "_gnatprove_standard".Main
 
- function wide_wide_space #"a-string.ads" 24 0 0# "model" "model_trace:11385" 
+ function wide_wide_space #"a-string.ads" 24 0 0# "model" "model_trace:11415" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -12726,7 +12726,7 @@ module Ada__text_io__enumeration_aux__scan_enum_lit__from
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function from #"a-tienau.ads" 47 0 0# "model_projected" "model_trace:16455" 
+ function from #"a-tienau.ads" 47 0 0# "model_projected" "model_trace:16515" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -12766,7 +12766,7 @@ module Ada__text_io__enumeration_aux__put__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-tienau.ads" 56 0 0# "model_projected" "model_trace:16500" 
+ function item #"a-tienau.ads" 56 0 0# "model_projected" "model_trace:16560" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -12785,7 +12785,7 @@ end
 module Ada__text_io__enumeration_aux__put__width
  use import "_gnatprove_standard".Main
 
- function width #"a-tienau.ads" 57 0 0# "model" "model_trace:16509" 
+ function width #"a-tienau.ads" 57 0 0# "model" "model_trace:16569" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 73 0 0# 
@@ -12804,7 +12804,7 @@ end
 module Ada__text_io__enumeration_aux__put__set
  use import "_gnatprove_standard".Main
 
- function set #"a-tienau.ads" 58 0 0# "model" "model_trace:16518" 
+ function set #"a-tienau.ads" 58 0 0# "model" "model_trace:16578" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 80 0 0# 
@@ -12824,7 +12824,7 @@ module Ada__text_io__enumeration_aux__puts__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-tienau.ads" 64 0 0# "model_projected" "model_trace:16545" 
+ function item #"a-tienau.ads" 64 0 0# "model_projected" "model_trace:16605" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -12843,7 +12843,7 @@ end
 module Ada__text_io__enumeration_aux__puts__set
  use import "_gnatprove_standard".Main
 
- function set #"a-tienau.ads" 65 0 0# "model" "model_trace:16554" 
+ function set #"a-tienau.ads" 65 0 0# "model" "model_trace:16614" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 80 0 0# 
@@ -12862,7 +12862,7 @@ module Ada__streams__read__stream
  use import "_gnatprove_standard".Main
  use        Ada__streams__root_stream_type
 
- val stream__split_fields #"a-stream.ads" 58 0 0# "model_projected" "model_trace:5228"  : Ada__streams__root_stream_type.__split_fields__ref 
+ val stream__split_fields #"a-stream.ads" 58 0 0# "model_projected" "model_trace:5258"  : Ada__streams__root_stream_type.__split_fields__ref 
  
  function stream__attr__tag #"a-stream.ads" 58 0 0# 
    : int
@@ -12885,12 +12885,12 @@ module Ada__streams__read__item
  use        Ada__streams__Tstream_element_offsetB
  use        Array__Int__Ada__streams__stream_element
 
- val item #"a-stream.ads" 59 0 0# "model_projected" "model_trace:5237"  : Array__Int__Ada__streams__stream_element.map__ref 
+ val item #"a-stream.ads" 59 0 0# "model_projected" "model_trace:5267"  : Array__Int__Ada__streams__stream_element.map__ref 
  
- function item__first #"a-stream.ads" 59 0 0# "model_projected" "model_trace:5237'First" 
+ function item__first #"a-stream.ads" 59 0 0# "model_projected" "model_trace:5267'First" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
- function item__last #"a-stream.ads" 59 0 0# "model_projected" "model_trace:5237'Last" 
+ function item__last #"a-stream.ads" 59 0 0# "model_projected" "model_trace:5267'Last" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 44 0 0# 
@@ -12909,7 +12909,7 @@ end
 module Ada__streams__read__last
  use import "_gnatprove_standard".Main
 
- val last #"a-stream.ads" 60 0 0# "model" "model_trace:5246"  : int__ref 
+ val last #"a-stream.ads" 60 0 0# "model" "model_trace:5276"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 44 0 0# 
    : int
@@ -12928,7 +12928,7 @@ module Ada__streams__write__stream
  use import "_gnatprove_standard".Main
  use        Ada__streams__root_stream_type
 
- val stream__split_fields #"a-stream.ads" 64 0 0# "model_projected" "model_trace:5264"  : Ada__streams__root_stream_type.__split_fields__ref 
+ val stream__split_fields #"a-stream.ads" 64 0 0# "model_projected" "model_trace:5294"  : Ada__streams__root_stream_type.__split_fields__ref 
  
  function stream__attr__tag #"a-stream.ads" 64 0 0# 
    : int
@@ -12951,12 +12951,12 @@ module Ada__streams__read_sea__v
  use        Ada__streams__Tstream_element_offsetB
  use        Array__Int__Ada__streams__stream_element
 
- val v #"a-stream.ads" 78 0 0# "model_projected" "model_trace:5313"  : Array__Int__Ada__streams__stream_element.map__ref 
+ val v #"a-stream.ads" 78 0 0# "model_projected" "model_trace:5343"  : Array__Int__Ada__streams__stream_element.map__ref 
  
- function v__first #"a-stream.ads" 78 0 0# "model_projected" "model_trace:5313'First" 
+ function v__first #"a-stream.ads" 78 0 0# "model_projected" "model_trace:5343'First" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
- function v__last #"a-stream.ads" 78 0 0# "model_projected" "model_trace:5313'Last" 
+ function v__last #"a-stream.ads" 78 0 0# "model_projected" "model_trace:5343'Last" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 44 0 0# 
@@ -13115,7 +13115,7 @@ end
 module Ada__text_io__get__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 205 0 0# "model" "model_trace:3960"  : int__ref 
+ val item #"a-textio.ads" 205 0 0# "model" "model_trace:3990"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13133,7 +13133,7 @@ end
 module Ada__text_io__get__2__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 206 0 0# "model" "model_trace:3978"  : int__ref 
+ val item #"a-textio.ads" 206 0 0# "model" "model_trace:4008"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13151,7 +13151,7 @@ end
 module Ada__text_io__look_ahead__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 212 0 0# "model" "model_trace:4050"  : int__ref 
+ val item #"a-textio.ads" 212 0 0# "model" "model_trace:4080"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13169,7 +13169,7 @@ end
 module Ada__text_io__look_ahead__end_of_line
  use import "_gnatprove_standard".Main
 
- val end_of_line #"a-textio.ads" 213 0 0# "model" "model_trace:4059"  : bool__ref 
+ val end_of_line #"a-textio.ads" 213 0 0# "model" "model_trace:4089"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 213 0 0# 
    : int
@@ -13187,7 +13187,7 @@ end
 module Ada__text_io__look_ahead__2__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 216 0 0# "model" "model_trace:4077"  : int__ref 
+ val item #"a-textio.ads" 216 0 0# "model" "model_trace:4107"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13205,7 +13205,7 @@ end
 module Ada__text_io__look_ahead__2__end_of_line
  use import "_gnatprove_standard".Main
 
- val end_of_line #"a-textio.ads" 217 0 0# "model" "model_trace:4086"  : bool__ref 
+ val end_of_line #"a-textio.ads" 217 0 0# "model" "model_trace:4116"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 217 0 0# 
    : int
@@ -13223,7 +13223,7 @@ end
 module Ada__text_io__get_immediate__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 221 0 0# "model" "model_trace:4113"  : int__ref 
+ val item #"a-textio.ads" 221 0 0# "model" "model_trace:4143"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13241,7 +13241,7 @@ end
 module Ada__text_io__get_immediate__2__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 224 0 0# "model" "model_trace:4131"  : int__ref 
+ val item #"a-textio.ads" 224 0 0# "model" "model_trace:4161"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13259,7 +13259,7 @@ end
 module Ada__text_io__get_immediate__3__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 228 0 0# "model" "model_trace:4158"  : int__ref 
+ val item #"a-textio.ads" 228 0 0# "model" "model_trace:4188"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13277,7 +13277,7 @@ end
 module Ada__text_io__get_immediate__3__available
  use import "_gnatprove_standard".Main
 
- val available #"a-textio.ads" 229 0 0# "model" "model_trace:4167"  : bool__ref 
+ val available #"a-textio.ads" 229 0 0# "model" "model_trace:4197"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 229 0 0# 
    : int
@@ -13295,7 +13295,7 @@ end
 module Ada__text_io__get_immediate__4__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 232 0 0# "model" "model_trace:4185"  : int__ref 
+ val item #"a-textio.ads" 232 0 0# "model" "model_trace:4215"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13313,7 +13313,7 @@ end
 module Ada__text_io__get_immediate__4__available
  use import "_gnatprove_standard".Main
 
- val available #"a-textio.ads" 233 0 0# "model" "model_trace:4194"  : bool__ref 
+ val available #"a-textio.ads" 233 0 0# "model" "model_trace:4224"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 233 0 0# 
    : int
@@ -13333,12 +13333,12 @@ module Ada__text_io__get__3__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 239 0 0# "model_projected" "model_trace:4221"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 239 0 0# "model_projected" "model_trace:4251"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 239 0 0# "model_projected" "model_trace:4221'First" 
+ function item__first #"a-textio.ads" 239 0 0# "model_projected" "model_trace:4251'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 239 0 0# "model_projected" "model_trace:4221'Last" 
+ function item__last #"a-textio.ads" 239 0 0# "model_projected" "model_trace:4251'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -13359,12 +13359,12 @@ module Ada__text_io__get__4__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 240 0 0# "model_projected" "model_trace:4239"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 240 0 0# "model_projected" "model_trace:4269"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 240 0 0# "model_projected" "model_trace:4239'First" 
+ function item__first #"a-textio.ads" 240 0 0# "model_projected" "model_trace:4269'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 240 0 0# "model_projected" "model_trace:4239'Last" 
+ function item__last #"a-textio.ads" 240 0 0# "model_projected" "model_trace:4269'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -13385,12 +13385,12 @@ module Ada__text_io__get_line__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 246 0 0# "model_projected" "model_trace:4311"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 246 0 0# "model_projected" "model_trace:4341"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 246 0 0# "model_projected" "model_trace:4311'First" 
+ function item__first #"a-textio.ads" 246 0 0# "model_projected" "model_trace:4341'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 246 0 0# "model_projected" "model_trace:4311'Last" 
+ function item__last #"a-textio.ads" 246 0 0# "model_projected" "model_trace:4341'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -13409,7 +13409,7 @@ end
 module Ada__text_io__get_line__last
  use import "_gnatprove_standard".Main
 
- val last #"a-textio.ads" 247 0 0# "model" "model_trace:4320"  : int__ref 
+ val last #"a-textio.ads" 247 0 0# "model" "model_trace:4350"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13429,12 +13429,12 @@ module Ada__text_io__get_line__2__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 250 0 0# "model_projected" "model_trace:4338"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 250 0 0# "model_projected" "model_trace:4368"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 250 0 0# "model_projected" "model_trace:4338'First" 
+ function item__first #"a-textio.ads" 250 0 0# "model_projected" "model_trace:4368'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 250 0 0# "model_projected" "model_trace:4338'Last" 
+ function item__last #"a-textio.ads" 250 0 0# "model_projected" "model_trace:4368'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -13453,7 +13453,7 @@ end
 module Ada__text_io__get_line__2__last
  use import "_gnatprove_standard".Main
 
- val last #"a-textio.ads" 251 0 0# "model" "model_trace:4347"  : int__ref 
+ val last #"a-textio.ads" 251 0 0# "model" "model_trace:4377"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13471,7 +13471,7 @@ end
 module Ada__text_io__default_wcem
  use import "_gnatprove_standard".Main
 
- val default_wcem #"a-textio.ads" 362 0 0# "model" "model_trace:4614"  : int__ref 
+ val default_wcem #"a-textio.ads" 362 0 0# "model" "model_trace:4644"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"s-wchcon.ads" 94 0 0# 
    : int
@@ -13510,12 +13510,12 @@ module Ada__text_io__read__2__item
  use        Ada__streams__Tstream_element_offsetB
  use        Array__Int__Ada__streams__stream_element
 
- val item #"a-textio.ads" 433 0 0# "model_projected" "model_trace:4876"  : Array__Int__Ada__streams__stream_element.map__ref 
+ val item #"a-textio.ads" 433 0 0# "model_projected" "model_trace:4906"  : Array__Int__Ada__streams__stream_element.map__ref 
  
- function item__first #"a-textio.ads" 433 0 0# "model_projected" "model_trace:4876'First" 
+ function item__first #"a-textio.ads" 433 0 0# "model_projected" "model_trace:4906'First" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
- function item__last #"a-textio.ads" 433 0 0# "model_projected" "model_trace:4876'Last" 
+ function item__last #"a-textio.ads" 433 0 0# "model_projected" "model_trace:4906'Last" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 44 0 0# 
@@ -13534,7 +13534,7 @@ end
 module Ada__text_io__read__2__last
  use import "_gnatprove_standard".Main
 
- val last #"a-textio.ads" 434 0 0# "model" "model_trace:4889"  : int__ref 
+ val last #"a-textio.ads" 434 0 0# "model" "model_trace:4919"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-stream.ads" 44 0 0# 
    : int
@@ -13742,7 +13742,7 @@ end
 module Ada__integer_text_io__default_width
  use import "_gnatprove_standard".Main
 
- val default_width #"a-tiinio.ads" 48 0 0# "model" "model_trace:14440"  : int__ref 
+ val default_width #"a-tiinio.ads" 48 0 0# "model" "model_trace:14470"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 73 0 0# 
    : int
@@ -13760,7 +13760,7 @@ end
 module Ada__integer_text_io__default_base
  use import "_gnatprove_standard".Main
 
- val default_base #"a-tiinio.ads" 49 0 0# "model" "model_trace:14451"  : int__ref 
+ val default_base #"a-tiinio.ads" 49 0 0# "model" "model_trace:14481"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-textio.ads" 78 0 0# 
    : int
@@ -13778,7 +13778,7 @@ end
 module Ada__integer_text_io__get__item
  use import "_gnatprove_standard".Main
 
- val item #"a-tiinio.ads" 53 0 0# "model" "model_trace:14479"  : int__ref 
+ val item #"a-tiinio.ads" 53 0 0# "model" "model_trace:14509"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-tiinio.ads" 44 0 0# 
    : int
@@ -13796,7 +13796,7 @@ end
 module Ada__integer_text_io__get__2__item
  use import "_gnatprove_standard".Main
 
- val item #"a-tiinio.ads" 57 0 0# "model" "model_trace:14507"  : int__ref 
+ val item #"a-tiinio.ads" 57 0 0# "model" "model_trace:14537"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-tiinio.ads" 44 0 0# 
    : int
@@ -13814,7 +13814,7 @@ end
 module Ada__integer_text_io__get__3__item
  use import "_gnatprove_standard".Main
 
- val item #"a-tiinio.ads" 73 0 0# "model" "model_trace:14629"  : int__ref 
+ val item #"a-tiinio.ads" 73 0 0# "model" "model_trace:14659"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"a-tiinio.ads" 44 0 0# 
    : int
@@ -13832,7 +13832,7 @@ end
 module Ada__integer_text_io__get__3__last
  use import "_gnatprove_standard".Main
 
- val last #"a-tiinio.ads" 74 0 0# "model" "model_trace:14638"  : int__ref 
+ val last #"a-tiinio.ads" 74 0 0# "model" "model_trace:14668"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -13852,12 +13852,12 @@ module Ada__integer_text_io__put__3__to
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val to__ #"a-tiinio.ads" 77 0 0# "model_projected" "model_trace:14656"  : Array__Int__Standard__character.map__ref 
+ val to__ #"a-tiinio.ads" 77 0 0# "model_projected" "model_trace:14686"  : Array__Int__Standard__character.map__ref 
  
- function to____first #"a-tiinio.ads" 77 0 0# "model_projected" "model_trace:14656'First" 
+ function to____first #"a-tiinio.ads" 77 0 0# "model_projected" "model_trace:14686'First" 
    : Standard__integer.integer
  
- function to____last #"a-tiinio.ads" 77 0 0# "model_projected" "model_trace:14656'Last" 
+ function to____last #"a-tiinio.ads" 77 0 0# "model_projected" "model_trace:14686'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -13923,36 +13923,36 @@ module Light__getstate__stateoflight__axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "status" defined at light.ads:25, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "status" defined at light.ads:26, created in Gnat2Why.Decls.Translate_Variable *)
 module Light__turn_on__status
  use import "_gnatprove_standard".Main
 
- val status #"light.ads" 25 0 0# "model" "model_trace:2635"  : int__ref 
+ val status #"light.ads" 26 0 0# "model" "model_trace:2656"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"light.ads" 7 0 0# 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "status" defined at light.ads:25, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "status" defined at light.ads:26, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Light__turn_on__status__axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining a ref holding the value of variable "status" defined at light.ads:32, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "status" defined at light.ads:33, created in Gnat2Why.Decls.Translate_Variable *)
 module Light__turn_off__status
  use import "_gnatprove_standard".Main
 
- val status #"light.ads" 32 0 0# "model" "model_trace:2671"  : int__ref 
+ val status #"light.ads" 33 0 0# "model" "model_trace:2692"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"light.ads" 7 0 0# 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "status" defined at light.ads:32, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "status" defined at light.ads:33, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Light__turn_off__status__axiom
  use import "_gnatprove_standard".Main
 
@@ -13965,12 +13965,12 @@ module Ada__text_io__enumeration_aux__get_enum_lit__buf
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val buf #"a-tienau.ads" 39 0 0# "model_projected" "model_trace:16428"  : Array__Int__Standard__character.map__ref 
+ val buf #"a-tienau.ads" 39 0 0# "model_projected" "model_trace:16488"  : Array__Int__Standard__character.map__ref 
  
- function buf__first #"a-tienau.ads" 39 0 0# "model_projected" "model_trace:16428'First" 
+ function buf__first #"a-tienau.ads" 39 0 0# "model_projected" "model_trace:16488'First" 
    : Standard__integer.integer
  
- function buf__last #"a-tienau.ads" 39 0 0# "model_projected" "model_trace:16428'Last" 
+ function buf__last #"a-tienau.ads" 39 0 0# "model_projected" "model_trace:16488'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -13989,7 +13989,7 @@ end
 module Ada__text_io__enumeration_aux__get_enum_lit__buflen
  use import "_gnatprove_standard".Main
 
- val buflen #"a-tienau.ads" 40 0 0# "model" "model_trace:16437"  : int__ref 
+ val buflen #"a-tienau.ads" 40 0 0# "model" "model_trace:16497"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -14007,7 +14007,7 @@ end
 module Ada__text_io__enumeration_aux__scan_enum_lit__start
  use import "_gnatprove_standard".Main
 
- val start #"a-tienau.ads" 48 0 0# "model" "model_trace:16464"  : int__ref 
+ val start #"a-tienau.ads" 48 0 0# "model" "model_trace:16524"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -14025,7 +14025,7 @@ end
 module Ada__text_io__enumeration_aux__scan_enum_lit__stop
  use import "_gnatprove_standard".Main
 
- val stop #"a-tienau.ads" 49 0 0# "model" "model_trace:16473"  : int__ref 
+ val stop #"a-tienau.ads" 49 0 0# "model" "model_trace:16533"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
    : int
@@ -14045,12 +14045,12 @@ module Ada__text_io__enumeration_aux__puts__to
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val to__ #"a-tienau.ads" 63 0 0# "model_projected" "model_trace:16536"  : Array__Int__Standard__character.map__ref 
+ val to__ #"a-tienau.ads" 63 0 0# "model_projected" "model_trace:16596"  : Array__Int__Standard__character.map__ref 
  
- function to____first #"a-tienau.ads" 63 0 0# "model_projected" "model_trace:16536'First" 
+ function to____first #"a-tienau.ads" 63 0 0# "model_projected" "model_trace:16596'First" 
    : Standard__integer.integer
  
- function to____last #"a-tienau.ads" 63 0 0# "model_projected" "model_trace:16536'Last" 
+ function to____last #"a-tienau.ads" 63 0 0# "model_projected" "model_trace:16596'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS #"system.ads" 1 0 0# 
@@ -14209,33 +14209,17 @@ module Main__statusio__put__3__to__axiom
 
 end
 
-(* Module declaring the external object "light__arraylightstate," created in Gnat2Why.Decls.Translate_External_Object *)
-module Light__arraylightstate
+(* Module declaring the external object "light__lightrec," created in Gnat2Why.Decls.Translate_External_Object *)
+module Light__lightrec
  use import "ref".Ref
  use import "_gnatprove_standard".Main
 
- val arraylightstate #"system.ads" 1 0 0#  : Main.__private__ref 
+ val lightrec #"system.ads" 1 0 0#  : Main.__private__ref 
 
 end
 
-(* Module giving an empty axiom for the entity "light__arraylightstate", created in Gnat2Why.Decls.Translate_External_Object *)
-module Light__arraylightstate__axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module declaring the external object "light__pointers," created in Gnat2Why.Decls.Translate_External_Object *)
-module Light__pointers
- use import "ref".Ref
- use import "_gnatprove_standard".Main
-
- val pointers #"system.ads" 1 0 0#  : Main.__private__ref 
-
-end
-
-(* Module giving an empty axiom for the entity "light__pointers", created in Gnat2Why.Decls.Translate_External_Object *)
-module Light__pointers__axiom
+(* Module giving an empty axiom for the entity "light__lightrec", created in Gnat2Why.Decls.Translate_External_Object *)
+module Light__lightrec__axiom
  use import "_gnatprove_standard".Main
 
 
@@ -14709,7 +14693,7 @@ end
 module System__min_int
  use import "_gnatprove_standard".Main
 
- function min_int #"system.ads" 51 0 0# "model" "model_trace:5414" 
+ function min_int #"system.ads" 51 0 0# "model" "model_trace:5444" 
    : int
 
 end
@@ -14718,7 +14702,7 @@ end
 module System__max_int
  use import "_gnatprove_standard".Main
 
- function max_int #"system.ads" 52 0 0# "model" "model_trace:5425" 
+ function max_int #"system.ads" 52 0 0# "model" "model_trace:5455" 
    : int
 
 end
@@ -14727,7 +14711,7 @@ end
 module System__max_binary_modulus
  use import "_gnatprove_standard".Main
 
- function max_binary_modulus #"system.ads" 54 0 0# "model" "model_trace:5436" 
+ function max_binary_modulus #"system.ads" 54 0 0# "model" "model_trace:5466" 
    : int
 
 end
@@ -14736,7 +14720,7 @@ end
 module System__max_nonbinary_modulus
  use import "_gnatprove_standard".Main
 
- function max_nonbinary_modulus #"system.ads" 55 0 0# "model" "model_trace:5449" 
+ function max_nonbinary_modulus #"system.ads" 55 0 0# "model" "model_trace:5479" 
    : int
 
 end
@@ -14745,7 +14729,7 @@ end
 module System__max_base_digits
  use import "_gnatprove_standard".Main
 
- function max_base_digits #"system.ads" 57 0 0# "model" "model_trace:5464" 
+ function max_base_digits #"system.ads" 57 0 0# "model" "model_trace:5494" 
    : int
 
 end
@@ -14754,7 +14738,7 @@ end
 module System__max_digits
  use import "_gnatprove_standard".Main
 
- function max_digits #"system.ads" 58 0 0# "model" "model_trace:5474" 
+ function max_digits #"system.ads" 58 0 0# "model" "model_trace:5504" 
    : int
 
 end
@@ -14763,7 +14747,7 @@ end
 module System__max_mantissa
  use import "_gnatprove_standard".Main
 
- function max_mantissa #"system.ads" 60 0 0# "model" "model_trace:5484" 
+ function max_mantissa #"system.ads" 60 0 0# "model" "model_trace:5514" 
    : int
 
 end
@@ -14792,7 +14776,7 @@ end
 module System__storage_unit
  use import "_gnatprove_standard".Main
 
- function storage_unit #"system.ads" 71 0 0# "model" "model_trace:5535" 
+ function storage_unit #"system.ads" 71 0 0# "model" "model_trace:5565" 
    : int
 
 end
@@ -14801,7 +14785,7 @@ end
 module System__word_size
  use import "_gnatprove_standard".Main
 
- function word_size #"system.ads" 72 0 0# "model" "model_trace:5544" 
+ function word_size #"system.ads" 72 0 0# "model" "model_trace:5574" 
    : int
 
 end
@@ -14810,7 +14794,7 @@ end
 module System__memory_size
  use import "_gnatprove_standard".Main
 
- function memory_size #"system.ads" 73 0 0# "model" "model_trace:5553" 
+ function memory_size #"system.ads" 73 0 0# "model" "model_trace:5583" 
    : int
 
 end
@@ -14857,7 +14841,7 @@ end
 module System__parameters__long_bits
  use import "_gnatprove_standard".Main
 
- function long_bits #"s-parame.ads" 110 0 0# "model" "model_trace:10969" 
+ function long_bits #"s-parame.ads" 110 0 0# "model" "model_trace:10999" 
    : int
 
 end
@@ -14876,7 +14860,7 @@ end
 module System__parameters__max_attribute_count
  use import "_gnatprove_standard".Main
 
- function max_attribute_count #"s-parame.ads" 183 0 0# "model" "model_trace:11042" 
+ function max_attribute_count #"s-parame.ads" 183 0 0# "model" "model_trace:11072" 
    : int
 
 end
@@ -14885,7 +14869,7 @@ end
 module System__parameters__max_task_image_length
  use import "_gnatprove_standard".Main
 
- function max_task_image_length #"s-parame.ads" 199 0 0# "model" "model_trace:11061" 
+ function max_task_image_length #"s-parame.ads" 199 0 0# "model" "model_trace:11091" 
    : int
 
 end
@@ -14894,7 +14878,7 @@ end
 module System__parameters__default_exception_msg_max_length
  use import "_gnatprove_standard".Main
 
- function default_exception_msg_max_length #"s-parame.ads" 206 0 0# "model" "model_trace:11070" 
+ function default_exception_msg_max_length #"s-parame.ads" 206 0 0# "model" "model_trace:11100" 
    : int
 
 end
@@ -15007,7 +14991,7 @@ end
 module System__wch_con__wc_longest_sequence
  use import "_gnatprove_standard".Main
 
- function wc_longest_sequence #"s-wchcon.ads" 189 0 0# "model" "model_trace:11234" 
+ function wc_longest_sequence #"s-wchcon.ads" 189 0 0# "model" "model_trace:11264" 
    : int
 
 end
@@ -15351,7 +15335,7 @@ end
 module Ada__text_io__lm
  use import "_gnatprove_standard".Main
 
- function lm #"a-textio.ads" 352 0 0# "model" "model_trace:4586" 
+ function lm #"a-textio.ads" 352 0 0# "model" "model_trace:4616" 
    : int
 
 end
@@ -15360,7 +15344,7 @@ end
 module Ada__text_io__pm
  use import "_gnatprove_standard".Main
 
- function pm #"a-textio.ads" 355 0 0# "model" "model_trace:4600" 
+ function pm #"a-textio.ads" 355 0 0# "model" "model_trace:4630" 
    : int
 
 end
@@ -15421,25 +15405,25 @@ module Light__getstate
 
 end
 
-(* Module for possibly declaring a logic function for "initializes" defined at light.ads:20, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "initializes" defined at light.ads:21, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Light__initializes
  use        Light__state
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".Main
 
- function initializes #"light.ads" 20 0 0# 
+ function initializes #"light.ads" 21 0 0# 
    (light__state : Main.__private) : int
 
 end
 
-(* Module for possibly declaring a logic function for "turn_on" defined at light.ads:25, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "turn_on" defined at light.ads:26, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Light__turn_on
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "turn_off" defined at light.ads:32, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "turn_off" defined at light.ads:33, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Light__turn_off
  use import "_gnatprove_standard".Main
 
@@ -20452,14 +20436,14 @@ module Light__getstate__axiom
    (success : bool__ref) (stateoflight : int__ref) : unit
   requires { true }
   ensures { ( (if ((success.bool__content = True)) then (
-   ( ( (stateoflight.int__content = 0) /\ (stateoflight.int__content <> 1) ) \/ ( (stateoflight.int__content = 1) /\ (stateoflight.int__content <> 0) ) )) else (
+   ( ( ( (stateoflight.int__content = 0) \/ (stateoflight.int__content = 1) ) \/ (stateoflight.int__content = 2) ) \/ (stateoflight.int__content = 3) )) else (
    ( (stateoflight.int__content <> 0) \/ (stateoflight.int__content <> 1) ))) /\ (Light__status_type__axiom.dynamic_invariant stateoflight.int__content True True True) ) }
   reads {Light__state.state}
   writes {success, stateoflight}
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "initializes" defined at light.ads:20, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "initializes" defined at light.ads:21, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Light__initializes__axiom
  use        Light__state
  use import "_gnatprove_standard".Main
@@ -20469,20 +20453,20 @@ module Light__initializes__axiom
  use        Light__status_type__axiom
  use        Light__initializes
 
- val initializes #"light.ads" 20 0 0# 
+ val initializes #"light.ads" 21 0 0# 
    (__void_param : unit) : int
   requires { true }
-  ensures { ( (result = (Light__initializes.initializes Light__state.state.Main.__private__content)) /\ ( (Light__status_type__axiom.dynamic_invariant result True False True) /\ ( (result = 1) \/ (result = 0) ) ) ) }
+  ensures { ( (result = (Light__initializes.initializes Light__state.state.Main.__private__content)) /\ ( (Light__status_type__axiom.dynamic_invariant result True False True) /\ ( ( ( (result = 1) \/ (result = 0) ) \/ (result = 2) ) \/ (result = 3) ) ) ) }
  
  axiom initializes__post_axiom :
   (forall light__state : Main.__private [(Light__initializes.initializes light__state)].
    ( true -> (let result = (Light__initializes.initializes light__state) in (
-    ( ( (result = 1) \/ (result = 0) ) /\ (Light__status_type__axiom.dynamic_invariant result True False True) )))
+    ( ( ( ( (result = 1) \/ (result = 0) ) \/ (result = 2) ) \/ (result = 3) ) /\ (Light__status_type__axiom.dynamic_invariant result True False True) )))
     ))
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "turn_on" defined at light.ads:25, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "turn_on" defined at light.ads:26, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Light__turn_on__axiom
  use        Light__state
  use        Light__state
@@ -20492,7 +20476,7 @@ module Light__turn_on__axiom
  use        Light__state
  use        Light__state
 
- val turn_on #"light.ads" 25 0 0# 
+ val turn_on #"light.ads" 26 0 0# 
    (status : int__ref) : unit
   requires { (status.int__content = 1) }
   ensures { ( (status.int__content = 0) /\ (Light__status_type__axiom.dynamic_invariant status.int__content True True True) ) }
@@ -20501,7 +20485,7 @@ module Light__turn_on__axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "turn_off" defined at light.ads:32, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "turn_off" defined at light.ads:33, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Light__turn_off__axiom
  use        Light__state
  use        Light__state
@@ -20511,9 +20495,9 @@ module Light__turn_off__axiom
  use        Light__state
  use        Light__state
 
- val turn_off #"light.ads" 32 0 0# 
+ val turn_off #"light.ads" 33 0 0# 
    (status : int__ref) : unit
-  requires { (status.int__content = 0) }
+  requires { ( ( (status.int__content <> 2) /\ (status.int__content <> 3) ) /\ (status.int__content <> 1) ) }
   ensures { ( (status.int__content = 1) /\ (Light__status_type__axiom.dynamic_invariant status.int__content True True True) ) }
   reads {Light__state.state}
   writes {Light__state.state, status}

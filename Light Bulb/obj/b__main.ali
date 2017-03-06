@@ -15,19 +15,19 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_OBSOLESCENT_FEATURES
 RV SPARK_05
 
-U ada_main%b		b__main.adb		b52f5485 NE OO PK IL
+U ada_main%b		b__main.adb		38a6625c NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W system%s		system.ads		system.ali
 
-U ada_main%s		b__main.ads		a033f7c5 EE NE OO PK IL
+U ada_main%s		b__main.ads		0793f781 EE NE OO PK IL
 W system%s		system.ads		system.ali
 
 D ada.ads		20160516092928 3ffc8e18 ada%s
 D a-except.ads		20160516092928 291912d5 ada.exceptions%s
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
-D b__main.ads		20170305064626 8d9667fd ada_main%s
-D b__main.adb		20170305064626 11a021ad ada_main%b
+D b__main.ads		20170305075550 2a3667b9 ada_main%s
+D b__main.adb		20170305075550 3b891730 ada_main%b
 D system.ads		20160516092930 2da59038 system%s
 D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
 D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
@@ -37,19 +37,19 @@ X 1 ada.ads
 X 2 a-except.ads
 54K13*Exceptions 349e19 5|6w10
 X 4 b__main.ads
-4K9*ada_main 441l5 441e13 5|8b14 233l5 233t13
-6i4*gnat_argc{integer} 10m22 10r22 5|210m7
-7m4*gnat_argv{6|67M9} 11m22 11r22 5|211m7
-8m4*gnat_envp{6|67M9} 12m22 12r22 5|212m7
-14i4*gnat_exit_status{integer} 15m22 15r22 5|219r15
+4K9*ada_main 441l5 441e13 5|8b14 234l5 234t13
+6i4*gnat_argc{integer} 10m22 10r22 5|211m7
+7m4*gnat_argv{6|67M9} 11m22 11r22 5|212m7
+8m4*gnat_envp{6|67M9} 12m22 12r22 5|213m7
+14i4*gnat_exit_status{integer} 15m22 15r22 5|220r15
 17a4*GNAT_Version{string} 19r22
-21a4*Ada_Main_Program_Name{string} 22r22 5|206r52
-24U14*adainit 25i<c,adainit>22 5|79b14 188l8 188t15 215s7
-27U14*adafinal 28i<c,adafinal>22 5|61b14 75l8 75t16 217s7
-30V13*main{integer} 31>7 32>7 33>7 35i<c,main>22 5|193b13 220t7
-31i7 argc{integer} 5|194b7 210r20
-32m7 argv{6|67M9} 5|195b7 211r20
-33m7 envp{6|67M9} 5|196b7 212r20
+21a4*Ada_Main_Program_Name{string} 22r22 5|207r52
+24U14*adainit 25i<c,adainit>22 5|79b14 189l8 189t15 216s7
+27U14*adafinal 28i<c,adafinal>22 5|61b14 75l8 75t16 218s7
+30V13*main{integer} 31>7 32>7 33>7 35i<c,main>22 5|194b13 221t7
+31i7 argc{integer} 5|195b7 211r20
+32m7 argv{6|67M9} 5|196b7 212r20
+33m7 envp{6|67M9} 5|197b7 213r20
 37M9*Version_32 38r22 40r22 42r22 44r22 46r22 48r22 50r22 52r22 54r22 56r22
 . 58r22 60r22 62r22 64r22 66r22 68r22 70r22 72r22 74r22 76r22 78r22 80r22
 . 82r22 84r22 86r22 88r22 90r22 92r22 94r22 96r22 98r22 100r22 102r22 104r22
@@ -216,7 +216,7 @@ X 5 b__main.adb
 27i4 E015{short_integer} 27m46 27r46 179m7 179r15
 28i4 E034{short_integer} 28m46 28r46 183m7 183r15
 29i4 E086{short_integer} 29m46 29r46 39m7 39r15 186m7 186r15
-30i4 E127{short_integer} 30m46 30r46 187m7 187r15
+30i4 E127{short_integer} 30m46 30r46 188m7 188r15
 32a4 Local_Priority_Specific_Dispatching{string} 130r9
 33a4 Local_Interrupt_States{string} 133r27
 35b4 Is_Elaborated{boolean} 69r14 72m7 119r10 122m7
@@ -247,15 +247,15 @@ X 5 b__main.adb
 113U17*Runtime_Initialize 113>37 114b<c,__gnat_runtime_initialize>25 140s7
 113i37 Install_Handler{integer}
 116p7*Finalize_Library_Objects{77P9} 117m25 117r25 142m7
-190U14 Ada_Main_Program 191b<ada,_ada_main>24 216s7
-199U17*Initialize 199>29 200b<c,__gnat_initialize>25 214s7
-199m29 Addr{6|67M9}
-202U17*Finalize 203b<c,__gnat_finalize>25 218s7
-204a7 SEH(integer) 214m19 214r19
-206m7 Ensure_Reference{6|67M9} 207r24
+191U14 Ada_Main_Program 192b<ada,_ada_main>24 217s7
+200U17*Initialize 200>29 201b<c,__gnat_initialize>25 215s7
+200m29 Addr{6|67M9}
+203U17*Finalize 204b<c,__gnat_finalize>25 219s7
+205a7 SEH(integer) 215m19 215r19
+207m7 Ensure_Reference{6|67M9} 208r24
 X 6 system.ads
-37K9*System 4|3w6 7r16 8r16 32r14 33r14 5|92r39 98r26 110r23 195r14 196r14
-. 199r36 206r34 6|200e11
-67M9*Address 4|7r23 8r23 32r21 33r21 5|92r46 98r33 110r30 195r21 196r21 199r43
-. 206r41
+37K9*System 4|3w6 7r16 8r16 32r14 33r14 5|92r39 98r26 110r23 196r14 197r14
+. 200r36 207r34 6|200e11
+67M9*Address 4|7r23 8r23 32r21 33r21 5|92r46 98r33 110r30 196r21 197r21 200r43
+. 207r41
 
