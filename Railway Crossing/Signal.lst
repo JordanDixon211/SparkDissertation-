@@ -1,0 +1,59 @@
+           *******************************************************
+                            Listing of SPARK Text
+                              Examiner GPL 2011
+             Copyright (C) 2011 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 07-MAR-2017 11:41:24.78
+
+Line
+   1  package Signal
+   2  with
+      ^1
+*** (  1)  Syntax Error      : No complete DOTTED_SIMPLE_NAME can be followed 
+           by reserved word "WITH" here.
+--- (  2)  Warning           :430 - SLI generation abandoned owing to syntax or 
+           semantic errors or multiple units in a single source file.
+
+   3   SPARK_Mode   => On,
+   4   Abstract_State => State
+   5  is
+   6  
+   7     type States is (On, Off);
+   8     subtype alarm is  States( On .. Off);
+                                      ^3
+*** (  3)  Syntax Error      : SIMPLE_NAME cannot be followed by ".." here.
+
+   9     subtype Lights is  States( On .. Off);
+                                       ^4
+*** (  4)  Syntax Error      : SIMPLE_NAME cannot be followed by ".." here.
+
+  10     subtype Barrier is  States( On .. Off);
+                                        ^5
+*** (  5)  Syntax Error      : SIMPLE_NAME cannot be followed by ".." here.
+
+  11  
+  12     procedure signalsOn is
+  13        with Global => (in_Out  => State),
+  14        Depends => (State =>+ State),
+                    ^6                  ^7
+*** (  6)  Syntax Error      : No complete SIMPLE_EXPRESSION can be followed by 
+           "=>" here. Aggregate expressions must be qualified with a subtype 
+           mark or must specify an unconstrained array with only an others 
+           choice. Named and positional association may not be mixed.
+*** (  7)  Syntax Error      : ";" expected.
+
+  15        pre => (State = off),
+  16        post => (signalsOn'result = on);
+  17  
+  18  
+  19  
+  20        procedure signalsOff is
+  21        with Global => (in_Out => State),
+  22        Depends => (State =>+ State),
+  23        pre => (State = on),
+  24        post => (signalsOff'result = off);
+
+
+--End of file--------------------------------------------------

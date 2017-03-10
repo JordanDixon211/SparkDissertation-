@@ -1,0 +1,31 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatc
+P GP ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U main%b		main.adb		c8bac64d OO SU
+W system%s		system.ads		system.ali
+
+D main.adb		20170309060304 c8bac64d main%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 main.adb
+1U11*Main 1b11 6l5 6t9
+FD 1 main.adb
+FS .1 1U11 main
+FD 2 system.ads
+FS .1 37K9 system
+FS .2 77V13 system__Olt
+FS .3 78V13 system__Ole
+FS .4 79V13 system__Ogt
+FS .5 80V13 system__Oge
+FS .6 81V13 system__Oeq
+
+GG EK_REMOTE_STATES
+GG EK_GLOBALS main KIND_SUBPROGRAM ORIGIN_FRONTEND
+GG EK_VOLATILES
+GG EK_TASKING_NONBLOCKING [ ]
+GG EK_END_MARKER

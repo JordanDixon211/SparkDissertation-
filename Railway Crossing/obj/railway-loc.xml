@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 26" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\Sensor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\Sensor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\Signal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\Signal.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\Signal.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -34,6 +34,9 @@ begin
    Refined_State => (The_Stack => (Content, Top)) -- state abstraction must be complete must be part of abs
                                                   -- must add refined to link to abstract state.
 
-   --refined in packages body
+   --init of local var
+
+   abstract_state => The_Stack,
+   Initializes => The_Stack;
 
 end Main;

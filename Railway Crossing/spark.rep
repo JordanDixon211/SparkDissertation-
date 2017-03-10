@@ -1,0 +1,89 @@
+           *******************************************************
+                         Report of SPARK Examination
+                              Examiner GPL 2011
+             Copyright (C) 2011 Altran Praxis Limited, Bath, U.K.
+           *******************************************************
+
+
+                        DATE : 07-MAR-2017 11:41:24.79
+
+Options:
+    noswitch
+    noindex_file
+    nowarning_file
+    notarget_compiler_data
+    noconfig_file
+    source_extension=ada
+    listing_extension=lst
+    nodictionary_file
+    report_file=spark.rep
+    nohtml
+    brief=nopath
+    nostatistics
+    fdl_identifiers=accept
+    flow_analysis=information
+    language=95
+    profile=sequential
+    annotation_character=#
+    rules=none
+    error_explanations=off
+    justification_option=full
+    output_directory=.
+    output_directory (actual)=H:\Spark Project\
+
+Selected files:
+   H:\Spark Project\src\Signal.ads
+
+
+No Index files were used
+
+
+No Meta Files used
+
+
+Full warning reporting selected
+
+
+Source Filename(s) used were:
+   H:\Spark Project\src\Signal.ads
+
+
+
+Source Filename:   H:\Spark Project\src\Signal.ads
+Listing Filename:  H:\Spark Project\Signal.lst
+
+***     No units in file
+
+
+7 error(s) or warning(s)
+
+Line
+   2  with
+      ^1
+*** (  1)  Syntax Error      : No complete DOTTED_SIMPLE_NAME can be followed by 
+           reserved word "WITH" here.
+--- (  2)  Warning           :430 - SLI generation abandoned owing to syntax or 
+           semantic errors or multiple units in a single source file.
+
+   8     subtype alarm is  States( On .. Off);
+                                      ^3
+*** (  3)  Syntax Error      : SIMPLE_NAME cannot be followed by ".." here.
+
+   9     subtype Lights is  States( On .. Off);
+                                       ^4
+*** (  4)  Syntax Error      : SIMPLE_NAME cannot be followed by ".." here.
+
+  10     subtype Barrier is  States( On .. Off);
+                                        ^5
+*** (  5)  Syntax Error      : SIMPLE_NAME cannot be followed by ".." here.
+
+  14        Depends => (State =>+ State),
+                    ^6                  ^7
+*** (  6)  Syntax Error      : No complete SIMPLE_EXPRESSION can be followed by 
+           "=>" here. Aggregate expressions must be qualified with a subtype 
+           mark or must specify an unconstrained array with only an others 
+           choice. Named and positional association may not be mixed.
+*** (  7)  Syntax Error      : ";" expected.
+
+
+--End of file--------------------------------------------------
