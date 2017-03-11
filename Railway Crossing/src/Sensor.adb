@@ -1,7 +1,6 @@
 
 package Body Sensor with
-   SPARK_Mode => On,
-   Refined_State => (State => (train))
+   SPARK_Mode => On
 is
 
    train : TrainState := false;
@@ -30,12 +29,14 @@ is
    procedure trainIncoming(userDefSpeed : in Speed) is
    begin
       loop
-         v := readSignal();
+       --  v := readSignal();
          if(v > 0) then
            setSpeed(userDefSpeed);
            train := true;
               end if;
-      end loop v > 0; --expected for loop
+         exit when v > 0; --expected for loop
+      end loop;
+
    end trainIncoming;
 
 end Sensor;

@@ -1,6 +1,5 @@
 package Sensor with
-   SPARK_Mode => On,
-   Abstract_State => State
+   SPARK_Mode => On
 is
 
    subtype Speed is Integer in range 0 .. 150;

@@ -1,11 +1,9 @@
 package body Signal
 with
    SPARK_Mode => on,
-   Refined_State => (State => (alarm1, Lights1, Barrier1, SystemState))
+   Refined_State => (State => (SystemState))
 is
-   alarm1 : alarm := Off;
-   Lights1 : Lights := Off;
-   Barrier1 : Barrier := Off;
+
    SystemState : States := Off;
 
      procedure signalsOn is
@@ -35,8 +33,8 @@ is
    end signalsOff;
 
    procedure CorrectSignalsOn
-   with Refined_Global => (In_Out => (SystemState , Lights1 , Barrier1, alarm1)), -- refinded global must apply to body of subprogram declared in spec
-   Refined_Post => (SystemState = On, Lights1 = On, Barrier1 = On , alarm1 = On) -- post apply body of program in package spec
+   with Global => (In_Out => (SystemState , Lights1 , Barrier1, alarm1)), -- refinded global must apply to body of subprogram declared in spec
+   Post => (SystemState = On, Lights1 = On, Barrier1 = On , alarm1 = On) -- post apply body of program in package spec
    is
    begin
       SystemState := On;
@@ -48,7 +46,7 @@ is
 
       procedure CorrectSignalsOff
    with Global => (In_Out => (SystemState , Lights1 , Barrier1, alarm1)),
-   Refined_Post => (SystemState = Off, Lights1 = Off, Barrier1 = Off , alarm1 = Off) -- system state is undefined
+   Post => (SystemState = Off, Lights1 = Off, Barrier1 = Off , alarm1 = Off) -- system state is undefined
    is
    begin
       SystemState := Off;
