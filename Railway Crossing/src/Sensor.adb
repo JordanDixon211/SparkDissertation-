@@ -3,23 +3,24 @@ package Body Sensor with
    SPARK_Mode => On
 is
 
-   train : TrainState := false;
+
    -- methods TrainStatus, GetSpeed, SetSpeed
 
-   procedure setSpeed(v : out Speed ; sucess : out boolean ) is
+   procedure setSpeed(v : in Speed ; success : out boolean ) is
+   pragma Assert(trainSpeed = 0);
    begin
       if v > 0 then
          trainSpeed := v;
-         sucess := true;
+         success := true;
       else
-         sucess := false;
+         success := false;
       end if;
    end setSpeed;
 
 
    function getSpeed return Speed is
    begin
-      if v > 0 then
+      if trainSpeed > 0 and train = true then
          return trainSpeed;
       else
          return 0;
@@ -27,16 +28,17 @@ is
    end getSpeed;
 
    procedure trainIncoming(userDefSpeed : in Speed) is
+      v : Integer := 0;
+      sus : Boolean := False;
    begin
       loop
        --  v := readSignal();
          if(v > 0) then
-           setSpeed(userDefSpeed);
-           train := true;
-              end if;
-         exit when v > 0; --expected for loop
+           setSpeed(userDefSpeed, sus);
+           train := sus;
+           end if;
+         exit when train = True and sus = True; --expected for loop
       end loop;
-
    end trainIncoming;
 
 end Sensor;

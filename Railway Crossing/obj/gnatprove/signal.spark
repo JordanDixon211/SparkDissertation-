@@ -1,0 +1,710 @@
+{
+  "spark": [
+    {
+      "name": "Signal.signalsOn",
+      "sloc": [
+        {
+          "file": "signal.ads",
+          "line": 15
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Signal.signalsOff",
+      "sloc": [
+        {
+          "file": "signal.ads",
+          "line": 22
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Signal.CorrectSignalsOn",
+      "sloc": [
+        {
+          "file": "signal.adb",
+          "line": 39
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Signal.CorrectSignalsOff",
+      "sloc": [
+        {
+          "file": "signal.adb",
+          "line": 51
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Signal.signalsIsOn",
+      "sloc": [
+        {
+          "file": "signal.ads",
+          "line": 26
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Signal",
+      "sloc": [
+        {
+          "file": "signal.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "signal.adb",
+      "line": 7,
+      "col": 4,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal",
+        "sloc": [
+          {
+            "file": "signal.ads",
+            "line": 1
+          }
+        ]
+      },
+      "tracefile": "signal__flow__54.trace",
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.ads",
+      "line": 15,
+      "col": 14,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.signalsOn",
+        "sloc": [
+          {
+            "file": "signal.ads",
+            "line": 15
+          }
+        ]
+      },
+      "tracefile": "signal__flow__77.trace",
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 10,
+      "col": 86,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.signalsOn",
+        "sloc": [
+          {
+            "file": "signal.ads",
+            "line": 15
+          }
+        ]
+      },
+      "tracefile": "signal__flow__77.trace",
+      "msg_id": 2,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.ads",
+      "line": 22,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.signalsOff",
+        "sloc": [
+          {
+            "file": "signal.ads",
+            "line": 22
+          }
+        ]
+      },
+      "tracefile": "signal__flow__100.trace",
+      "msg_id": 3,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 52,
+      "col": 45,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 4,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 52,
+      "col": 55,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 5,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 52,
+      "col": 31,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 6,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 52,
+      "col": 65,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 7,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 53,
+      "col": 35,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 8,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 53,
+      "col": 53,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 9,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 53,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 10,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 53,
+      "col": 72,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "tracefile": "signal__flow__122.trace",
+      "msg_id": 11,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 40,
+      "col": 45,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 12,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 40,
+      "col": 55,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 13,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 40,
+      "col": 31,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 14,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 40,
+      "col": 65,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 15,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 41,
+      "col": 34,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 16,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 41,
+      "col": 51,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 17,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 41,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 18,
+      "how_proved": "flow"
+    },
+    {
+      "file": "signal.adb",
+      "line": 41,
+      "col": 69,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "tracefile": "signal__flow__144.trace",
+      "msg_id": 19,
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "signal.adb",
+      "line": 10,
+      "col": 27,
+      "rule": "VC_REFINED_POST",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.signalsOn",
+        "sloc": [
+          {
+            "file": "signal.ads",
+            "line": 15
+          }
+        ]
+      },
+      "msg_id": 20,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "signal.ads",
+      "line": 28,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.signalsIsOn",
+        "sloc": [
+          {
+            "file": "signal.ads",
+            "line": 26
+          }
+        ]
+      },
+      "msg_id": 21,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "signal.adb",
+      "line": 53,
+      "col": 12,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOff",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 51
+          }
+        ]
+      },
+      "msg_id": 22,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "signal.adb",
+      "line": 41,
+      "col": 12,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.CorrectSignalsOn",
+        "sloc": [
+          {
+            "file": "signal.adb",
+            "line": 39
+          }
+        ]
+      },
+      "msg_id": 23,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Signal.signalsOn",
+          "sloc": [
+            {
+              "file": "signal.ads",
+              "line": 15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Signal",
+          "sloc": [
+            {
+              "file": "signal.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Signal.signalsOff",
+          "sloc": [
+            {
+              "file": "signal.ads",
+              "line": 22
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Signal.CorrectSignalsOn",
+          "sloc": [
+            {
+              "file": "signal.adb",
+              "line": 39
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Signal.CorrectSignalsOff",
+          "sloc": [
+            {
+              "file": "signal.adb",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Signal.CorrectSignalsOn",
+          "sloc": [
+            {
+              "file": "signal.adb",
+              "line": 39
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Signal.CorrectSignalsOff",
+          "sloc": [
+            {
+              "file": "signal.adb",
+              "line": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Signal.signalsIsOn",
+          "sloc": [
+            {
+              "file": "signal.ads",
+              "line": 26
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Signal.signalsIsOn",
+          "sloc": [
+            {
+              "file": "signal.ads",
+              "line": 26
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Signal.signalsIsOn",
+          "sloc": [
+            {
+              "file": "signal.ads",
+              "line": 26
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

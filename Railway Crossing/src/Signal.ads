@@ -13,20 +13,19 @@ package  Signal with
    Barrier1 : Barrier := Off;
 
    procedure signalsOn with
-      Global => (in_Out  => (State,alarm1)),
-      pre => (alarm1 = off), -- need to put this in refined post?
-      post => (signalsOn'Result = On); --result can only appear in post of a function?
+     Global => (in_Out  => (alarm1,Lights1,Barrier1), Output => State),
+      Depends => ((alarm1,Lights1,Barrier1,State) => (alarm1,Lights1,Barrier1)),
+      pre => (alarm1 = Off and Lights1 = Off and Barrier1 = Off); -- need to put this in refined pos --result can only appear in post of a function?
 
 
 
       procedure signalsOff with
-       Global => (in_Out => State),
-      Depends => (State =>+ State),
-      pre => (alarm1 = On and Lights1 = on and Barrier1 = On), --invalid operator
-      post => (signalsOff'result = Off);--result can only appear in post of a function?
+       Global => (in_Out => (alarm1,Lights1,Barrier1) , Output => State),
+       pre => (alarm1 = On and Lights1 = on and Barrier1 = On);
 
        function signalsIsOn return boolean with
-      Global => (input => State); -- must appear in exactly one output list
+       Global => (input => (State, alarm1)),
+       Post => (if signalsIsOn'Result then alarm1 = On); -- aspect spec must appear on initial declaration ; -- must appear in exactly one output list
 
 
 

@@ -1,0 +1,92 @@
+V "GNAT Lib v2016"
+A -gnatc
+P GP ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U signal%b		signal.adb		2c1914da OO PK
+W system%s		system.ads		system.ali
+
+U signal%s		signal.ads		9ba78fbf EE OO PK
+
+D signal.ads		20170313221034 9ba78fbf signal%s
+D signal.adb		20170313220640 b7be9b65 signal%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 signal.ads
+1K10*Signal 32l5 32e11 2|1b14 73l11 73t17
+3@22*State 16r65 17r44 23r67 27r29 2|4r22
+6E9*States 6e36 7r22 8r23 9r24 2|7r18
+6n20*On{6E9} 7r36 8r36 9r37 24r25 24r42 24r60 28r53 2|10r100 14r20 15r21
+. 16r22 17r25 27r19 27r36 27r54 41r27 41r44 41r62 41r78 44r22 45r18 46r19
+. 47r17 66r27 66r43
+6n24*Off{6E9} 7r42 8r42 9r43 11r22 12r24 13r26 18r24 18r42 18r61 2|7r28 10r40
+. 10r58 10r77 13r19 13r37 13r56 28r20 29r21 30r22 31r25 53r27 53r45 53r64
+. 53r81 56r22 57r18 58r19 59r17
+6n30*Error{6E9} 2|19r25 34r25
+7E12*alarm{6E9} 11r13
+8E12*Lights{6E9} 12r14
+9E12*Barrier{6E9} 13r15
+11e4*alarm1{7E12} 16r29 17r20 17r55 18r15 23r30 24r16 27r36 28r44 2|10r31
+. 13r10 14m10 27r10 28m10 40r65 41r69 47m7 52r65 53r72 59m7 66r34
+12e4*Lights1{8E12} 16r36 17r27 17r62 18r32 23r37 24r32 2|10r48 13r27 15m10
+. 27r26 29m10 40r45 41r34 45m7 52r45 53r35 57m7
+13e4*Barrier1{9E12} 16r44 17r35 17r70 18r50 23r45 24r49 2|10r66 13r45 16m10
+. 27r43 30m10 40r55 41r51 46m7 52r55 53r53 58m7
+15U14*signalsOn 2|9b14 22l11 22t20
+22U17*signalsOff 2|25b17 37l8 37t18
+26V17*signalsIsOn{boolean} 28r20 2|63b13 71l11 71t22
+X 2 signal.adb
+7e4 SystemState{1|6E9} 4r32 10r86 17m10 19m10 31m10 34m10 40r31 41r13 44m7
+. 52r31 53r13 56m7 66r13
+39U14 CorrectSignalsOn 39b14 48l8 48t24
+51U17 CorrectSignalsOff 51b17 60l8 60t25
+FD 1 signal.ads
+FS .1 1K10 signal
+FS .2 15U14 signal__signalson
+FS .3 22U17 signal__signalsoff
+FS .4 26V17 signal__signalsison
+FD 2 signal.adb
+FS .1 1K14 standard__signal -> 1.1
+FS .2 9U14 signal__signalson -> 1.2
+FS .3 25U17 signal__signalsoff -> 1.3
+FS .4 39U14 signal__correctsignalson
+FS .5 51U17 signal__correctsignalsoff
+FS .6 63V13 signal__signalsison -> 1.4
+FD 3 system.ads
+FS .1 37K9 system
+FS .2 77V13 system__Olt
+FS .3 78V13 system__Ole
+FS .4 79V13 system__Ogt
+FS .5 80V13 system__Oge
+FS .6 81V13 system__Oeq
+FX 1 signal.ads .1 signal
+F 11*4 signal__alarm1 .2:16r29 17r20 17r55 18r15 .3:23r30 24r16 .4:27r36
+. 28r44 2|.2:10r31 13r10 14m10 .3:27r10 28m10 .4:40r65 41r69 47m7 .5:52r65
+. 53r72 59m7 .6:66r34
+F 12*4 signal__lights1 .2:16r36 17r27 17r62 18r32 .3:23r37 24r32 2|.2:10r48
+. 13r27 15m10 .3:27r26 29m10 .4:40r45 41r34 45m7 .5:52r45 53r35 57m7
+F 13*4 signal__barrier1 .2:16r44 17r35 17r70 18r50 .3:23r45 24r49 2|.2:10r66
+. 13r45 16m10 .3:27r43 30m10 .4:40r55 41r51 46m7 .5:52r55 53r53 58m7
+FX 2 signal.adb .1 standard__signal
+F 7*4 signal__systemstate 4r32 .2:10r86 17m10 19m10 .3:31m10 34m10 .4:40r31
+. 41r13 44m7 .5:52r31 53r13 56m7 .6:66r13
+
+GG EK_STATE_MAP signal__state [ signal__systemstate ]
+GG EK_REMOTE_STATES c:RS [ signal__state ]
+GG EK_GLOBALS signal KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ signal__systemstate signal__state signal__alarm1 signal__lights1 signal__barrier1 ] c:local_sub [ signal__signalson signal__signalsoff signal__correctsignalson signal__correctsignalsoff signal__signalsison ] c:local_init [ signal__systemstate signal__alarm1 signal__lights1 signal__barrier1 ]
+GG EK_GLOBALS signal__signalsison KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ signal__systemstate signal__alarm1 ]
+GG EK_GLOBALS signal__signalson KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ signal__alarm1 signal__lights1 signal__barrier1 ] c:var_out [ signal__systemstate signal__alarm1 signal__lights1 signal__barrier1 ]
+GG EK_GLOBALS signal__signalsoff KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ signal__alarm1 signal__lights1 signal__barrier1 ] c:var_out [ signal__systemstate signal__alarm1 signal__lights1 signal__barrier1 ]
+GG EK_VOLATILES
+GG EK_TASKING_NONBLOCKING [ signal__signalson signal__signalsoff signal__correctsignalson signal__correctsignalsoff signal__signalsison ]
+GG EK_TASKING_INFO signal__signalson c:UNSYNCH_ACCESSES [ signal__systemstate signal__alarm1 signal__lights1 signal__barrier1 ]
+GG EK_TASKING_INFO signal__signalsoff c:UNSYNCH_ACCESSES [ signal__systemstate signal__alarm1 signal__lights1 signal__barrier1 ]
+GG EK_TASKING_INFO signal__correctsignalson c:UNSYNCH_ACCESSES [ signal__systemstate signal__alarm1 signal__lights1 signal__barrier1 ]
+GG EK_TASKING_INFO signal__correctsignalsoff c:UNSYNCH_ACCESSES [ signal__systemstate signal__alarm1 signal__lights1 signal__barrier1 ]
+GG EK_TASKING_INFO signal__signalsison c:UNSYNCH_ACCESSES [ signal__systemstate signal__alarm1 ]
+GG EK_END_MARKER
