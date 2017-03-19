@@ -1,0 +1,30 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=pentium4
+P NO ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U predictor%s		predictor.ads		46585059 EE OO PK
+
+D predictor.ads		20170318181146 46585059 predictor%s
+X 1 predictor.ads
+1K9*Predictor 25l5 25e14
+4I12*Interval{integer} 8r38
+5I12*distanceToCrossing{integer} 9r11 20r74
+6I12*TrainDistance{integer} 10r19
+8i4*ClosingSignalsInterval{4I12} 15r33 16r40 17r26
+9i4*dist{5I12} 15r27 16r35 17r13 21r27 22r19 24r37
+10i4*TrainArrival{6I12} 15r68 16r18 18r14
+14U14*intervalCalculation
+20U14*setDistanceToCrossing 20<36 20>60
+20b36 sucess{boolean} 22r25 24r18
+20i60 distance{5I12} 22r36 23r13
+

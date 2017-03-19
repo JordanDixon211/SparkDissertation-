@@ -1,0 +1,36 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=pentium4
+P NO ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U voter%s		voter.ads		fd7fc90f EE OO PK
+W sensor%s		sensor.adb		sensor.ali
+W sensor2%s		sensor2.adb		sensor2.ali
+
+D sensor.ads		20170319031058 e6fbf440 sensor%s
+D sensor2.ads		20170319000820 4c841bd7 sensor2%s
+D voter.ads		20170319031338 57002698 voter%s
+X 1 sensor.ads
+1K9*Sensor 28e11 3|2w6 2r18 22r29 23r41 24r16 25r17
+5I12*Speed{integer}
+9i5*trainSpeed{5I12} 3|22r36 23r48 24r23 25r24
+X 2 sensor2.ads
+1K9*Sensor2 28e12 3|1w6 1r19 7r16 10r23 11r23 15r29 16r41 17r16 18r17
+5I12*Speed{integer} 3|7r24 10r31 11r31
+9i5*trainSpeed{5I12} 3|15r37 16r49 17r24 18r25
+X 3 voter.ads
+3K9*Voter 27l8 27e13
+7i4*bestValue{2|5I12}
+10i4*sensorReadingOne{2|5I12} 22r58 23r21 25r37
+11i4*sensorReadingTwo{2|5I12} 15r59 16r21 18r38
+13U14*checkSensor2Init
+20U17*checkSensor1Init
+

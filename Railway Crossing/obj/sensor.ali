@@ -12,20 +12,28 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
+U sensor%b		sensor.adb		a90c3c73 OO PK
+
 U sensor%s		sensor.ads		e6fbf440 EE OO PK
 
-D sensor.ads		20170313221202 e6fbf440 sensor%s
+D sensor.ads		20170319031058 e6fbf440 sensor%s
+D sensor.adb		20170319031052 4ff7c833 sensor%b
 X 1 sensor.ads
-1K9*Sensor 28l5 28e11
-5I12*Speed{integer} 9r18 13r46 18r29 23r31
+1K9*Sensor 28l5 28e11 2|2b14 44l5 44t11
+5I12*Speed{integer} 9r18 13r46 18r29 23r31 2|9r30 21r29 30r46
 6B12*TrainState{boolean} 10r13
 7I12*voltage{integer}
-9i5*trainSpeed{5I12} 14r26 15r17 15r58 20r25 24r27 25r13 26r38 26r58
-10b5*train{6E12} 14r38 15r28 15r52 16r16 16r39 20r37 21r11
-13U14*trainIncoming 13>28
-13i28 userDefSpeed{5I12} 15r39
-18V13*getSpeed{5I12}
-23U15*setSpeed 23>24 23<39
-23i24 v{5I12} 25r32
-23b39 success{boolean} 26r18
+9i5*trainSpeed{5I12} 14r26 15r17 15r58 20r25 24r27 25r13 26r38 26r58 2|10r18
+. 13m10 23r10 24r17
+10b5*train{6E12} 14r38 15r28 15r52 16r16 16r39 20r37 21r11 2|23r29 38m12
+. 40r20
+13U14*trainIncoming 13>28 2|30b14 42l8 42t21
+13i28 userDefSpeed{5I12} 15r39 2|30b28 37r21
+18V13*getSpeed{5I12} 2|21b13 28l8 28t16
+23U15*setSpeed 23>24 23<39 2|9b14 18l8 18t16 37s12
+23i24 v{5I12} 25r32 2|9b23 12r10 13r24
+23b39 success{boolean} 26r18 2|9b38 14m10 16m10
+X 2 sensor.adb
+31i7 v{integer} 36r13
+32b7 sus{boolean} 37m35 38r21 40r37
 

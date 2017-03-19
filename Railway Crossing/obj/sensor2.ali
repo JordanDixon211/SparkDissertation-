@@ -1,0 +1,31 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=pentium4
+P NO ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U sensor2%s		sensor2.ads		4c841bd7 EE OO PK
+
+D sensor2.ads		20170319000820 4c841bd7 sensor2%s
+X 1 sensor2.ads
+1K9*Sensor2 28l5 28e12
+5I12*Speed{integer} 9r18 13r46 18r29 23r31
+6B12*TrainState{boolean} 10r13
+7I12*voltage{integer}
+9i5*trainSpeed{5I12} 14r26 15r17 15r58 20r25 24r27 25r13 26r38 26r58
+10b5*train{6E12} 14r38 15r28 15r52 16r16 16r39 20r37 21r11
+13U14*trainIncoming 13>28
+13i28 userDefSpeed{5I12} 15r39
+18V13*getSpeed{5I12}
+23U15*setSpeed 23>24 23<39
+23i24 v{5I12} 25r32
+23b39 success{boolean} 26r18
+

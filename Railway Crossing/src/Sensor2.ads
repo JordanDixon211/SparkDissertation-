@@ -1,4 +1,4 @@
-package Sensor with
+package Sensor2 with
    SPARK_Mode => On
 is
 
@@ -25,4 +25,4 @@ is
      pre => trainSpeed = 0 and v > 0,
      post => (if success = true then trainSpeed > 0 else trainSpeed = 0);
 
-end Sensor;
+End Sensor2;
