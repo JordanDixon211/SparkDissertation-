@@ -2,8 +2,6 @@
 package Body Sensor with
    SPARK_Mode => On
 is
-
-
    -- methods TrainStatus, GetSpeed, SetSpeed
 
    procedure setSpeed(v : in Speed ; success : out boolean ) is

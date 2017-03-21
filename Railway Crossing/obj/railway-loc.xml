@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_file>
     <file_marker column=" 4" line=" 7" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Signal.adb</vfs_file>
@@ -38,25 +38,21 @@
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\voter-sensor.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 15" line=" 6" >
+    <file_marker column=" 1" line=" 6" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 9" >
+    <file_marker column=" 23" line=" 8" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 24" line=" 12" >
-      <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
-      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 24" line=" 13" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
-      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\voter-sensor.adb</vfs_file>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
@@ -66,7 +62,11 @@
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\voter-sensor.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 16" line=" 6" >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\voter-sensor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
@@ -90,31 +90,31 @@
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 16" line=" 6" >
+    <file_marker column=" 1" line=" 6" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 9" >
+    <file_marker column=" 23" line=" 8" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 30" line=" 10" >
+    <file_marker column=" 30" line=" 9" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 16" line=" 16" >
+    <file_marker column=" 16" line=" 17" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 24" line=" 17" >
+    <file_marker column=" 24" line=" 18" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 29" line=" 14" >
+    <file_marker column=" 29" line=" 15" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 15" >
+    <file_marker column=" 9" line=" 16" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
@@ -137,10 +137,22 @@
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
       <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\voter-sensor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\voter-sensor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 69" line=" 34" >
+      <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.ads</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>C:\Users\Jordan\Documents\Spark\Railway Crossing\railway.gpr</vfs_project>
-      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\voter-sensor.ads</vfs_file>
+      <vfs_file>C:\Users\Jordan\Documents\Spark\Railway Crossing\src\Voter.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
