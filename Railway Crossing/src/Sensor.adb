@@ -4,12 +4,11 @@ package Body Sensor with
 is
    -- methods TrainStatus, GetSpeed, SetSpeed
 
-   procedure setSpeed(v : in Speed ; success : out boolean ) is
+   procedure setSpeed(speed1 : in Speed ; success : out boolean ) is
    pragma Assert(trainSpeed = 0);
    begin
-      if v > 0 then
-         trainSpeed := v;
-         success := true;
+      if speed1 > 0 then
+         trainSpeed := speed1;
       else
          success := false;
       end if;
@@ -26,15 +25,21 @@ is
    end getSpeed;
 
    procedure trainIncoming(userDefSpeed : in Speed) is
-      v : Integer := 0;
+      count : RandRange := 1;
       sus : Boolean := False;
+      genVoltage :  randPos.Generator; -- will gen error as not valid Spark
+      genval : Integer;
    begin
+      -- pick a random number between 1 to 8 then go through the loop  add abstraction off random train times
+          genval := randPos.Random(genVoltage);  -- will gen error as not valid Spark
       loop
-       --  v := readSignal();
-         if(v > 0) then
+         if(count =  genval ) then
            setSpeed(userDefSpeed, sus);
            train := sus;
-           end if;
+         end if;
+
+         delay 1.0;
+
          exit when train = True and sus = True; --expected for loop
       end loop;
    end trainIncoming;

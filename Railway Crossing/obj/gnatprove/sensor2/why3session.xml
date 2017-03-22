@@ -2,11 +2,8 @@
 <!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
 "http://why3.lri.fr/why3session.dtd">
 <why3session shape_version="4">
-<prover id="0" name="CVC4_CE" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
-<prover id="1" name="altergo" version="0.99.1" timelimit="0" steplimit="10000" memlimit="0"/>
-<prover id="2" name="Z3" version="4.4.1" timelimit="0" steplimit="150100000" memlimit="0"/>
-<prover id="3" name="CVC4" version="1.5" timelimit="0" steplimit="75000" memlimit="0"/>
-<file name="..\signal.mlw" expanded="true">
+<prover id="0" name="CVC4" version="1.5" timelimit="0" steplimit="75000" memlimit="0"/>
+<file name="..\sensor2.mlw" expanded="true">
 <theory name="Standard__short_short_integer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Standard__short_integer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
@@ -61,13 +58,17 @@
 </theory>
 <theory name="Standard__universal_real" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__states" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__speed" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__alarm" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__voltage" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__lights" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__userdefspeed" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__barrier" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__userdefspeed__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Sensor2__setspeed__v" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="Sensor2__setspeed__v__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="System__name" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -207,25 +208,25 @@
 </theory>
 <theory name="System__underlying_priorities" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__state" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainspeed" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__state__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainspeed__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__alarm1" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__train" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__alarm1__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__train__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__lights1" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__setspeed__success" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__lights1__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__setspeed__success__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__barrier1" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__v" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__barrier1__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__v__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__systemstate" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__sus" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__systemstate__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__sus__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="Standard__short_short_integer__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -275,11 +276,11 @@
 </theory>
 <theory name="Standard__universal_real__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__signalson" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__signalsoff" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__getspeed" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__signalsison" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__setspeed" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="System__min_int" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -307,17 +308,13 @@
 </theory>
 <theory name="System__underlying_priorities__aggregate_def" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__correctsignalson" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__L_1" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__correctsignalsoff" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__L_1__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__states__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__speed__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__alarm__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
-</theory>
-<theory name="Signal__lights__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
-</theory>
-<theory name="Signal__barrier__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__voltage__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="System__name__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -429,11 +426,11 @@
 </theory>
 <theory name="System__underlying_priorities__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__signalson__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__trainincoming__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__signalsoff__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__getspeed__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__signalsison__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+<theory name="Sensor2__setspeed__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
 <theory name="System__Olt__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -445,74 +442,38 @@
 </theory>
 <theory name="System__Oeq__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
-<theory name="Signal__correctsignalson__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
-</theory>
-<theory name="Signal__correctsignalsoff__axiom" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
-</theory>
-<theory name="Signal__package_def" sum="99897258411d86baf867f1362bb0114c" expanded="true">
+<theory name="Sensor2__package_def" sum="99363f512271643f757d086fbc02ed64" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
  </transf>
  </goal>
 </theory>
-<theory name="Signal__signalson__subprogram_def" sum="df9dfca7132e48d19dd1fbb77bc83933" expanded="true">
+<theory name="Sensor2__trainincoming__subprogram_def" sum="525838a179ebf7f3dc44336cfc5dc512" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="1" obsolete="true"><result status="unknown" time="0.00"/></proof>
-  <proof prover="2" obsolete="true"><result status="invalid" time="0.02"/></proof>
-  <proof prover="3" steplimit="2550000"><result status="valid" time="0.02" steps="0"/></proof>
-  <transf name="split_disj" expanded="true">
-   <goal name="WP_parameter def.1.1" expl="1. postcondition">
-   <proof prover="0" obsolete="true"><result status="unknown" time="0.02" steps="80"/></proof>
-   <proof prover="1" obsolete="true"><result status="unknown" time="0.02"/></proof>
-   <proof prover="2" obsolete="true"><result status="invalid" time="0.02"/></proof>
-   <proof prover="3" steplimit="2550000" obsolete="true"><result status="unknown" time="0.02" steps="80"/></proof>
-   </goal>
-   <goal name="WP_parameter def.1.2" expl="2. postcondition">
-   </goal>
-  </transf>
+  <goal name="WP_parameter def.1" expl="1. precondition">
+  <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
+  </goal>
+  <goal name="WP_parameter def.2" expl="2. postcondition">
+  <proof prover="0"><result status="valid" time="0.00" steps="30"/></proof>
   </goal>
  </transf>
  </goal>
 </theory>
-<theory name="Signal__signalsoff__subprogram_def" sum="9b9f8e0062efdc80f0154a443c50cb98" expanded="true">
+<theory name="Sensor2__getspeed__subprogram_def" sum="99363f512271643f757d086fbc02ed64" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
  </transf>
  </goal>
 </theory>
-<theory name="Signal__signalsison__subprogram_def" sum="dd47a19c67e349ac3f2a4fd0b5a9f9e3" expanded="true">
+<theory name="Sensor2__setspeed__subprogram_def" sum="953267e136941e4588a64c77e84e8310" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0" steplimit="300000" obsolete="true"><result status="unknown" time="0.02" steps="160"/></proof>
-  <proof prover="1" steplimit="100" obsolete="true"><result status="unknown" time="0.03"/></proof>
-  <proof prover="2" steplimit="1600000" obsolete="true"><result status="invalid" time="0.02"/></proof>
-  <proof prover="3" obsolete="true"><result status="unknown" time="0.02" steps="160"/></proof>
-  <transf name="split_conj" expanded="true">
-   <goal name="WP_parameter def.1.1" expl="1. postcondition">
-   <proof prover="3" steplimit="300000"><result status="valid" time="0.02" steps="0"/></proof>
-   </goal>
-  </transf>
+  <goal name="WP_parameter def.1" expl="1. assertion">
+  <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
   </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Signal__correctsignalson__subprogram_def" sum="9ee23bad9662804254266b17a540c07c" expanded="true">
- <goal name="WP_parameter def" expl="VC for def" expanded="true">
- <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="3"><result status="valid" time="0.02" steps="0"/></proof>
-  </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Signal__correctsignalsoff__subprogram_def" sum="d722f1014800d87a2c8dd19371dbc740" expanded="true">
- <goal name="WP_parameter def" expl="VC for def" expanded="true">
- <transf name="split_goal_wp" expanded="true">
-  <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="3"><result status="valid" time="0.02" steps="0"/></proof>
+  <goal name="WP_parameter def.2" expl="2. postcondition">
+  <proof prover="0"><result status="valid" time="0.00" steps="0"/></proof>
   </goal>
  </transf>
  </goal>

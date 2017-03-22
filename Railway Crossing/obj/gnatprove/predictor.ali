@@ -1,0 +1,148 @@
+V "GNAT Lib v2016"
+A -gnatc
+P GP ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U predictor%b		predictor.adb		fb7421ee OO PK
+W system%s		system.ads		system.ali
+
+U predictor%s		predictor.ads		d4ccfcfd EE OO PK
+W sensor2%s		sensor2.adb		sensor2.ali
+W voter%s		voter.adb		voter.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D predictor.ads		20170321160200 7aca0746 predictor%s
+D predictor.adb		20170322001728 81be26a8 predictor%b
+D sensor.ads		20170322010138 ea34c427 sensor%s
+D sensor2.ads		20170319000820 4c841bd7 sensor2%s
+D system.ads		20160516092930 2da59038 system%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D voter.ads		20170322004812 e282e06c voter%s
+X 5 predictor.ads
+3K9*Predictor 25l5 25e14 6|1b14 22l5 22t14
+6I12*Interval{integer} 10r38
+7I12*distanceToCrossing{integer} 11r11 20r50 6|4r50
+8F12*TrainDistance{float} 12r19
+10i4*ClosingSignalsInterval{6I12} 15r33 16r40 17r26 6|17r44
+11i4*dist{7I12} 15r27 16r35 17r13 21r27 22r19 24r14 6|6m7 13r10 14r33
+12f4*TrainArrival{8F12} 15r68 16r18 18r14 6|14m10 17m7 17r23
+14U14*intervalCalculation 6|10b14 19t7
+20U14*setDistanceToCrossing 20>36 6|4b14 7t7
+20i36 distance{7I12} 22r28 23r13 6|4b36 6r15
+X 8 sensor2.ads
+1K9*Sensor2 5|1w6 1r19 8|28e12
+5I12*Speed{integer}
+X 11 voter.ads
+3K9*Voter 5|2w6 2r17 6|14r40 11|40e13
+10i4*bestSensor{8|5I12} 6|14r46
+FD 1 ada.ads
+FS .1 16K9 ada
+FD 2 a-numeri.ads
+FS .1 16K13 ada__numerics
+FD 3 a-nudira.ads
+FD 4 interfac.ads
+FS .1 38K9 interfaces
+FS .2 81V13 interfaces__shift_left
+FS .3 85V13 interfaces__shift_right
+FS .4 89V13 interfaces__shift_right_arithmetic
+FS .5 93V13 interfaces__rotate_left
+FS .6 97V13 interfaces__rotate_right
+FS .7 101V13 interfaces__shift_left__2
+FS .8 105V13 interfaces__shift_right__2
+FS .9 109V13 interfaces__shift_right_arithmetic__2
+FS .10 113V13 interfaces__rotate_left__2
+FS .11 117V13 interfaces__rotate_right__2
+FS .12 121V13 interfaces__shift_left__3
+FS .13 125V13 interfaces__shift_right__3
+FS .14 129V13 interfaces__shift_right_arithmetic__3
+FS .15 133V13 interfaces__rotate_left__3
+FS .16 137V13 interfaces__rotate_right__3
+FS .17 141V13 interfaces__shift_left__4
+FS .18 145V13 interfaces__shift_right__4
+FS .19 149V13 interfaces__shift_right_arithmetic__4
+FS .20 153V13 interfaces__rotate_left__4
+FS .21 157V13 interfaces__rotate_right__4
+FD 5 predictor.ads
+FS .1 3K9 predictor
+FS .2 14U14 predictor__intervalcalculation
+FS .3 20U14 predictor__setdistancetocrossing
+FD 6 predictor.adb
+FS .1 1K14 standard__predictor -> 5.1
+FS .2 4U14 predictor__setdistancetocrossing -> 5.3
+FS .3 10U14 predictor__intervalcalculation -> 5.2
+FD 7 sensor.ads
+FS .1 2K9 sensor
+FS .2 7K12 sensor__randpos
+FS .3 52V13 sensor__randpos__random
+FS .4 54U14 sensor__randpos__reset
+FS .5 55U14 sensor__randpos__reset__2
+FS .6 61U14 sensor__randpos__save
+FS .7 62U14 sensor__randpos__reset__3
+FS .8 66V13 sensor__randpos__image
+FS .9 67V13 sensor__randpos__value
+FS .10 18U14 sensor__trainincoming
+FS .11 23V13 sensor__getspeed
+FS .12 28U15 sensor__setspeed
+FD 8 sensor2.ads
+FS .1 1K9 sensor2
+FS .2 13U14 sensor2__trainincoming
+FS .3 18V13 sensor2__getspeed
+FS .4 23U15 sensor2__setspeed
+FD 9 system.ads
+FS .1 37K9 system
+FS .2 77V13 system__Olt
+FS .3 78V13 system__Ole
+FS .4 79V13 system__Ogt
+FS .5 80V13 system__Oge
+FS .6 81V13 system__Oeq
+FD 10 s-rannum.ads
+FS .1 60K16 system__random_numbers
+FS .2 71V13 system__random_numbers__random
+FS .3 72V13 system__random_numbers__random__2
+FS .4 75V13 system__random_numbers__random__3
+FS .5 76V13 system__random_numbers__random__4
+FS .6 100U14 system__random_numbers__reset
+FS .7 103U14 system__random_numbers__reset__2
+FS .8 104U14 system__random_numbers__reset__3
+FS .9 105U14 system__random_numbers__reset__4
+FS .10 106U14 system__random_numbers__reset__5
+FS .11 110U14 system__random_numbers__reset__6
+FS .12 114U14 system__random_numbers__reset__7
+FS .13 115U14 system__random_numbers__save
+FS .14 120U14 system__random_numbers__reset__8
+FS .15 121V13 system__random_numbers__image
+FS .16 129V13 system__random_numbers__image__2
+FS .17 133V13 system__random_numbers__value
+FD 11 voter.ads
+FS .1 3K9 voter
+FS .2 13U14 voter__sensor2init
+FS .3 20U17 voter__sensor1init
+FS .4 29U14 voter__selectvalues
+FS .5 36V13 voter__findmax
+FX 5 predictor.ads .1 predictor
+F 10*4 predictor__closingsignalsinterval .2:15c33 16c40 17c26 6|.3:17c44
+F 11*4 predictor__dist .2:15r27 16r35 17r13 .3:21r27 22r19 24r14 6|.2:6m7
+. .3:13r10 14r33
+F 12*4 predictor__trainarrival .2:15r68 16r18 18r14 6|.3:14m10 17m7 17r23
+FX 5 predictor.ads .3 predictor__setdistancetocrossing
+F 20>36 predictor__setdistancetocrossing__distance 22c28 23c13 6|.2:6c15
+FX 11 voter.ads .1 voter
+F 10*4 voter__bestsensor 6|.3:14r46
+
+GG EK_REMOTE_STATES
+GG EK_GLOBALS predictor KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ predictor__dist predictor__trainarrival ] c:local_sub [ predictor__intervalcalculation predictor__setdistancetocrossing ] c:local_init [ predictor__dist predictor__trainarrival ]
+GG EK_VOLATILES
+GG EK_TASKING_NONBLOCKING [ predictor__intervalcalculation predictor__setdistancetocrossing ]
+GG EK_TASKING_INFO predictor__intervalcalculation c:UNSYNCH_ACCESSES [ predictor__dist predictor__trainarrival voter__bestsensor ]
+GG EK_TASKING_INFO predictor__setdistancetocrossing c:UNSYNCH_ACCESSES [ predictor__dist ]
+GG EK_END_MARKER

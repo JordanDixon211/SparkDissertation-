@@ -445,31 +445,6 @@
   ],
   "proof": [
     {
-      "file": "signal.adb",
-      "line": 10,
-      "col": 27,
-      "rule": "VC_REFINED_POST",
-      "severity": "info",
-      "entity": {
-        "name": "Signal.signalsOn",
-        "sloc": [
-          {
-            "file": "signal.ads",
-            "line": 15
-          }
-        ]
-      },
-      "msg_id": 20,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 1.99999995529652E-02
-        }
-      }
-    },
-    {
       "file": "signal.ads",
       "line": 28,
       "col": 16,
@@ -484,7 +459,7 @@
           }
         ]
       },
-      "msg_id": 21,
+      "msg_id": 20,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -506,6 +481,31 @@
           {
             "file": "signal.adb",
             "line": 51
+          }
+        ]
+      },
+      "msg_id": 21,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "signal.adb",
+      "line": 10,
+      "col": 27,
+      "rule": "VC_REFINED_POST",
+      "severity": "info",
+      "entity": {
+        "name": "Signal.signalsOn",
+        "sloc": [
+          {
+            "file": "signal.ads",
+            "line": 15
           }
         ]
       },

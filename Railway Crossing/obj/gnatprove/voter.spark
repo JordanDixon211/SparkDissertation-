@@ -1,0 +1,569 @@
+{
+  "spark": [
+    {
+      "name": "Voter.SelectValues",
+      "sloc": [
+        {
+          "file": "voter.ads",
+          "line": 29
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Voter.Sensor1Init",
+      "sloc": [
+        {
+          "file": "voter.ads",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Voter.Sensor2Init",
+      "sloc": [
+        {
+          "file": "voter.ads",
+          "line": 13
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Voter.findMax",
+      "sloc": [
+        {
+          "file": "voter.ads",
+          "line": 36
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Voter",
+      "sloc": [
+        {
+          "file": "voter.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "voter.ads",
+      "line": 13,
+      "col": 26,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor2Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "voter__flow__19.trace",
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "voter.ads",
+      "line": 15,
+      "col": 59,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor2Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "voter__flow__19.trace",
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "voter.ads",
+      "line": 18,
+      "col": 38,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor2Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "voter__flow__19.trace",
+      "msg_id": 2,
+      "how_proved": "flow"
+    },
+    {
+      "file": "voter.ads",
+      "line": 20,
+      "col": 29,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor1Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 20
+          }
+        ]
+      },
+      "tracefile": "voter__flow__39.trace",
+      "msg_id": 3,
+      "how_proved": "flow"
+    },
+    {
+      "file": "voter.ads",
+      "line": 22,
+      "col": 58,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor1Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 20
+          }
+        ]
+      },
+      "tracefile": "voter__flow__39.trace",
+      "msg_id": 4,
+      "how_proved": "flow"
+    },
+    {
+      "file": "voter.ads",
+      "line": 25,
+      "col": 37,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor1Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 20
+          }
+        ]
+      },
+      "tracefile": "voter__flow__39.trace",
+      "msg_id": 5,
+      "how_proved": "flow"
+    },
+    {
+      "file": "voter.ads",
+      "line": 31,
+      "col": 76,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.SelectValues",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 29
+          }
+        ]
+      },
+      "tracefile": "voter__flow__75.trace",
+      "msg_id": 6,
+      "how_proved": "flow"
+    },
+    {
+      "file": "voter.ads",
+      "line": 34,
+      "col": 16,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.SelectValues",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 29
+          }
+        ]
+      },
+      "tracefile": "voter__flow__75.trace",
+      "msg_id": 7,
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "voter.ads",
+      "line": 25,
+      "col": 17,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor1Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 20
+          }
+        ]
+      },
+      "msg_id": 8,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "voter.ads",
+      "line": 39,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.findMax",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 36
+          }
+        ]
+      },
+      "msg_id": 9,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "voter.ads",
+      "line": 34,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.SelectValues",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 29
+          }
+        ]
+      },
+      "msg_id": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "voter.adb",
+      "line": 7,
+      "col": 21,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.SelectValues",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 29
+          }
+        ]
+      },
+      "msg_id": 11,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "voter.ads",
+      "line": 18,
+      "col": 17,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Voter.Sensor2Init",
+        "sloc": [
+          {
+            "file": "voter.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 12,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Voter.findMax",
+            "sloc": [
+              {
+                "file": "voter.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Voter.findMax",
+            "sloc": [
+              {
+                "file": "voter.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Voter.findMax",
+            "sloc": [
+              {
+                "file": "voter.ads",
+                "line": 36
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Voter.SelectValues",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Voter.findMax",
+            "sloc": [
+              {
+                "file": "voter.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Voter.findMax",
+            "sloc": [
+              {
+                "file": "voter.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Voter.findMax",
+            "sloc": [
+              {
+                "file": "voter.ads",
+                "line": 36
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Voter.SelectValues",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Voter.Sensor2Init",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Voter.Sensor2Init",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Voter",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Voter.Sensor1Init",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Voter.Sensor1Init",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Voter.findMax",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 36
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Voter.findMax",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 36
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Voter.findMax",
+          "sloc": [
+            {
+              "file": "voter.ads",
+              "line": 36
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

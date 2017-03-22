@@ -13,8 +13,9 @@ is
       if(dist > 0) then
          TrainArrival :=  Float(dist / Voter.bestSensor);
       end if;
+      --After T seconds call the Signals Class. (Implemented within the Main Class )
+      TrainArrival := TrainArrival - Float(ClosingSignalsInterval);
 
-      --After T seconds call the Signals Class.
    end;
 
 

@@ -1,0 +1,158 @@
+V "GNAT Lib v2016"
+A -gnatc
+P GP ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U voter%b		voter.adb		7c1a5e7f OO PK
+W system%s		system.ads		system.ali
+
+U voter%s		voter.ads		44323f9c EE OO PK
+W sensor%s		sensor.adb		sensor.ali
+W sensor2%s		sensor2.adb		sensor2.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D sensor.ads		20170322010138 ea34c427 sensor%s
+D sensor2.ads		20170319000820 4c841bd7 sensor2%s
+D system.ads		20160516092930 2da59038 system%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D voter.ads		20170322004812 e282e06c voter%s
+D voter.adb		20170322004800 9e98be13 voter%b
+X 5 sensor.ads
+2K9*Sensor 33e11 9|2w6 2r18 22r29 23r51 24r16 25r17 36r28 10|13r10 15r30
+. 36r29
+10I12*Speed{integer} 9|36r35 10|36r36
+14i4*trainSpeed{10I12} 9|22r36 23r58 24r23 25r24 10|13r17 15r37
+X 6 sensor2.ads
+1K9*Sensor2 28e12 9|1w6 1r19 8r23 9r23 10r17 15r29 16r51 17r16 18r17 10|25r11
+. 27r30
+5I12*Speed{integer} 9|8r31 9r31 10r25
+9i5*trainSpeed{5I12} 9|15r37 16r59 17r24 18r25 10|25r19 27r38
+X 9 voter.ads
+3K9*Voter 40l8 40e13 10|1b14 48l5 48t10
+8i4*sensorReadingOne{6|5I12} 22r58 23r22 25r37 31r29 32r35 33r15 34r29 37r32
+. 38r13 39r18 39r76 10|15m10 18m10 39r10 40r17 41r13 42r17
+9i4*sensorReadingTwo{6|5I12} 15r59 16r22 18r38 31r47 32r53 33r40 34r62 37r50
+. 38r38 39r37 39r115 10|27m10 31m11 39r29 41r32 44r17
+10i4*bestSensor{6|5I12} 31r76 32r20 34r16 34r49 10|7m7
+13U14*Sensor2Init 13<26 10|22b14 34t7
+13b26 success{boolean} 16r39 10|22b26 26m10 30m10
+20U17*Sensor1Init 20<29 10|10b14 20t7
+20b29 success{boolean} 23r39 10|10b26 14m10 17m10
+29U14*SelectValues 10|4b14 8t7
+36V13*findMax{5|10I12} 39r59 39r98 10|7s21 36b14 47t7
+FD 1 ada.ads
+FS .1 16K9 ada
+FD 2 a-numeri.ads
+FS .1 16K13 ada__numerics
+FD 3 a-nudira.ads
+FD 4 interfac.ads
+FS .1 38K9 interfaces
+FS .2 81V13 interfaces__shift_left
+FS .3 85V13 interfaces__shift_right
+FS .4 89V13 interfaces__shift_right_arithmetic
+FS .5 93V13 interfaces__rotate_left
+FS .6 97V13 interfaces__rotate_right
+FS .7 101V13 interfaces__shift_left__2
+FS .8 105V13 interfaces__shift_right__2
+FS .9 109V13 interfaces__shift_right_arithmetic__2
+FS .10 113V13 interfaces__rotate_left__2
+FS .11 117V13 interfaces__rotate_right__2
+FS .12 121V13 interfaces__shift_left__3
+FS .13 125V13 interfaces__shift_right__3
+FS .14 129V13 interfaces__shift_right_arithmetic__3
+FS .15 133V13 interfaces__rotate_left__3
+FS .16 137V13 interfaces__rotate_right__3
+FS .17 141V13 interfaces__shift_left__4
+FS .18 145V13 interfaces__shift_right__4
+FS .19 149V13 interfaces__shift_right_arithmetic__4
+FS .20 153V13 interfaces__rotate_left__4
+FS .21 157V13 interfaces__rotate_right__4
+FD 5 sensor.ads
+FS .1 2K9 sensor
+FS .2 7K12 sensor__randpos
+FS .3 52V13 sensor__randpos__random
+FS .4 54U14 sensor__randpos__reset
+FS .5 55U14 sensor__randpos__reset__2
+FS .6 61U14 sensor__randpos__save
+FS .7 62U14 sensor__randpos__reset__3
+FS .8 66V13 sensor__randpos__image
+FS .9 67V13 sensor__randpos__value
+FS .10 18U14 sensor__trainincoming
+FS .11 23V13 sensor__getspeed
+FS .12 28U15 sensor__setspeed
+FD 6 sensor2.ads
+FS .1 1K9 sensor2
+FS .2 13U14 sensor2__trainincoming
+FS .3 18V13 sensor2__getspeed
+FS .4 23U15 sensor2__setspeed
+FD 7 system.ads
+FS .1 37K9 system
+FS .2 77V13 system__Olt
+FS .3 78V13 system__Ole
+FS .4 79V13 system__Ogt
+FS .5 80V13 system__Oge
+FS .6 81V13 system__Oeq
+FD 8 s-rannum.ads
+FS .1 60K16 system__random_numbers
+FS .2 71V13 system__random_numbers__random
+FS .3 72V13 system__random_numbers__random__2
+FS .4 75V13 system__random_numbers__random__3
+FS .5 76V13 system__random_numbers__random__4
+FS .6 100U14 system__random_numbers__reset
+FS .7 103U14 system__random_numbers__reset__2
+FS .8 104U14 system__random_numbers__reset__3
+FS .9 105U14 system__random_numbers__reset__4
+FS .10 106U14 system__random_numbers__reset__5
+FS .11 110U14 system__random_numbers__reset__6
+FS .12 114U14 system__random_numbers__reset__7
+FS .13 115U14 system__random_numbers__save
+FS .14 120U14 system__random_numbers__reset__8
+FS .15 121V13 system__random_numbers__image
+FS .16 129V13 system__random_numbers__image__2
+FS .17 133V13 system__random_numbers__value
+FD 9 voter.ads
+FS .1 3K9 voter
+FS .2 13U14 voter__sensor2init
+FS .3 20U17 voter__sensor1init
+FS .4 29U14 voter__selectvalues
+FS .5 36V13 voter__findmax
+FD 10 voter.adb
+FS .1 1K14 standard__voter -> 9.1
+FS .2 4U14 voter__selectvalues -> 9.4
+FS .3 10U14 voter__sensor1init -> 9.3
+FS .4 22U14 voter__sensor2init -> 9.2
+FS .5 36V14 voter__findmax -> 9.5
+FX 5 sensor.ads .1 sensor
+F 14*4 sensor__trainspeed 9|.3:22r36 23r58 24r23 25r24 10|.3:13r17 15r37
+FX 6 sensor2.ads .1 sensor2
+F 9*5 sensor2__trainspeed 9|.2:15r37 16r59 17r24 18r25 10|.4:25r19 27r38
+FX 9 voter.ads .1 voter
+F 8*4 voter__sensorreadingone .3:22r58 23r22 25r37 .4:31r29 32r35 33r15 34r29
+. .5:37r32 38r13 39r18 39r76 10|.3:15m10 18m10 .5:39r10 40r17 41r13 42r17
+F 9*4 voter__sensorreadingtwo .2:15r59 16r22 18r38 .4:31r47 32r53 33r40 34r62
+. .5:37r50 38r38 39r37 39r115 10|.4:27m10 31m11 .5:39r29 41r32 44r17
+F 10*4 voter__bestsensor .4:31r76 32r20 34r16 34r49 10|.2:7m7
+F 36*13 voter__findmax 10|.2:7s21
+FX 9 voter.ads .2 voter__sensor2init
+F 13<26 voter__sensor2init__success 16r39 10|.4:26m10 30m10
+FX 9 voter.ads .3 voter__sensor1init
+F 20<29 voter__sensor1init__success 23r39 10|.3:14m10 17m10
+
+GG EK_REMOTE_STATES
+GG EK_GLOBALS voter KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ voter__sensorreadingone voter__sensorreadingtwo voter__bestsensor ] c:local_sub [ voter__findmax voter__sensor2init voter__sensor1init voter__selectvalues ] c:local_init [ voter__sensorreadingone voter__sensorreadingtwo voter__bestsensor ]
+GG EK_VOLATILES
+GG EK_TASKING_NONBLOCKING [ voter__findmax voter__sensor2init voter__sensor1init voter__selectvalues ]
+GG EK_TASKING_INFO voter__findmax c:UNSYNCH_ACCESSES [ voter__sensorreadingone voter__sensorreadingtwo ]
+GG EK_TASKING_INFO voter__sensor2init c:UNSYNCH_ACCESSES [ sensor2__trainspeed voter__sensorreadingtwo ]
+GG EK_TASKING_INFO voter__sensor1init c:UNSYNCH_ACCESSES [ sensor__trainspeed voter__sensorreadingone ]
+GG EK_TASKING_INFO voter__selectvalues c:UNSYNCH_ACCESSES [ voter__sensorreadingone voter__sensorreadingtwo voter__bestsensor ]
+GG EK_END_MARKER

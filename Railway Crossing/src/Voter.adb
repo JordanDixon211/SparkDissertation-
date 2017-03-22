@@ -11,9 +11,11 @@ is
    is
    begin
       if Sensor.trainSpeed > 0 then
-         success := False;
+         success := True;
+         sensorReadingOne := Sensor.trainSpeed;
       else
          success := False;
+         sensorReadingOne := 0;
       end if;
    end;
 
@@ -21,9 +23,13 @@ is
    is
    begin
        if Sensor2.trainSpeed > 0 then
-         success := False;
+         success := True;
+         sensorReadingTwo := Sensor2.trainSpeed;
+
       else
          success := False;
+          sensorReadingTwo := 0;
+
       end if;
    end;
 

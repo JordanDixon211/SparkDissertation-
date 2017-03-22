@@ -6,34 +6,60 @@ A -march=pentium4
 P NO ZX
 
 RN
+RV NO_DELAY
 RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FIXED_POINT
+RV NO_RELATIVE_DELAY
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U sensor%b		sensor.adb		a90c3c73 OO PK
+U sensor%b		sensor.adb		599e5ba6 OO PK
 
-U sensor%s		sensor.ads		e6fbf440 EE OO PK
+U sensor%s		sensor.ads		9bd199c8 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
 
-D sensor.ads		20170319031058 e6fbf440 sensor%s
-D sensor.adb		20170319031052 4ff7c833 sensor%b
-X 1 sensor.ads
-1K9*Sensor 28l5 28e11 2|2b14 44l5 44t11
-5I12*Speed{integer} 9r18 13r46 18r29 23r31 2|9r30 21r29 30r46
-6B12*TrainState{boolean} 10r13
-7I12*voltage{integer}
-9i5*trainSpeed{5I12} 14r26 15r17 15r58 20r25 24r27 25r13 26r38 26r58 2|10r18
-. 13m10 23r10 24r17
-10b5*train{6E12} 14r38 15r28 15r52 16r16 16r39 20r37 21r11 2|23r29 38m12
-. 40r20
-13U14*trainIncoming 13>28 2|30b14 42l8 42t21
-13i28 userDefSpeed{5I12} 15r39 2|30b28 37r21
-18V13*getSpeed{5I12} 2|21b13 28l8 28t16
-23U15*setSpeed 23>24 23<39 2|9b14 18l8 18t16 37s12
-23i24 v{5I12} 25r32 2|9b23 12r10 13r24
-23b39 success{boolean} 26r18 2|9b38 14m10 16m10
-X 2 sensor.adb
-31i7 v{integer} 36r13
-32b7 sus{boolean} 37m35 38r21 40r37
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D sensor.ads		20170322001418 ea34c427 sensor%s
+D sensor.adb		20170322005700 b3aa9f81 sensor%b
+D system.ads		20160516092930 2da59038 system%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+X 1 ada.ads
+16K9*Ada 19e8 5|1r6 7r27
+X 2 a-numeri.ads
+16K13*Numerics 32e17 5|1r10 7r31
+X 3 a-nudira.ads
+44k22*Discrete_Random 75e33 5|1w19 7r40
+50R9*Generator<8|63R9> 6|30r29[5|7]
+52V13*Random{integer} 6|34s29[5|7]
+X 5 sensor.ads
+2K9*Sensor 33l5 33e11 6|2b14 45l5 45t11
+6I12*RandRange{positive} 7r56 6|28r15
+7K12*randPos[3|44] 6|30r21 34r21
+10I12*Speed{integer} 14r18 18r46 23r29 28r36 6|7r35 18r29 27r46
+11B12*TrainState{boolean} 15r12
+12I12*voltage{integer}
+14i5*trainSpeed{10I12} 19r26 20r17 20r58 25r25 29r27 30r13 31r38 31r58 6|8r18
+. 11m10 20r10 21r17
+15b4*train{11E12} 19r38 20r28 20r52 21r16 21r39 25r37 26r11 6|20r29 38m12
+. 41r20
+18U14*trainIncoming 18>28 6|27b14 43l8 43t21
+18i28 userDefSpeed{10I12} 20r39 6|27b28 37r21
+23V13*getSpeed{10I12} 6|18b13 25l8 25t16
+28U15*setSpeed 28>24 28<44 6|7b14 15l8 15t16 37s12
+28i24 speed1{10I12} 30r32 6|7b23 10r10 11r24
+28b44 success{boolean} 31r18 6|7b43 13m10
+X 6 sensor.adb
+28i7 count{5|6I12} 36r13
+29b7 sus{boolean} 37m35 38r21 41r37
+30r7 genVoltage{3|50R9[5|7]} 34r36
+31i7 genval{integer} 34m11 36r22
 

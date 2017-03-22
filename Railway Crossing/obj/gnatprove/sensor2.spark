@@ -1,0 +1,429 @@
+{
+  "spark": [
+    {
+      "name": "Sensor2.setSpeed",
+      "sloc": [
+        {
+          "file": "sensor2.ads",
+          "line": 23
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Sensor2.getSpeed",
+      "sloc": [
+        {
+          "file": "sensor2.ads",
+          "line": 18
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Sensor2.trainIncoming",
+      "sloc": [
+        {
+          "file": "sensor2.ads",
+          "line": 13
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Sensor2",
+      "sloc": [
+        {
+          "file": "sensor2.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "sensor2.ads",
+      "line": 23,
+      "col": 39,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.setSpeed",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 23
+          }
+        ]
+      },
+      "tracefile": "sensor2__flow__18.trace",
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "sensor2.ads",
+      "line": 26,
+      "col": 18,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.setSpeed",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 23
+          }
+        ]
+      },
+      "tracefile": "sensor2__flow__18.trace",
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "sensor2.adb",
+      "line": 36,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.trainIncoming",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "sensor2__flow__93.trace",
+      "msg_id": 2,
+      "how_proved": "flow"
+    },
+    {
+      "file": "sensor2.adb",
+      "line": 38,
+      "col": 21,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.trainIncoming",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "sensor2__flow__93.trace",
+      "msg_id": 3,
+      "how_proved": "flow"
+    },
+    {
+      "file": "sensor2.adb",
+      "line": 40,
+      "col": 37,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.trainIncoming",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 13
+          }
+        ]
+      },
+      "tracefile": "sensor2__flow__93.trace",
+      "msg_id": 4,
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "sensor2.ads",
+      "line": 16,
+      "col": 12,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.trainIncoming",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 5,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "sensor2.adb",
+      "line": 37,
+      "col": 12,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.trainIncoming",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 13
+          }
+        ]
+      },
+      "msg_id": 6,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "sensor2.ads",
+      "line": 26,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.setSpeed",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 23
+          }
+        ]
+      },
+      "msg_id": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "sensor2.adb",
+      "line": 10,
+      "col": 4,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Sensor2.setSpeed",
+        "sloc": [
+          {
+            "file": "sensor2.ads",
+            "line": 23
+          }
+        ]
+      },
+      "msg_id": 8,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Sensor2",
+          "sloc": [
+            {
+              "file": "sensor2.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Sensor2.setSpeed",
+          "sloc": [
+            {
+              "file": "sensor2.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Sensor2.setSpeed",
+          "sloc": [
+            {
+              "file": "sensor2.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Sensor2.setSpeed",
+            "sloc": [
+              {
+                "file": "sensor2.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Sensor2.setSpeed",
+            "sloc": [
+              {
+                "file": "sensor2.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Sensor2.setSpeed",
+            "sloc": [
+              {
+                "file": "sensor2.ads",
+                "line": 23
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Sensor2.trainIncoming",
+          "sloc": [
+            {
+              "file": "sensor2.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Sensor2.getSpeed",
+          "sloc": [
+            {
+              "file": "sensor2.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Sensor2.setSpeed",
+            "sloc": [
+              {
+                "file": "sensor2.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Sensor2.setSpeed",
+            "sloc": [
+              {
+                "file": "sensor2.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Sensor2.setSpeed",
+            "sloc": [
+              {
+                "file": "sensor2.ads",
+                "line": 23
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Sensor2.trainIncoming",
+          "sloc": [
+            {
+              "file": "sensor2.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Sensor2.getSpeed",
+          "sloc": [
+            {
+              "file": "sensor2.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

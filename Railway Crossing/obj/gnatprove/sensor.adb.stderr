@@ -1,9 +1,6 @@
-sensor.adb:10:04: info: assertion proved[#7]
-sensor.adb:36:13: info: initialization of "v" proved[#2]
-sensor.adb:37:12: info: precondition proved[#5]
-sensor.adb:38:21: info: initialization of "sus" proved[#3]
-sensor.adb:40:37: info: initialization of "sus" proved[#4]
-sensor.ads:16:12: info: postcondition proved[#8]
-sensor.ads:23:39: info: initialization of "success" proved[#0]
-sensor.ads:26:14: info: postcondition proved[#6]
-sensor.ads:26:18: info: initialization of "success" proved[#1]
+sensor.adb:30:21: "Generator" is not allowed in SPARK
+sensor.adb:30:21: violation of aspect SPARK_Mode at line 3
+sensor.adb:34:36: "genVoltage" is not allowed in SPARK
+sensor.adb:34:36: violation of aspect SPARK_Mode at line 3
+sensor.adb:41:10: tasking is not allowed in SPARK
+sensor.adb:41:10: violation of aspect SPARK_Mode at line 3
