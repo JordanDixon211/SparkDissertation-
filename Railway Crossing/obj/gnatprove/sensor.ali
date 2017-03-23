@@ -28,7 +28,7 @@ D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
 D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
 D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
-D sensor.ads		20170322010138 ea34c427 sensor%s
+D sensor.ads		20170322011636 ea34c427 sensor%s
 D sensor.adb		20170322005710 b3aa9f81 sensor%b
 D system.ads		20160516092930 2da59038 system%s
 D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s

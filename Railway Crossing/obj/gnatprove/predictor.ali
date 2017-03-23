@@ -10,10 +10,10 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U predictor%b		predictor.adb		fb7421ee OO PK
+U predictor%b		predictor.adb		b558fa27 OO PK
 W system%s		system.ads		system.ali
 
-U predictor%s		predictor.ads		d4ccfcfd EE OO PK
+U predictor%s		predictor.ads		9ae02734 EE OO PK
 W sensor2%s		sensor2.adb		sensor2.ali
 W voter%s		voter.adb		voter.ali
 
@@ -21,9 +21,9 @@ D ada.ads		20160516092928 3ffc8e18 ada%s
 D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
 D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
-D predictor.ads		20170321160200 7aca0746 predictor%s
+D predictor.ads		20170323012058 34e6dc8f predictor%s
 D predictor.adb		20170322001728 81be26a8 predictor%b
-D sensor.ads		20170322010138 ea34c427 sensor%s
+D sensor.ads		20170322011636 ea34c427 sensor%s
 D sensor2.ads		20170319000820 4c841bd7 sensor2%s
 D system.ads		20160516092930 2da59038 system%s
 D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
@@ -33,9 +33,9 @@ X 5 predictor.ads
 6I12*Interval{integer} 10r38
 7I12*distanceToCrossing{integer} 11r11 20r50 6|4r50
 8F12*TrainDistance{float} 12r19
-10i4*ClosingSignalsInterval{6I12} 15r33 16r40 17r26 6|17r44
-11i4*dist{7I12} 15r27 16r35 17r13 21r27 22r19 24r14 6|6m7 13r10 14r33
-12f4*TrainArrival{8F12} 15r68 16r18 18r14 6|14m10 17m7 17r23
+10i4*ClosingSignalsInterval{6I12} 15r33 16r59 17r26 6|17r44
+11i4*dist{7I12} 15r27 16r54 17r13 21r27 22r19 24r14 6|6m7 13r10 14r33
+12f4*TrainArrival{8F12} 15r87 16r18 18r14 6|14m10 17m7 17r23
 14U14*intervalCalculation 6|10b14 19t7
 20U14*setDistanceToCrossing 20>36 6|4b14 7t7
 20i36 distance{7I12} 22r28 23r13 6|4b36 6r15
@@ -43,8 +43,8 @@ X 8 sensor2.ads
 1K9*Sensor2 5|1w6 1r19 8|28e12
 5I12*Speed{integer}
 X 11 voter.ads
-3K9*Voter 5|2w6 2r17 6|14r40 11|40e13
-10i4*bestSensor{8|5I12} 6|14r46
+3K9*Voter 5|2w6 2r17 15r58 16r36 6|14r40 11|40e13
+10i4*bestSensor{8|5I12} 5|15r64 16r42 6|14r46
 FD 1 ada.ads
 FS .1 16K9 ada
 FD 2 a-numeri.ads
@@ -130,14 +130,14 @@ FS .3 20U17 voter__sensor1init
 FS .4 29U14 voter__selectvalues
 FS .5 36V13 voter__findmax
 FX 5 predictor.ads .1 predictor
-F 10*4 predictor__closingsignalsinterval .2:15c33 16c40 17c26 6|.3:17c44
-F 11*4 predictor__dist .2:15r27 16r35 17r13 .3:21r27 22r19 24r14 6|.2:6m7
+F 10*4 predictor__closingsignalsinterval .2:15c33 16c59 17c26 6|.3:17c44
+F 11*4 predictor__dist .2:15r27 16r54 17r13 .3:21r27 22r19 24r14 6|.2:6m7
 . .3:13r10 14r33
-F 12*4 predictor__trainarrival .2:15r68 16r18 18r14 6|.3:14m10 17m7 17r23
+F 12*4 predictor__trainarrival .2:15r87 16r18 18r14 6|.3:14m10 17m7 17r23
 FX 5 predictor.ads .3 predictor__setdistancetocrossing
 F 20>36 predictor__setdistancetocrossing__distance 22c28 23c13 6|.2:6c15
 FX 11 voter.ads .1 voter
-F 10*4 voter__bestsensor 6|.3:14r46
+F 10*4 voter__bestsensor 5|.2:15r64 16r42 6|.3:14r46
 
 GG EK_REMOTE_STATES
 GG EK_GLOBALS predictor KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ predictor__dist predictor__trainarrival ] c:local_sub [ predictor__intervalcalculation predictor__setdistancetocrossing ] c:local_init [ predictor__dist predictor__trainarrival ]

@@ -12,8 +12,8 @@ is
    TrainArrival : TrainDistance := 0.0;
 
    procedure intervalCalculation with
-     Global => (input => (dist, ClosingSignalsInterval), Output => TrainArrival),
-     Depends => (TrainArrival => (dist,ClosingSignalsInterval)),
+     Global => (input => (dist, ClosingSignalsInterval,  Voter.bestSensor), Output => TrainArrival),
+     Depends => (TrainArrival => ( Voter.bestSensor, dist,ClosingSignalsInterval)),
      pre => dist > 0 and ClosingSignalsInterval = 20,
      Post => TrainArrival > 0.0;
 

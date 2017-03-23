@@ -2,10 +2,7 @@
 <!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
 "http://why3.lri.fr/why3session.dtd">
 <why3session shape_version="4">
-<prover id="0" name="CVC4_CE" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
-<prover id="1" name="altergo" version="0.99.1" timelimit="0" steplimit="10000" memlimit="0"/>
-<prover id="2" name="Z3" version="4.4.1" timelimit="0" steplimit="150100000" memlimit="0"/>
-<prover id="3" name="CVC4" version="1.5" timelimit="0" steplimit="75000" memlimit="0"/>
+<prover id="0" name="CVC4" version="1.5" timelimit="0" steplimit="2550000" memlimit="0"/>
 <file name="..\signal.mlw" expanded="true">
 <theory name="Standard__short_short_integer" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
 </theory>
@@ -455,23 +452,11 @@
  </transf>
  </goal>
 </theory>
-<theory name="Signal__signalson__subprogram_def" sum="df9dfca7132e48d19dd1fbb77bc83933" expanded="true">
+<theory name="Signal__signalson__subprogram_def" sum="6d57b27b78d85be1b1bd5b7fa568880d" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="1" obsolete="true"><result status="unknown" time="0.00"/></proof>
-  <proof prover="2" obsolete="true"><result status="invalid" time="0.02"/></proof>
-  <proof prover="3" steplimit="2550000"><result status="valid" time="0.02" steps="0"/></proof>
-  <transf name="split_disj" expanded="true">
-   <goal name="WP_parameter def.1.1" expl="1. postcondition">
-   <proof prover="0" obsolete="true"><result status="unknown" time="0.02" steps="80"/></proof>
-   <proof prover="1" obsolete="true"><result status="unknown" time="0.02"/></proof>
-   <proof prover="2" obsolete="true"><result status="invalid" time="0.02"/></proof>
-   <proof prover="3" steplimit="2550000" obsolete="true"><result status="unknown" time="0.02" steps="80"/></proof>
-   </goal>
-   <goal name="WP_parameter def.1.2" expl="2. postcondition">
-   </goal>
-  </transf>
+  <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
   </goal>
  </transf>
  </goal>
@@ -482,19 +467,11 @@
  </transf>
  </goal>
 </theory>
-<theory name="Signal__signalsison__subprogram_def" sum="dd47a19c67e349ac3f2a4fd0b5a9f9e3" expanded="true">
+<theory name="Signal__signalsison__subprogram_def" sum="602acdbd0a4d5de73ff1d1edb74b0966" expanded="true">
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="0" steplimit="300000" obsolete="true"><result status="unknown" time="0.02" steps="160"/></proof>
-  <proof prover="1" steplimit="100" obsolete="true"><result status="unknown" time="0.03"/></proof>
-  <proof prover="2" steplimit="1600000" obsolete="true"><result status="invalid" time="0.02"/></proof>
-  <proof prover="3" obsolete="true"><result status="unknown" time="0.02" steps="160"/></proof>
-  <transf name="split_conj" expanded="true">
-   <goal name="WP_parameter def.1.1" expl="1. postcondition">
-   <proof prover="3" steplimit="300000"><result status="valid" time="0.02" steps="0"/></proof>
-   </goal>
-  </transf>
+  <proof prover="0"><result status="valid" time="0.00" steps="0"/></proof>
   </goal>
  </transf>
  </goal>
@@ -503,7 +480,7 @@
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="3"><result status="valid" time="0.02" steps="0"/></proof>
+  <proof prover="0"><result status="valid" time="0.03" steps="0"/></proof>
   </goal>
  </transf>
  </goal>
@@ -512,7 +489,7 @@
  <goal name="WP_parameter def" expl="VC for def" expanded="true">
  <transf name="split_goal_wp" expanded="true">
   <goal name="WP_parameter def.1" expl="1. postcondition">
-  <proof prover="3"><result status="valid" time="0.02" steps="0"/></proof>
+  <proof prover="0"><result status="valid" time="0.02" steps="0"/></proof>
   </goal>
  </transf>
  </goal>

@@ -13,9 +13,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U predictor%b		predictor.adb		fb7421ee OO PK
-
-U predictor%s		predictor.ads		d4ccfcfd EE OO PK
+U predictor%s		predictor.ads		9ae02734 EE OO PK
 W sensor2%s		sensor2.adb		sensor2.ali
 W voter%s		voter.adb		voter.ali
 
@@ -23,28 +21,27 @@ D ada.ads		20160516092928 3ffc8e18 ada%s
 D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
 D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
-D predictor.ads		20170321160200 7aca0746 predictor%s
-D predictor.adb		20170322001728 81be26a8 predictor%b
-D sensor.ads		20170322001418 ea34c427 sensor%s
+D predictor.ads		20170323012058 34e6dc8f predictor%s
+D sensor.ads		20170322011636 ea34c427 sensor%s
 D sensor2.ads		20170319000820 4c841bd7 sensor2%s
 D system.ads		20160516092930 2da59038 system%s
 D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
-D voter.ads		20170321155808 e282e06c voter%s
+D voter.ads		20170322004812 e282e06c voter%s
 X 5 predictor.ads
-3K9*Predictor 25l5 25e14 6|1b14 22l5 22t14
+3K9*Predictor 25l5 25e14
 6I12*Interval{integer} 10r38
-7I12*distanceToCrossing{integer} 11r11 20r50 6|4r50
+7I12*distanceToCrossing{integer} 11r11 20r50
 8F12*TrainDistance{float} 12r19
-10i4*ClosingSignalsInterval{6I12} 15r33 16r40 17r26 6|17r44
-11i4*dist{7I12} 15r27 16r35 17r13 21r27 22r19 24r14 6|6m7 13r10 14r33
-12f4*TrainArrival{8F12} 15r68 16r18 18r14 6|14m10 17m7 17r23
-14U14*intervalCalculation 6|10b14 19t7
-20U14*setDistanceToCrossing 20>36 6|4b14 7t7
-20i36 distance{7I12} 22r28 23r13 6|4b36 6r15
-X 8 sensor2.ads
-1K9*Sensor2 5|1w6 1r19 8|28e12
+10i4*ClosingSignalsInterval{6I12} 15r33 16r59 17r26
+11i4*dist{7I12} 15r27 16r54 17r13 21r27 22r19 24r14
+12f4*TrainArrival{8F12} 15r87 16r18 18r14
+14U14*intervalCalculation
+20U14*setDistanceToCrossing 20>36
+20i36 distance{7I12} 22r28 23r13
+X 7 sensor2.ads
+1K9*Sensor2 5|1w6 1r19 7|28e12
 5I12*Speed{integer}
-X 11 voter.ads
-3K9*Voter 5|2w6 2r17 6|14r40 11|40e13
-10i4*bestSensor{8|5I12} 6|14r46
+X 10 voter.ads
+3K9*Voter 5|2w6 2r17 15r58 16r36 10|40e13
+10i4*bestSensor{7|5I12} 5|15r64 16r42
 

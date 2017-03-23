@@ -1,3 +1,0 @@
-predictor.adb:14:45: "bestSensor" must be listed in the Global aspect of "intervalCalculation" (SPARK RM 6.1.4(13))[#2]
-predictor.ads:21:27: info: initialization of "dist" proved[#0]
-predictor.ads:24:14: info: initialization of "dist" proved[#1]

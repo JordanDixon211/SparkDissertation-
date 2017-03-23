@@ -5,25 +5,24 @@ Summary of SPARK analysis
 SPARK Analysis results        Total        Flow   Interval   CodePeer      Provers   Justified   Unproved
 ---------------------------------------------------------------------------------------------------------
 Data Dependencies                 .           .          .          .            .           .          .
-Flow Dependencies                 .           .          .          .            .           .          .
-Initialization                   38          38          .          .            .           .          .
+Flow Dependencies                 1           .          .          .            .           .          1
+Initialization                   38          37          .          .            .           .          1
 Non-Aliasing                      .           .          .          .            .           .          .
 Run-time Checks                   .           .          .          .            .           .          .
-Assertions                        2           .          .          .     2 (CVC4)           .          .
-Functional Contracts             15           .          .          .    15 (CVC4)           .          .
+Assertions                        1           .          .          .     1 (CVC4)           .          .
+Functional Contracts             12           .          .          .    12 (CVC4)           .          .
 LSP Verification                  .           .          .          .            .           .          .
 ---------------------------------------------------------------------------------------------------------
-Total                            55    38 (69%)          .          .     17 (31%)           .          .
+Total                            52    37 (71%)          .          .     13 (25%)           .     2 (4%)
 
 
 Analyzed 5 units
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:1 skipped
-in unit sensor, 4 subprograms and packages out of 4 analyzed
-  Sensor at sensor.ads:1 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
-  Sensor.getSpeed at sensor.ads:18 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
-  Sensor.setSpeed at sensor.ads:23 flow analyzed (0 errors and 0 warnings) and proved (2 checks)
-  Sensor.trainIncoming at sensor.ads:13 flow analyzed (0 errors and 0 warnings) and proved (2 checks)
+in unit predictor, 3 subprograms and packages out of 3 analyzed
+  Predictor at predictor.ads:3 flow analyzed (0 errors and 0 warnings)
+  Predictor.intervalCalculation at predictor.ads:14 flow analyzed (0 errors and 3 warnings)
+  Predictor.setDistanceToCrossing at predictor.ads:20 flow analyzed (0 errors and 0 warnings)
 in unit sensor2, 4 subprograms and packages out of 4 analyzed
   Sensor2 at sensor2.ads:1 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
   Sensor2.getSpeed at sensor2.ads:18 flow analyzed (0 errors and 0 warnings) and proved (0 checks)

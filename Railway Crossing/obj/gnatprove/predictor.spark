@@ -1,0 +1,181 @@
+{
+  "spark": [
+    {
+      "name": "Predictor.setDistanceToCrossing",
+      "sloc": [
+        {
+          "file": "predictor.ads",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Predictor.intervalCalculation",
+      "sloc": [
+        {
+          "file": "predictor.ads",
+          "line": 14
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Predictor",
+      "sloc": [
+        {
+          "file": "predictor.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "predictor.ads",
+      "line": 21,
+      "col": 27,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Predictor.setDistanceToCrossing",
+        "sloc": [
+          {
+            "file": "predictor.ads",
+            "line": 20
+          }
+        ]
+      },
+      "tracefile": "predictor__flow__43.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "predictor.ads",
+      "line": 24,
+      "col": 14,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Predictor.setDistanceToCrossing",
+        "sloc": [
+          {
+            "file": "predictor.ads",
+            "line": 20
+          }
+        ]
+      },
+      "tracefile": "predictor__flow__43.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "predictor.ads",
+      "line": 14,
+      "col": 14,
+      "rule": "UNUSED",
+      "severity": "medium",
+      "entity": {
+        "name": "Predictor.intervalCalculation",
+        "sloc": [
+          {
+            "file": "predictor.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 0,
+      "how_proved": "flow"
+    },
+    {
+      "file": "predictor.ads",
+      "line": 16,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "medium",
+      "entity": {
+        "name": "Predictor.intervalCalculation",
+        "sloc": [
+          {
+            "file": "predictor.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 1,
+      "how_proved": "flow"
+    },
+    {
+      "file": "predictor.ads",
+      "line": 15,
+      "col": 87,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Predictor.intervalCalculation",
+        "sloc": [
+          {
+            "file": "predictor.ads",
+            "line": 14
+          }
+        ]
+      },
+      "tracefile": "predictor__flow__63.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "predictor.ads",
+      "line": 18,
+      "col": 14,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Predictor.intervalCalculation",
+        "sloc": [
+          {
+            "file": "predictor.ads",
+            "line": 14
+          }
+        ]
+      },
+      "tracefile": "predictor__flow__63.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "predictor.adb",
+      "line": 17,
+      "col": 23,
+      "rule": "UNINITIALIZED",
+      "severity": "medium",
+      "entity": {
+        "name": "Predictor.intervalCalculation",
+        "sloc": [
+          {
+            "file": "predictor.ads",
+            "line": 14
+          }
+        ]
+      },
+      "tracefile": "predictor__flow__63.trace",
+      "msg_id": 2,
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Predictor.setDistanceToCrossing",
+          "sloc": [
+            {
+              "file": "predictor.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

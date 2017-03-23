@@ -20,7 +20,7 @@ D ada.ads		20160516092928 3ffc8e18 ada%s
 D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
 D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
-D sensor.ads		20170322010138 ea34c427 sensor%s
+D sensor.ads		20170322011636 ea34c427 sensor%s
 D sensor2.ads		20170319000820 4c841bd7 sensor2%s
 D system.ads		20160516092930 2da59038 system%s
 D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
